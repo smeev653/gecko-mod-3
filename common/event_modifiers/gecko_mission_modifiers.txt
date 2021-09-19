@@ -1,0 +1,75 @@
+hungary_unleashed = {
+	ae_impact = -0.25
+	province_warscore_cost = -0.2
+}
+
+rule_britannia = {
+	prestige = 1
+	legitimacy = 1
+	republican_tradition = 0.6
+	devotion = 1
+	global_ship_recruit_speed = -0.25
+	global_ship_cost = -0.25
+	heavy_ship_power = 0.1
+}
+
+burgundy_subjects_placated = {
+	reduced_liberty_desire = 50
+}
+
+succesful_bid_for_imperial_crown = {
+	#ae_impact = -0.1
+	province_warscore_cost = -0.1
+}
+
+silk_road_restored = {
+	trade_goods_size_modifier = 0.25
+}
+
+hab_victory_over_ottomans = {
+	infantry_power = 0.1
+}
+
+hun_bulwark_of_christianity = {
+	land_morale = 0.1
+}
+
+isles_secured = {
+	land_morale = 0.1
+}
+
+fra_into_germany = {
+	land_morale = 0.1
+}
+
+grand_armee = {
+	artillery_power = 0.2
+	}
+	
+bur_carolingia = {
+	infantry_power = 0.10
+}
+
+angevin_supremacy = {
+	infantry_power = 0.10
+}
+
+united_scandinavia = {
+	land_morale = 0.10
+}
+
+swedish_empire = {
+	land_morale = 0.10
+}
+
+kaiser_of_europe = {
+	infantry_power = 0.10
+}
+
+third_rome = {
+	land_forcelimit_modifier = 0.33
+}
+
+mor_barbary_pirate_coast = {
+	production_efficiency = 0.2
+}
