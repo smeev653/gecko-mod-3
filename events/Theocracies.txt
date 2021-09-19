@@ -580,7 +580,7 @@ country_event = {
 				DIP = 1
 				MIL = 1
 				age = 35
-				hidden = yes
+				hidden = no
 				culture = event_target:church_province
 			}
 		}
@@ -589,7 +589,7 @@ country_event = {
 				DIP = 1
 				MIL = 1
 				age = 35
-				hidden = yes
+				hidden = no
 			}
 		}
 		add_devotion = 10
@@ -640,7 +640,7 @@ country_event = {
 				MIL = 1
 				age = 35
 				culture = event_target:papal_protoge_country
-				hidden = yes
+				hidden = no
 			}
 		}
 		else = {
@@ -648,7 +648,7 @@ country_event = {
 				DIP = 1
 				MIL = 1
 				age = 35
-				hidden = yes
+				hidden = no
 			}
 		}
 		add_papal_influence = 10
