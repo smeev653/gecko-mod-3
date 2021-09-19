@@ -2546,6 +2546,15 @@ genua={
 	color={
 		218 215 56 
 	}
+		outgoing={
+		name="venice"
+		path={
+			
+		}
+		control={
+			2965.000000 1397.000000 2998.000000 1414.300000 
+		}
+	}
 	members={
 		1298 #Sea
 		124 125 126 2982 #sicily_area
@@ -2559,7 +2568,7 @@ genua={
 		121 2983 4734 # campania
 		104 1862 2979 4728 4740 # Lombardy		
 	}
-	end=yes
+
 }
 venice={
 	location=1308
