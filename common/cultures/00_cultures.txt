@@ -7,6 +7,78 @@
 # graphical_culture = westerngfx
 # second_graphical_culture = muslimgfx (fallback if the first does not exist)
 
+byzantine = {
+
+	graphical_culture = westerngfx
+	poop = {
+
+		dynasty_name = { poop
+		}
+		male_names= { poop
+		}
+		female_names = { poop
+		}
+	}	
+}
+
+african = {
+
+	graphical_culture = westerngfx
+	poop1 = {
+
+		dynasty_name = { poop
+		}
+		male_names= { poop
+		}
+		female_names = { poop
+		}
+	}	
+}
+
+caucasian = {
+
+	graphical_culture = westerngfx
+	poop2 = {
+
+		dynasty_name = { poop
+		}
+		male_names= { poop
+		}
+		female_names = { poop
+		}
+	}	
+}
+
+sudanese = {
+
+	graphical_culture = westerngfx
+	poop3 = {
+
+		dynasty_name = { poop
+		}
+		male_names= { poop
+		}
+		female_names = { poop
+		}
+	}	
+}
+
+baltic = {
+
+	graphical_culture = westerngfx
+	poop4 = {
+
+		dynasty_name = { poop
+		}
+		male_names= { poop
+		}
+		female_names = { poop
+		}
+	}	
+}
+
+
+
 lowlands = {
 
 	graphical_culture = westerngfx

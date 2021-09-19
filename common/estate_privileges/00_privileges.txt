@@ -1706,7 +1706,7 @@ PR_estate_clergy_exploration_expedition = {
 	can_select = {
 		NOT = {
 			num_of_estate_privileges = {
-			estate = estate_church
+			estate = estate_clergy
 			value = 4
 			}
 		}
@@ -1743,13 +1743,6 @@ PR_estate_clergy_exploration_expedition = {
 	}
 	penalties = {
 		}
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				is_absolutism_active = yes
-			}
-		}	
 }
 
 
@@ -1793,7 +1786,7 @@ smeev_mountain_dev_cost = {
 	can_select = {
 		NOT = {
 			num_of_estate_privileges = {
-			estate = estate_church
+			estate = estate_clergy
 			value = 4
 			}
 		}	
