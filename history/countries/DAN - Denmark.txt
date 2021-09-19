@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 primary_culture = danish
 religion = catholic
 technology_group = western
-historical_friend = NOR
+#historical_friend = NOR
 capital = 5004 #Sjaelland
 add_accepted_culture = norwegian
 
