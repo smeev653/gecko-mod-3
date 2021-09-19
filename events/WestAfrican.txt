@@ -893,63 +893,63 @@ province_event = {
 }
 
 # The Ashanti
-country_event = {
-	id = west_african.19
-	title = "west_african.19.t"
-	desc = "west_african.19.d"
-	picture = GOLDEN_STOOL_eventPicture
-
-	trigger = {
-		has_dlc = "Art of War"
-		is_year = 1500
-		NOT = { exists = ASH }
-		any_owned_province = {
-			any_empty_neighbor_province = {
-				OR = {
-					province_id = 1138
-					province_id = 2257
-				}
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		months = 240
-	}
-
-	# 
-	option = {
-		name = "west_african.19.a"
-		if = {
-			limit = {
-				1138 = { is_empty = yes }
-			}
-			1138 = {
-				add_core = ASH
-				cede_province = ASH
-			}
-		}
-		if = {
-			limit = {
-				2257 = { is_empty = yes }
-			}
-			2257 = {
-				add_core = ASH
-				cede_province = ASH
-			}
-		}
-		set_country_flag = met_ashanti
-		ASH = {
-			every_neighbor_country = {
-				limit = {
-					NOT = { has_country_flag = met_ashanti }
-				}
-				country_event = { id = west_african.19 days = 1 }
-			}
-			adopt_reform_progress = ROOT
-		}
-	}
-}
+#country_event = {
+#	id = west_african.19
+#	title = "west_african.19.t"
+#	desc = "west_african.19.d"
+#	picture = GOLDEN_STOOL_eventPicture
+#
+#	trigger = {
+#		has_dlc = "Art of War"
+#		is_year = 1500
+#		NOT = { exists = ASH }
+#		any_owned_province = {
+#			any_empty_neighbor_province = {
+#				OR = {
+#					province_id = 1138
+#					province_id = 2257
+#				}
+#			}
+#		}
+#	}
+#
+#	mean_time_to_happen = {
+#		months = 240
+#	}
+#
+#	# 
+#	option = {
+#		name = "west_african.19.a"
+#		if = {
+#			limit = {
+#				1138 = { is_empty = yes }
+#			}
+#			1138 = {
+#				add_core = ASH
+#				cede_province = ASH
+#			}
+#		}
+#		if = {
+#			limit = {
+#				2257 = { is_empty = yes }
+#			}
+#			2257 = {
+#				add_core = ASH
+#				cede_province = ASH
+#			}
+#		}
+#		set_country_flag = met_ashanti
+#		ASH = {
+#			every_neighbor_country = {
+#				limit = {
+#					NOT = { has_country_flag = met_ashanti }
+#				}
+#				country_event = { id = west_african.19 days = 1 }
+#			}
+#			adopt_reform_progress = ROOT
+#		}
+#	}
+#}
 
 # The Golden Stool
 country_event = {
