@@ -476,7 +476,7 @@ age_of_reformation = {
 					tag = CRI
 				}	
 				modifier = {
-					raze_power_gain = 0.5
+					movement_speed = 0.3
 				}
 				ai_will_do = {
 					factor = 100
