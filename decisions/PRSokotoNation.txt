@@ -23,7 +23,7 @@ country_decisions = {
 				tag = ETH
 				tag = ZAN
 				tag = MOR
-				tag = MAM
+				#tag = MAM
 			}
 			is_colonial_nation = no
 			OR = {
