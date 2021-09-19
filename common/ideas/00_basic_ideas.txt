@@ -90,6 +90,9 @@ plutocracy_ideas = {
 horde_gov_ideas = {
 	category = MIL
 	
+	trigger = {
+		always = no
+	}
 	bonus = {
 		cavalry_power = 0.25
 	}
@@ -126,6 +129,10 @@ horde_gov_ideas = {
 }			   
 theocracy_gov_ideas = {
 	category = MIL
+	
+	trigger = {
+		always = no
+	}
 	
 	bonus = {
 		global_heretic_missionary_strength = 0.01
@@ -170,7 +177,10 @@ theocracy_gov_ideas = {
 
 indigenous_ideas = {
 	category = MIL
-
+	
+	trigger = {
+		always = no
+	}
 	bonus = {
 		global_institution_spread = 0.25
 	}
