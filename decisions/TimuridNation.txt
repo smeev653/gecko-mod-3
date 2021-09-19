@@ -180,8 +180,8 @@ country_decisions = {
 				duration = 3650
 			}
 			change_primary_culture = khorasani
-			change_government = tribal
-			add_government_reform = tribal_federation
+			#change_government = tribal
+			#add_government_reform = tribal_federation
 			#change_technology_group = gunpowder_empire
 			change_unit_type = gunpowder_empire
 			define_ruler = {
