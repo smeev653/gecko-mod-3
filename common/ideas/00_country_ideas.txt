@@ -513,7 +513,7 @@ TUR_ideas = {
 	}
 
 	timariot_system = {
-		cavalry_power = 0.20
+		cavalry_power = 0.25
 	}
 	ghazi = {
 		manpower_recovery_speed = 0.15
@@ -529,7 +529,7 @@ TUR_ideas = {
 		trade_efficiency = 0.10
 	}
 	humbaraci_corps = {
-		fire_damage = 0.10
+		fire_damage = 0.15
 		artillery_cost = -0.20
 	}
 }
