@@ -155,7 +155,7 @@ lowlands = {
 		}
 		male_names = {
 			Filips Jan Boudewijn Arnolf Lodewijk Robrecht Willem Diederik Gwijde Karel Antoon Abraham Alexander Alfons 
-			Andries Balthasar Bartholomeus Christoffel Constantijn Cornelis Dani�l David Ernst Erwin Ewoud Floris 
+			Andries Balthasar Bartholomeus Christoffel Constantijn Cornelis Daniel David Ernst Erwin Ewoud Floris 
 			Gabriel Godfried Hans Jacob Kasper Ludger Luuk Marinus Pieter Renate Rodolf Roeland Valentijn
 		}
 		female_names = {

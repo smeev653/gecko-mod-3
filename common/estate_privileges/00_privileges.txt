@@ -1786,7 +1786,7 @@ smeev_mountain_dev_cost = {
 	can_select = {
 		NOT = {
 			num_of_estate_privileges = {
-			estate = estate_clergy
+			estate = estate_church
 			value = 4
 			}
 		}	

@@ -1551,7 +1551,7 @@ tropical_wood = {
 			region = moluccas_region
 			region = indonesia_region
 		}
-		modifier = {
+	modifier = {
 			factor = 2.0
 			FROM = {
 				has_country_flag = encourage_cash_crops_flag
