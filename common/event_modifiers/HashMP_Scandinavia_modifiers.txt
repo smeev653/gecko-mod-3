@@ -26,7 +26,7 @@ h_swedish_innovative_warfare = {
 }
 
 h_swedish_adolphus_legacy = {
-	leader_land_fire = 1
+	fire_damage = 0.15
 }
 
 h_swedish_carolean_regiments = {
@@ -34,9 +34,7 @@ h_swedish_carolean_regiments = {
 }
 
 h_swedish_ga_pa_doctrine = {
-	land_maintenance_modifier = 0.10
 	recover_army_morale_speed = 0.05
-	leader_land_shock = 1
 	shock_damage = 0.10
 }
 
@@ -59,7 +57,7 @@ h_swedish_dalarna_state_local_1 = {
 }
 
 h_swedish_dalarna_state_local_2 = {
-	trade_goods_size_modifier = 0.25
+	trade_goods_size_modifier = 0.1
 }
 
 h_swedish_lutheran_support = {
@@ -95,7 +93,7 @@ h_swedish_allotment_system = {
 }
 
 h_swedish_baltic_supremacy = {
-	trade_efficiency = 0.15
+	trade_efficiency = 0.10
 }
 
 h_swedish_one_king_in_the_north = {
