@@ -87,15 +87,6 @@
 
 declarewar = {
 	condition = {
-		tooltip = h_tooltip_commanderywar
-		potential = {
-			ROOT = { has_reform = h_reform_commandery }
-		}
-		allow = {
-			always = no
-		}
-	}
-	condition = {
 		tooltip = h_tooltip_cn_declarewar
 		potential = {
 			is_colonial_nation = yes
@@ -114,27 +105,6 @@ royal_marriage = {
 			NOT = { war_with = FROM }
 		}
 	}
-	condition = {
-		tooltip = h_tooltip_marrycommandery
-		potential = {
-		}
-		allow = {
-			FROM = {
-				NOT = { 
-					has_reform = h_reform_commandery
-				}
-			}
-		}
-	}
-	condition = {
-		tooltip = h_tooltip_commanderymarry
-		potential = {
-			ROOT = { has_reform = h_reform_commandery }
-		}
-		allow = {
-			always = no
-		}
-	}
 }
 annexationaction = {
 	condition = {
@@ -148,7 +118,7 @@ annexationaction = {
 			FROM = {
 				has_opinion = {
 					who = ROOT
-					value = 190
+					value = 100
 				}
 			}
 		}
