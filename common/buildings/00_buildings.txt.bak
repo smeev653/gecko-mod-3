@@ -63,7 +63,7 @@ temple = {
 	}
 
 	ai_will_do = {
-		factor = 250
+		factor = 2250
 	}
 }
 
