@@ -226,63 +226,6 @@ vassalaction = {
 #	
 }
 
-guaranteeaction = {
-	condition = {
-		tooltip = h_tooltip_guarantee
-		potential = {
-		}
-		allow = {
-			FROM = { ai = yes }
-		}
-	}
-	condition = {
-		tooltip = h_tooltip_guaranteecommandery
-		potential = {
-		}
-		allow = {
-			FROM = {
-				NOT = { 
-					has_reform = h_reform_commandery
-				}
-			}
-		}
-	}
-	condition = {
-		tooltip = h_tooltip_commanderyguarantee
-		potential = {
-			ROOT = { has_reform = h_reform_commandery }
-		}
-		allow = {
-			always = no
-		}
-	}
-}
-
-warningaction = {
-	condition = {
-		tooltip = h_tooltip_commanderywarn
-		potential = {
-			ROOT = { has_reform = h_reform_commandery }
-		}
-		allow = {
-			always = no
-		}
-	}
-}
-
-threaten_war = {
-	condition = {
-		tooltip = h_tooltip_commanderythreaten
-		potential = {
-			ROOT = { has_reform = h_reform_commandery }
-		}
-		allow = {
-			always = no
-		}
-	}
-}
-
-
 abandon_union_action = {
 	condition = {
 		potential = {
@@ -315,16 +258,38 @@ form_coalition = {
 			}
 		}
 	}
+}
+
+request_to_join_trade_league = {
 	condition = {
-		tooltip = h_tooltip_commanderycoalition
+		tooltip = NOT_RELEVANT_TRADE_REGION_FROM
 		potential = {
-			ROOT = { has_reform = h_reform_commandery }
 		}
 		allow = {
-			always = no
+			home_trade_node = {
+				trade_share = {
+					country = from
+					share = 1
+				}
+			}
 		}
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 allianceaction = {
@@ -359,27 +324,6 @@ allianceaction = {
 					num_of_allies = 5
 				}
 			}
-		}
-	}
-	condition = {
-		tooltip = h_tooltip_allycommandery
-		potential = {
-		}
-		allow = {
-			FROM = {
-				NOT = { 
-					has_reform = h_reform_commandery
-				}
-			}
-		}
-	}
-	condition = {
-		tooltip = h_tooltip_commanderally
-		potential = {
-			ROOT = { has_reform = h_reform_commandery }
-		}
-		allow = {
-			always = no
 		}
 	}
 	condition = {
@@ -466,63 +410,8 @@ support_independence_action = {
 			always = no
 		}
 	}
-	condition = {
-		tooltip = h_tooltip_commanderysupport
-		potential = {
-			ROOT = { has_reform = h_reform_commandery }
-		}
-		allow = {
-			always = no
-		}
-	}
 }
 
-improve_relation = {
-	condition = {
-		tooltip = h_tooltip_improvecommandery
-		potential = {
-		}
-		allow = {
-			FROM = {
-				NOT = { 
-					has_reform = h_reform_commandery
-				}
-			}
-		}
-	}
-	condition = {
-		tooltip = h_tooltip_commanderyimprove
-		potential = {
-			ROOT = { has_reform = h_reform_commandery }
-		}
-		allow = {
-			always = no
-		}
-	}
-}
-
-
-enforce_peace = {
-	condition = {
-		tooltip = h_tooltip_commanderyenforce
-		potential = {
-			ROOT = { has_reform = h_reform_commandery }
-		}
-		allow = {
-			always = no
-		}
-	}
-}
-infiltrate_administration = {
-	condition = {
-		tooltip = h_tooltip_infiltrate
-		potential = {
-		}
-		allow = {
-			always = no
-		}
-	}
-}
 sabotage_reputation = {
 	condition = {
 		tooltip = h_tooltip_cn_espionage
@@ -633,15 +522,6 @@ warsubsidy = {
 			}
 		}
 	}
-	condition = {
-		tooltip = h_tooltip_commanderysubsidy
-		potential = {
-			ROOT = { has_reform = h_reform_commandery }
-		}
-		allow = {
-			always = no
-		}
-	}
 }
 
 offerloan = {
@@ -666,15 +546,6 @@ offerloan = {
 			}
 		}
 	}
-	condition = {
-		tooltip = h_tooltip_commanderyloan
-		potential = {
-			ROOT = { has_reform = h_reform_commandery }
-		}
-		allow = {
-			always = no
-		}
-	}
 }
 
 giftaction = {
@@ -697,15 +568,6 @@ giftaction = {
 				FROM = { is_colonial_nation = no }
 				FROM = { is_subject_of = ROOT }
 			}
-		}
-	}
-	condition = {
-		tooltip = h_tooltip_commanderygift
-		potential = {
-			ROOT = { has_reform = h_reform_commandery }
-		}
-		allow = {
-			always = no
 		}
 	}
 }
