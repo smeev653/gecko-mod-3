@@ -4729,7 +4729,7 @@
  SOH_NOTELECTIVE:0 "We are not an elective monarchy"
  SOH_LACKPRESTIGE:0 "You need at least §Y$VAL$§! prestige to back a local noble as your heir."
  SOH_COST:0 "Increase support for $NAME|Y$ by $SUPPORT|Y$ as heir, by spending $COST|R$ prestige."
- #
+#
  IS_CURRYING_FAVORS:0 "We are already currying favors with $WHO$."
  IS_NOT_CURRYING_FAVORS:0 "But we are not currying favors with $WHO$."
  CURRYFAVORSDESC:0 "Curry favours with them will increase our favors over time."

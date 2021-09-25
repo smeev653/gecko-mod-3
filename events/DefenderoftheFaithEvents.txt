@@ -332,8 +332,9 @@ country_event = {
 		}
 		every_country = {
 			limit = {
-				has_discovered = ROOT
-				religion = catholic
+				capital_scope = {
+					has_discovered = ROOT
+				}				religion = catholic
 				total_development = 200
 				NOT = {
 					tag = event_target:catholic_rival

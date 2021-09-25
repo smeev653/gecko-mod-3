@@ -332,7 +332,6 @@ country_event = {
 		PAP = {
 			add_opinion = {
 				who = ROOT
-				modifier = opinion_trent
 			}
 		}
 	}

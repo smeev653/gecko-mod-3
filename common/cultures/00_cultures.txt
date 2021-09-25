@@ -77,8 +77,19 @@ baltic = {
 	}	
 }
 
+mande = {
 
+	graphical_culture = westerngfx
+	poop5 = {
 
+		dynasty_name = { poop
+		}
+		male_names= { poop
+		}
+		female_names = { poop
+		}
+	}	
+}
 lowlands = {
 
 	graphical_culture = westerngfx
