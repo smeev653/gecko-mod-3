@@ -452,6 +452,13 @@ hanseatic_sound_toll_tree = {
 				}
 				add_permanent_claim = ROOT
 			}
+			south_jutland_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			add_country_modifier = {
 				name = "hsa_baltic_trade_modifier"
 				duration = 7300
@@ -897,8 +904,8 @@ hanseatic_colonisation_tree = {
 				duration = 7300	
 			}
 			965 = {
-				change_province_name = "Neulübeck"
-				rename_capital = "Neulübeck"
+				change_province_name = "Neulubeck"
+				rename_capital = "Neulubeck"
 				add_base_tax = 1
 				add_base_production = 1
 				add_base_manpower = 1
