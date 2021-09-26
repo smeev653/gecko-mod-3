@@ -11,13 +11,13 @@ historical_friend = HAM #Hamburg
 historical_friend = BRE #Bremen
 historical_friend = RIG #Riga
 
-1444.11.11 = {
+1440.1.1 = {
 	monarch = {
-		name = "Stadtrat"
+		birth_date = 1414.1.1
+		name = "Patriziat"
 		adm = 3
 		dip = 3
 		mil = 3
-		regent = yes
 	}
 }
 
