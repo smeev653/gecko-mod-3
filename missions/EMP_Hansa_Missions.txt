@@ -264,7 +264,7 @@ hanseatic_united_tree = {
 		position = 3
 		
 		trigger = {
-			num_of_merchants = 4
+			num_of_merchants = 3
 			years_of_income = 3
 		}
 
