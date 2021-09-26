@@ -97,10 +97,6 @@ horde_gov_ideas = {
 		cavalry_power = 0.25
 	}
 	
-	trigger = {
-		has_reform = steppe_horde
-	}
-	
 	horse_lords = {
 		cavalry_cost = -0.33
 	}
@@ -183,10 +179,6 @@ indigenous_ideas = {
 	}
 	bonus = {
 		global_institution_spread = 0.25
-	}
-
-	trigger = {
-		has_government_attribute = enables_natives_idea_group
 	}
 
 	indigenous_bountiful_land = {

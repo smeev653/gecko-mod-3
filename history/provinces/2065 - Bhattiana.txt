@@ -21,11 +21,6 @@ discovered_by = ottoman
 discovered_by = chinese
 
 
-#1414.1.1 = {
-	#owner = SRH
-	#controller = SRH
-	#remove_core = SRH
-}
 1526.2.1 = { controller = TIM } # Babur's invasion
 1526.4.21 = {
 	owner = MUG

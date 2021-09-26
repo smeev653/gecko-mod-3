@@ -1427,7 +1427,6 @@ west_african_ideas = {
 		technology_group = sub_saharan
 		NOT = {
 			tag = LOA
-			tag = NDO
 		}
 	}
 	free = yes

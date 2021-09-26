@@ -1185,7 +1185,7 @@ trade_company_persia = {
 		name = "TRADE_COMPANY_BASRA_Root_Culture_GetName"
 	}
 	names = {
-		name = "TRADE_COMPANY_BASRA_Near_East_Trade_Company"
+		name = "TRADE_COMPANY_BASRA_Asia_Trade_Company"
 	}
 }
 
@@ -1202,6 +1202,12 @@ trade_company_caucasus = { #smeev mod
 		6010
 		
 		
+	}
+	names = {
+		name = "TRADE_COMPANY_caucasus_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_caucasus_Near_East_Trade_Company"
 	}
 }
 trade_company_hormuz = {

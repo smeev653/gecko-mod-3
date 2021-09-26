@@ -189,6 +189,7 @@ same_religious_school_relation = {
 }
 
 is_hegemon = {
+	opinion = -1
 }
 
 picked_wrong_incident_option = {
@@ -4463,7 +4464,6 @@ opinion_holstein_good = {
 opinion_left_hre = {
 	opinion = -50
 	yearly_decay = 1
-	yearly_decay = -3
 }
 
 # Mandala opinions

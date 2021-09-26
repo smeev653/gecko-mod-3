@@ -4281,27 +4281,3 @@ on_colonial_type_change = {
 
 on_estate_led_regency = {
 }
-on_estate_led_regency_surpassed = {
-	if = {
-		limit = {
-			num_of_powerful_estates = 1
-			has_estate_led_regency = {
-				estate = any
-			}
-			NOT = {
-				estate_led_regency_influence = 70
-			}
-		}
-		country_event = { id = estate_regency_events.1 }
-	}
-}
-
-on_extended_regency = {
-	random_events = {
-		100 = extended_regency_events.4
-		100 = extended_regency_events.5
-		100 = extended_regency_events.6
-		
-		300 = 0
-	}
-}
