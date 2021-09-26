@@ -1953,7 +1953,7 @@ white_sea={
 	#	}
 	#}
 	members={
-		1652 1777 4151
+		1652 1777 
 		1955 4122 4256 4257 #arkhangelsk_area
 		313 1776 1958 4258 #pomor_area
 		32 309 4124 #north karelia #smeev
