@@ -45,18 +45,6 @@ parliamentary_reform = {
 			NOT = { has_estate = estate_nobles }
 			crown_stronger_than_estate = { estate = estate_nobles }
 			has_reform = parliamentary_reform
-	trigger = {		
-		if = {
-			limit = { has_dlc = "Common Sense" }
-			OR = {
-				NOT = { has_estate = estate_nobles }
-				crown_stronger_than_estate = { estate = estate_nobles }
-				has_reform = parliamentary_reform
-			}
-		}	
-		if = {
-			limit = { has_dlc = "Res Publica" }
-			NOT = { has_reform = elective_monarchy }	
 		}
 		if = {
 			limit = { NOT = { has_dlc = "Mandate of Heaven" } }

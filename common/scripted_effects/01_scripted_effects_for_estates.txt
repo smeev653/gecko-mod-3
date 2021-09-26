@@ -574,7 +574,7 @@ on_province_religion_converted_estate_privileges_effect = {
 	}
 }
 
-
+on_province_owner_change_estate_privileges_effect = {
 ###nomadic tribes changes###
 	if = {
 		limit = { has_terrain = steppe }
@@ -1101,7 +1101,7 @@ on_province_religion_converted_estate_privileges_effect = {
 			duration = -1
 		}
 	}
-if = {
+	if = {
 		limit = {
 			trade_goods = grain
 			owner = {
@@ -1140,7 +1140,7 @@ if = {
 			duration = -1
 		}
 	}
-}
+
 
 on_trade_good_changed_estate_privileges_effect = {
 	if = {

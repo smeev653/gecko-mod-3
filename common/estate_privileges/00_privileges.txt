@@ -1706,7 +1706,7 @@ PR_estate_clergy_exploration_expedition = {
 	can_select = {
 		NOT = {
 			num_of_estate_privileges = {
-			estate = estate_clergy
+			estate = estate_church
 			value = 4
 			}
 		}
@@ -1743,6 +1743,9 @@ PR_estate_clergy_exploration_expedition = {
 	}
 	penalties = {
 		}
+	ai_will_do = {
+		factor = 1
+		}	
 }
 
 
@@ -7093,7 +7096,7 @@ estate_church_karma_temples = {
 		OR = {
 			religion = buddhism
 			religion = mahayana
-			religion = theravada
+			religion = vajrayana
 		}
 	}
 	can_select = {
