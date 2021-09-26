@@ -2844,7 +2844,7 @@ tannu_uriankhai_area = {#3
 }
 
 central_mongolia_area = { #3
-	720 2193 4221 4669 4677
+	720 2193 4221 4669 4677 2191 4676
 }
 
 uliastai_area = {#3
