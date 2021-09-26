@@ -751,36 +751,4 @@ pre_dharma_mapping = {
 		government = monarchy
 		legacy_government = despotic_monarchy
 	}
-	h_reform_commandery = {
-		government = republic
-		legacy_government = oligarchic_republic
-	}
-	h_reform_prefecture = {
-		government = monarchy
-		legacy_government = despotic_monarchy
-	}
-	h_reform_warlord_1 = {
-		government = monarchy
-		legacy_government = despotic_monarchy
-	}
-	h_reform_citystate = {
-		government = monarchy
-		legacy_government = despotic_monarchy
-	}
-	h_reform_warlord_2 = {
-		government = monarchy
-		legacy_government = despotic_monarchy
-	}
-	h_reform_warlord_3 = {
-		government = monarchy
-		legacy_government = despotic_monarchy
-	}
-	h_reform_warlord_4 = {
-		government = monarchy
-		legacy_government = despotic_monarchy
-	}
-	h_reform_sinicized_horde = {
-		government = monarchy
-		legacy_government = despotic_monarchy
-	}
 }
