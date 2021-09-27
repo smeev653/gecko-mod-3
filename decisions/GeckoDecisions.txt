@@ -197,8 +197,6 @@ country_decisions = {
 					ai = no
 					religion_group = muslim
 					has_border_with_religious_enemy = yes
-					army_size_percentage = 1
-					manpower_percentage = 0.25
 				}
 				allow = {
 					religion_group = muslim
@@ -208,10 +206,9 @@ country_decisions = {
 					army_size_percentage = 1
 					manpower_percentage = 0.50
 					prestige = 50
-					military_strength = {
-						who = FROM
-						value = 1.0
-						}
+					OR = { 	advisor = commandant
+							advisor = army_reformer
+					}
 				}
 				effect = {
 					add_piety = -1
