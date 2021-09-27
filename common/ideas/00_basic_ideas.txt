@@ -314,7 +314,7 @@ spy_ideas = {
 
 	efficient_spies = {
 		spy_offence = 0.75
-		advisor_cost = -0.15
+		advisor_cost = -0.10
 	}	
 	state_propaganda = {
 		leader_cost = -0.15
@@ -987,7 +987,7 @@ administrative_ideas = {
 	category = ADM
 
 	bonus = {
-		advisor_cost = -0.25
+		advisor_cost = -0.15
 	}
 	
 	adm_adaptability = {
