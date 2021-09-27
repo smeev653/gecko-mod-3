@@ -673,6 +673,7 @@ mongolia_region = {
 		xilin_gol_area
 		chahar_area
 		cicigar_area
+		west_gansu_area
 	}
 }
 

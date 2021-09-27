@@ -2985,7 +2985,7 @@ gansu_area = { #5 (East Gansu)
 }
 
 west_gansu_area = { #4 
-#	707 708 2182 2184
+	707 708
 }
 
 
