@@ -265,7 +265,7 @@ custodian_of_the_two_holy_mosques = {
 		owns = 384
 	}
 
-	land_morale = 0.05
+	prestige = 0.5
 	missionaries = 1
 }
 ###########################################
@@ -743,22 +743,22 @@ synthetic_remnants = {
 # The Golden Age of Piracy
 ######################################
 
-golden_age_of_piracy = {
-	potential = {
-		always = no
-		has_global_flag = golden_age_of_piracy
-		NOT = { # lasts 50 years
-			had_global_flag = { flag = golden_age_of_piracy days = 18250 }
-		}
-		1516 = { has_discovered = ROOT }
-	}
-	trigger = {
-		1516 = {
-			privateer_power = { country = ROOT share = 1 }
-		}
-	}
-	privateer_efficiency = 0.2
-}
+#golden_age_of_piracy = {
+#	potential = {
+#		always = no
+#		has_global_flag = golden_age_of_piracy
+#		NOT = { # lasts 50 years
+#			had_global_flag = { flag = golden_age_of_piracy days = 18250 }
+#		}
+#		1516 = { has_discovered = ROOT }
+#	}
+#	trigger = {
+#		1516 = {
+#			privateer_power = { country = ROOT share = 1 }
+#		}
+#	}
+#	privateer_efficiency = 0.2
+#}
 
 ######################################
 # The Great Peasants' War
