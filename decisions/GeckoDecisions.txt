@@ -278,6 +278,59 @@ country_decisions = {
 		}
 
 	}
+
+	crimea_form_the_hetmanate = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = ASU_formed_hetmanate }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = HET }
+			primary_culture = crimean
+			tag = CRI
+			is_colonial_nation = no
+		}
+		provinces_to_highlight = {
+			OR = {
+					province_id = 5975
+					province_id = 476		
+					province_id = 2420
+					province_id = 5992
+					province_id = 457
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			owns_core_province = 476
+			owns_core_province = 2420
+			owns_core_province = 457
+		}
+		effect = {
+			change_tag = HET
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			add_prestige = 25
+			set_country_flag = ASU_formed_hetmanate
+			country_event = {
+				id = ideagroups.1
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_importance = 400
+	}
 }			
 
 		
