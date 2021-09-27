@@ -16,7 +16,7 @@ aristocracy_ideas = {
 	}
 	
 	noble_knights = {
-		cavalry_power = 0.15
+		cavalry_power = 0.10
 		cavalry_cost = -0.05
 	}
 	military_traditions = {
@@ -448,7 +448,7 @@ defensive_ideas = {
 		army_tradition = 0.5	
 	}
 	military_drill = {
-		land_morale = 0.15
+		land_morale = 0.10
 	}
 	improved_manuever = {
 		leader_land_manuever = 1
