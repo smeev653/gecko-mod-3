@@ -270,7 +270,7 @@ country_event = {
 			OR = {
 				area = yun_gui_area
 				#area = chuannan_area
-				area = yun_gui_borderland_area
+				#area = yun_gui_borderland_area
 			}
 		}
 	}
@@ -286,7 +286,7 @@ country_event = {
 					OR = {
 						area = yun_gui_area
 						#area = chuannan_area
-						area = yun_gui_borderland_area
+						#area = yun_gui_borderland_area
 					}
 					OR = {
 						controlled_by = REB

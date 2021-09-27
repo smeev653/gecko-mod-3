@@ -130,7 +130,7 @@
  #estate_qizilbash_officer_corps
  estate_qizilbash_officer_corps:0 "Qizilbash in Officer Corps"
  estate_qizilbash_officer_corps_desc:0 "Qizilbash have been granted control over the Office of the Tufangchi-bashi and the Office of the Tupchi-bashi, directly involving them in the leadership of our armies."
- estate_qizilbash_officer_corps_effect_tooltip:0 "Qizilbash gain control over the Office of the Tufangchi-bashi and the Office of the Tupchi-bashi.
+ estate_qizilbash_officer_corps_effect_tooltip:0 "Qizilbash gain control over the Office of the Tufangchi-bashi and the Office of the Tupchi-bashi."
  estate_qizilbash_officer_corps_revoke_effect_tooltip:0 "The modifier §Y'Qizilbash Officers'§! is removed."
  estate_qizilbash_officers_modifier: "Qizilbash Officers"
  #estate_qizilbash_disciplined_enforced

@@ -2675,7 +2675,7 @@ kinai_area = { #4
 }
 
 thohoku_area = { #4
-	1025 1026 4131 4192 5668
+	1025 1026 4131 4192
 }
 
 sanindo_area = { #4
@@ -2807,19 +2807,18 @@ jilin_area = { #4 (South Jilin Area)
 }
  
 liaoning_area = { #5
-	5610 5616 5618
+	
 }
 
 ordos_area = { #4 (Western Inner Mongolia)
-	701 5619 5620 5621 5654
+	701 
 }
-
 eastern_mongolia = { #5
 	2109 2187 4202 4674
 }
 
 chahar_area = {
-	5611 5612 5622 5623
+
 }
 
 inner_mongolia_area = { #5
@@ -2902,35 +2901,34 @@ ngari_area = { #3
 } #new!!
 
 hebei_area = { #4 (North Hebei)
-	692 695 696 1816 5593
+	692 695 696 1816 
 }
-
 south_hebei_area = { #4
 #	695 696 2137 4195
 }
 
 shandong_area = { #5
-	690 5514 5592 5667
+	690 
 }
 
 jiangsu_area = { #3
-	1821 1822 5563
+	1821 1822 
 }
 
 anhui_area = { #3 (North Anhui)
-	686 1838 5565 5570
+	686 1838
 }
 
 zhejiang_area = { #5
-	1824 5556 5557 5561 5637
+	1824 
 }
 
 jiangxi_area = { #4
-	 5502 5562 5633 5634
+	
 }
 
 fujian_area = { #4
-	5500 1829 5515 5530 5635
+	 1829
 }
 
 taiwan_area = { #3
@@ -2938,7 +2936,7 @@ taiwan_area = { #3
 }
 
 guangdong_area = { #5
-	5528 5529 5605
+	
 }
 
 west_guangdong_area = { #5
@@ -2946,22 +2944,21 @@ west_guangdong_area = { #5
 }
 
 guangxi_area = { #5
-	664 5516 5606
+	664 
 }
 
 yun_gui_area = { #5 (Yun-Gui Hinterland)
-	663 674 675 5518 5607
+	663 674 675 
 }
-
 yun_gui_borderland_area = { #5
 }
 
 sichuan_area = { #3
-	5526 5577 5578 2170 
+	2170 
 }
 
 huguang_area = { #5 (Hubei)
-	5569 5595 5596 680 5638
+	680 
 }
 
 hunan_area = { #4
@@ -2969,19 +2966,19 @@ hunan_area = { #4
 }
 
 henan_area = { #3 (South Henan)
-	1836 5536 5571 5584 5663
+	1836
 }
 
 shanxi_area = { #5
-	693 5534 5585 5642
+	693 
 }
 
 shaanxi_area = { #4
-	700 5509 5582 5583 5639
+	700 
 }
 
 gansu_area = { #5 (East Gansu)
-	698 5511 5572 5587 5510
+	698 
 }
 
 west_gansu_area = { #4 
@@ -2990,113 +2987,111 @@ west_gansu_area = { #4
 
 ankang_area = {
 	color = { 174 143 143 }
-	5527 5553 5568 5580 5666
+	
 }
 
 changsha_area = {
-	5503 5523 5551 5597
+	
 }
 
 changzhi_area = {
 	color = { 232 60 60 }
-	694 5535 5573 5660 5661
+	694 
 }
 
 chengde_area = {
-	703 5513 5544 5545
+	703 5
 }
 
 dali_area = {
 	color = { 239 205 141 }
-	661 5519 5520 5603 2167
+	661 2167
 }
 
 dalian_area = {
-	726 5614 5617
+	726 
 }
 
 datong_area = {
-	697 5512 5589 5658 5659
+	697
 }
 
 alxa_area = {
 	color = { 109 87 78 }
-	5608 5625 5627 5628
+
 }
 
 ganzhou_area = {
-	5501 683 5558 5559 5636
+	683 
 }
 
 guangzhou_area = {
-	665 667 668 5517 5531
+	665 667 668 
 }
 
 guilin_area = {
-	1840 5549 5550 
+	1840 
 }
-
 hangzhou_area = { 
-	684 5555 5560 5564
+	684 
 }
 
 hanzhong_area = {
 	color = { 206 187 162 }
-	5506 5525 5576 5579 5581 
+
 }
 
 huai-an_area = {
-	685 5541 5542 5566
+	685
 }
 
 jinan_area = {
-	691 5543 5567
+	691
 }
 
 jinzhong_area = {
-	5574 5594 5599 5600
+	
 }
 
 kunming_area = {
-	660 662 5546 5547 5604
+	660 662 
 }
 
 lanzhou_area = {
-	699 5532 5586 2183 5664
+	699 2183 
 }
 
 luzhou_area = { 
 	color = { 227 153 153 }
-	5548 5588 5651 5647
+
 }
 
 shenyang_area = {
 	color = { 112 155 228 }
-	704 5609 5615 5630
+	704
 }
 
 tai-an_area = {
-	688 5539 5601 687
+	688
 }
 
 ejin_area = {
 	color = { 142 91 91 }
-	5624 5626 5629 5641
+	
 }
 
 ulanqab_area = {
 	color = { 126 50 50 }
-	702 5631 5613
+	702 
 }
 
 weichang_area = {
-	5533 5590 5591
 }
 
 
 xianning_area = {
 	color = { 53 162 58 }
-	5554 5598 5652 1833
+ 1833
 }
 
 
@@ -3105,38 +3100,36 @@ chifeng_area = {
 }
 
 chengdu_area = {
-	5504 5521 4212 5643 5644
+	4212 
 }
 
 hainan_area = {
-	5552 666 5640
+	 666 
 }
 
 xuzhou_area = {
 	color = { 102 25 150 }
-	5655 5540 5602
+	
 }
 
 biyang_area = {
 	color = { 0 50 150 }
-	5537 5646 5645 5662 5524
+	
 }
 
 yanshan_area = {
-	5517 5649 5656
-}
+}	
 
 wuchang_area = {
-	5505 682 5538 5653
+	 682 
 }
-
 kaiyang_area = {
 	color = { 255 204 0 }
-	5650 5648 5522 673
+	 673
 }
 
 yunnan_area = {
-	2748 5632 5657
+	2748 
 }
 ########################################
 # South America    	                   #

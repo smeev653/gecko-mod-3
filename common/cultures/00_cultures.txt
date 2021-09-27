@@ -12,7 +12,7 @@ byzantine = {
 	graphical_culture = westerngfx
 	poop = {
 
-		dynasty_name = { poop
+		dynasty_names = { poop
 		}
 		male_names= { poop
 		}
@@ -26,7 +26,7 @@ african = {
 	graphical_culture = westerngfx
 	poop1 = {
 
-		dynasty_name = { poop
+		dynasty_names = { poop
 		}
 		male_names= { poop
 		}
@@ -40,7 +40,7 @@ caucasian = {
 	graphical_culture = westerngfx
 	poop2 = {
 
-		dynasty_name = { poop
+		dynasty_names = { poop
 		}
 		male_names= { poop
 		}
@@ -54,7 +54,7 @@ sudanese = {
 	graphical_culture = westerngfx
 	poop3 = {
 
-		dynasty_name = { poop
+		dynasty_names = { poop
 		}
 		male_names= { poop
 		}
@@ -68,7 +68,7 @@ baltic = {
 	graphical_culture = westerngfx
 	poop4 = {
 
-		dynasty_name = { poop
+		dynasty_names = { poop
 		}
 		male_names= { poop
 		}
@@ -82,7 +82,7 @@ mande = {
 	graphical_culture = westerngfx
 	poop5 = {
 
-		dynasty_name = { poop
+		dynasty_names = { poop
 		}
 		male_names= { poop
 		}
@@ -6093,7 +6093,6 @@ east_asian = {	# Chinese Group
 		}
 	}
 	jianghuai = {
-		primary = SHD
 		male_names = {
 			Zhanji Zhanjun Zhanyong Zhanyin Zhanshan Zhangang Zhan'ao Zhankai Zhanyan Jianrui Jianlin Jianti Jianchun 
 			Jianze Jianjun Jianzhi Jianpei Jianji Youji Youtang Youwan Youlun Youbing Youyun Youheng You'kai Houzhao 

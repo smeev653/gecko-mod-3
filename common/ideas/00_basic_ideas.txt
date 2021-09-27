@@ -137,9 +137,6 @@ theocracy_gov_ideas = {
 		brahmins_muslim_loyalty_modifier = 0.1
 	}
 	
-	trigger = {
-		government = theocracy
-	}
 	servants_of_god = {
 		devotion = 1
 	}
