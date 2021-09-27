@@ -1651,7 +1651,6 @@ ruthenian_ideas = {
 		years_of_nationalism = -5
 	}
 	birth_of_russian_orthodoxy = {
-		tolerance_heretic = 3
 		manpower_recovery_speed = 0.15
 	}
 }
