@@ -27,7 +27,7 @@ free_colonist = {
 	colonists = 2
 }
 
-minor = {
+Minor = {
 	potential = {
 			was_player = yes
 			NOT = {total_development = 170}
@@ -42,7 +42,7 @@ minor = {
 	advisor_cost = -0.15
 	advisor_pool = 1
 	ae_impact = -0.1
-	interest = -1
+	interest = -0.5
 }
 
 empowered_subjects = {
