@@ -9196,7 +9196,10 @@ GLH_ideas = {
 		land_morale = 0.15
 	}
 	trigger = {
-		tag = GLH
+		OR = {
+			tag = GLH
+			tag = HET
+		}
 	}
 	free = yes
 	
