@@ -709,7 +709,7 @@ mamluk_government = {
 		#-50% cost to promote cultures
 		global_autonomy = -0.025
 		monarch_admin_power = 2
-		same_culture_advisor_cost = -0.25
+		same_culture_advisor_cost = -0.15
 		promote_culture_cost = -0.5
 		governing_capacity = 50
 		nobles_influence_modifier = 0.1
