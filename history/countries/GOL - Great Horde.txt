@@ -4,11 +4,15 @@ primary_culture = mishary
 religion = sunni
 technology_group = nomad_group
 capital = 303	# Saratov
+historical_rival = TUR
+historical_rival = KAZ
+historical_rival = SHY
+historical_rival = LIT
 religious_school = hanafi_school
 
 1432.1.1 = {
 	monarch = {
-		name = "Kuchak Muhammad"
+		name = "K�ch�k Muhammad"
 		dynasty = "Genghisid"
 		adm = 0
 		dip = 0
