@@ -98,25 +98,13 @@ country_decisions = {
 			change_tag = UKR
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
-			if = {
-				limit = {
-					OR = {
-						has_reform = veche_republic
-						has_reform = principality
-					}
-				}
-				set_government_rank = 3
-				if = {
-					limit = { is_revolutionary = no }
-					change_government_to_monarchy = yes
-					add_government_reform = tsardom
-				}
-			}
+			set_government_rank = 3
+			change_government_to_monarchy = yes
+			change_religion = orthodox
+			add_government_reform = tsardom
 			set_country_flag = formed_ruthenia_flag
-			if = {
-				limit = { has_custom_ideas = no }
-				country_event = { id = ideagroups.1 } #Swap Ideas
-			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
+			
 		}
 		ai_importance = 500		
 	}
