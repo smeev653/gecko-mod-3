@@ -27,6 +27,24 @@ free_colonist = {
 	colonists = 2
 }
 
+minor = {
+	potential = {
+			was_player = yes
+			NOT = {total_development = 170}
+		}
+	
+
+	trigger = {
+		
+		NOT = {total_development = 170}
+		was_player = yes
+	}
+	advisor_cost = -0.15
+	advisor_pool = 1
+	ae_impact = -0.1
+	interest = -1
+}
+
 empowered_subjects = {
 	potential = {
 			overlord = {
