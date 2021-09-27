@@ -97,7 +97,7 @@ estate_nomadic_tribes_tribute = {
 	
 	}
 	modifier_by_land_ownership = {
-		global_tax_modifier = 0.5
+		global_tax_modifier = 0.4
 	}
 	ai_will_do = {
 		factor = 10
