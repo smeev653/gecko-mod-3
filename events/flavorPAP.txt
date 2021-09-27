@@ -32,7 +32,7 @@ country_event = {
 		#if = {
 		#	limit = {
 		#		has_dlc = "Leviathan"
-			}
+			#}
 			#118 = {
 			#	add_great_project_tier = {
 			#		type = stpeters_cathedral
