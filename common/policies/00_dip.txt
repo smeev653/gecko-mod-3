@@ -1213,7 +1213,7 @@ armed_neutrality_act = {
 #}
 
 trained_marines_act = {
-	monarch_power = MIL
+	monarch_power = DIP
 	
 	potential = {
 		has_idea_group = quality_ideas
@@ -1225,7 +1225,7 @@ trained_marines_act = {
 		full_idea_group = maritime_ideas
 	}
 	
-	infantry_power = 0.1
+	global_sailors_modifier = 0.25
 	movement_speed = 0.1
 
 	ai_will_do = {
