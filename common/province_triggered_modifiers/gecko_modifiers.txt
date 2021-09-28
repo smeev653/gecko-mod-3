@@ -238,6 +238,7 @@ conquest_of_delhi = {
 
 	trigger = {
 		owner = {
+			NOT = { tag = DLH }
 			OR = {
 				religion = sunni
 				religion = shiite
