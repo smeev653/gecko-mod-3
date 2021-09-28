@@ -43,7 +43,7 @@ fra_into_germany = {
 }
 
 grand_armee = {
-	artillery_power = 0.1
+	land_forcelimit_modifier = 0.33
 	}
 	
 bur_carolingia = {
