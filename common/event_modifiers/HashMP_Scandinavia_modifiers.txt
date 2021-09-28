@@ -26,7 +26,7 @@ h_swedish_innovative_warfare = {
 }
 
 h_swedish_adolphus_legacy = {
-	fire_damage = 0.15
+	reinforce_speed = 0.2
 }
 
 h_swedish_carolean_regiments = {
