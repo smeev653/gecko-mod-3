@@ -134,6 +134,7 @@ conquest_of_vienna = {
 		owner = {
 			OR = {
 				tag = TUR
+				tag = FRA
 			}
 		}
 	}
