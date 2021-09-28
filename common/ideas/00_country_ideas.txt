@@ -253,7 +253,7 @@ RUS_ideas = {
 	}
 
 	bonus = {
-		legitimacy = 1
+		fire_damage = 0.15
 	}
 
 	trigger = {

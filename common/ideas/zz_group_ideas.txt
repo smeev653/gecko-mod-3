@@ -1639,7 +1639,7 @@ ruthenian_ideas = {
 		tolerance_heretic = 2
 	}
 	zaporizhian_cossacs = {
-		infantry_power = 0.15
+		infantry_power = 0.10
 	}
 	east_and_west = {
 		global_trade_power = 0.2
