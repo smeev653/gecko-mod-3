@@ -23,15 +23,15 @@ succesful_bid_for_imperial_crown = {
 }
 
 silk_road_restored = {
-	trade_goods_size_modifier = 0.25
+	trade_goods_size_modifier = 0.1
 }
 
 hab_victory_over_ottomans = {
-	infantry_power = 0.1
+	global_manpower_modifier = 0.2
 }
 
 hun_bulwark_of_christianity = {
-	land_morale = 0.1
+	global_manpower_modifier = 0.2
 }
 
 isles_secured = {
@@ -43,15 +43,15 @@ fra_into_germany = {
 }
 
 grand_armee = {
-	artillery_power = 0.2
+	artillery_power = 0.1
 	}
 	
 bur_carolingia = {
-	infantry_power = 0.10
+	global_manpower_modifier = 0.2
 }
 
 angevin_supremacy = {
-	infantry_power = 0.10
+	global_manpower_modifier = 0.2
 }
 
 united_scandinavia = {
@@ -63,7 +63,7 @@ swedish_empire = {
 }
 
 kaiser_of_europe = {
-	infantry_power = 0.10
+	infantry_cost = -0.25
 }
 
 third_rome = {
