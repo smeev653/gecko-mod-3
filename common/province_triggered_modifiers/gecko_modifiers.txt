@@ -78,8 +78,173 @@ conquest_of_constantinople = {
 	trigger = {
 		owner = {
 			NOT = { tag = TUR }
+		}
+	}
+
+
+	land_morale = 0.05
+	prestige = 0.5
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}
+
+conquest_of_paris = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	trigger = {
+		is_year = 1530
+		owner = {
+			OR = {
+				tag = BUR
+				tag = ENG
+				tag = GBR
+				tag = SPA
 			}
 		}
+	}
+
+	infantry_power = 0.05
+	prestige = 0.5
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}	
+
+conquest_of_vienna = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	trigger = {
+		owner = {
+			OR = {
+				tag = TUR
+			}
+		}
+	}
+
+	land_morale = 0.05
+	prestige = 0.5
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}	
+
+conquest_of_jerusalem = {
+	potential = {
+		normal_or_historical_nations = yes
+		OR = {
+				religion = catholic
+				religion = anglican
+				religion = protestant
+				religion = hussite
+				religion = reformed
+				religion = coptic
+				religion = orthodox
+				religion = sunni
+				religion = shiite
+				religion = ibadi
+			}
+	}
+
+	trigger = {
+		owner = {
+			OR = {
+				religion = catholic
+				religion = anglican
+				religion = protestant
+				religion = hussite
+				religion = reformed
+				religion = coptic
+				religion = orthodox
+				religion = sunni
+				religion = shiite
+				religion = ibadi
+			}
+		}
+	}
+
+	missionaries = 1
+	prestige = 0.5
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}	
+
+conquest_of_baghdad = {
+	potential = {
+			OR = {
+				religion = sunni
+				religion = shiite
+				religion = ibadi
+			}	
+	}
+
+	trigger = {
+		owner = {
+			OR = {
+				religion = sunni
+				religion = shiite
+				religion = ibadi
+			}	
+		}
+	}
+
+	technology_cost = -0.05
+	prestige = 0.5
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}	
+
+conquest_of_delhi = {
+	potential = {
+		normal_or_historical_nations = yes
+		NOT = { tag = DLH }
+	}
+
+	trigger = {
+		owner = {
+			OR = {
+				religion = sunni
+				religion = shiite
+				religion = ibadi
+			}	
+		}
+	}
 
 
 	land_morale = 0.05
@@ -94,3 +259,35 @@ conquest_of_constantinople = {
 	
 	}
 }	
+
+conquest_of_kiev = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	trigger = {
+		owner = {
+			OR = {
+				tag = MOS
+				tag = RUS
+				tag = CRI
+				tag = UKR
+				tag = POL
+				tag = PLC
+				tag = HET
+			}
+		}
+	}
+
+	land_morale = 0.05
+	prestige = 0.5
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}		
