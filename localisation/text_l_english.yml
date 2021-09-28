@@ -2643,7 +2643,7 @@
  LEDGER_AGE:0 "Age"
  NOMANPOWER:0 "We need at least $NUMBER|Y$ able bodied men (§GManpower§!) to build this unit."
  NOSAILORS:0 "We need at least $NUMBER|Y$ able bodied men (§GSailors§!) to build this unit."
- ESTIMATE_ARIVAL:0 "Will arrive in $PROV$ on $DATE$"
+ ESTIMATE_ARIVAL:0 "§R Will arrive in  §! $PROV$ on §G $DATE$ §!"
  MOVEMENT_LOCKED:0 "This army has moved more than §Y$AMT$%§! of the distance to the next province, and can no longer be stopped or redirected."
  MOVEMENT_LOCKED_SPECIFIC:0 "§Y$UNITNAME$§! has moved more than §Y$AMT$%§! of the distance to the next province, and can no longer be stopped or redirected."
  MS_JOINGAME:0 "Join Game"
