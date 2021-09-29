@@ -1087,8 +1087,8 @@ black_chamber_act = {
 		full_idea_group = offensive_ideas
 	}
 	
-	artillery_cost = -0.20
-	artillery_fire = 0.33
+	artillery_cost = -0.10
+	artillery_fire = 0.5
 
 	ai_will_do = {
 		factor = 0.6
