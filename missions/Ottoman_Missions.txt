@@ -1266,4 +1266,114 @@ tur_indian_ocean = {
 			add_claim = 2054 #Ahmedabad
 		}
 	}
+}	
+gecko_tur_events = {
+	slot = 3
+	ai = yes
+	generic = yes #if a mission without generic = yes wants this slot then it overrides this.
+	potential = {
+		OR = {
+			tag = TUR
+			tag = RUM
+		}
+		NOT = { map_setup = map_setup_random }
+	}
+	
+	has_country_shield = yes
+	
+	military_reforms = {
+		icon = mission_non-western_soldiers
+		required_missions = {  }
+		position = 1
+		trigger = {
+			OR ={
+				tag = TUR
+				tag = RUM
+			}
+		is_year = 1450
+		NOT = { is_year = 1550 }
+		MIL = 3
+		}
+		effect = {
+			country_event = {
+					id = flavor_tur.3354
+				}		
+		}
+	}
+
+	enderun_academy = {
+		icon = mission_cossack_cavalry
+		required_missions = {military_reforms}
+		position = 2
+		trigger = {
+			OR ={
+				tag = TUR
+				tag = RUM
+			}
+		has_idea = timariot_system
+		has_country_modifier = the_devshirme_system
+		}
+		effect = {
+			country_event = {
+					id = flavor_tur.3357
+				}		
+		}
+	}
+	Great_Naval_Reform = {
+		icon = mission_establish_high_seas_navy
+		required_missions = {enderun_academy}
+		position = 3
+		trigger ={
+		OR ={
+				tag = TUR
+				tag = RUM
+			}
+		is_year = 1500
+		NOT = { is_year = 1520 }
+		is_at_war = no
+		any_owned_province = {
+			has_port = yes
+		}
+    }
+		effect = {
+			country_event = {
+					id = flavor_tur.3367
+				}		
+		}
+	}
+	Mimar_Sinan's_Great_Constructions = {
+		icon = mission_golden_century
+		required_missions = {Great_Naval_Reform}
+		position = 4
+		trigger = {
+		tag = TUR
+		is_year = 1519
+		NOT = { is_year = 1560 }
+		owns = 151
+	}
+		effect = {
+			country_event = {
+					id = flavor_tur.3374
+				}		
+		}
+	}
+	Expansion_of_the_Royal_Bureaucracy = {
+		icon = mission_rb_monopolize_the_channel
+		required_missions = {Mimar_Sinan's_Great_Constructions}
+		position = 5
+		trigger ={
+		OR ={
+				tag = TUR
+				tag = RUM
+			}
+		is_at_war = no
+		is_year = 1520
+		NOT = { is_year = 1566 }
+	}
+		effect = {
+			country_event = {
+					id = flavor_tur.3366
+				}		
+		}
+	}
 }

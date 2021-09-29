@@ -127,21 +127,8 @@ country_event = {
 	desc = "flavor_tur.EVTDESC3354"
 	picture = REFORM_eventPicture
 	
-	fire_only_once = yes
 
-	trigger ={ 
-		OR ={
-				tag = TUR
-				tag = RUM
-			}
-		is_year = 1450
-		NOT = { is_year = 1550 }
-		MIL = 3
-	}
-	
-	mean_time_to_happen = {
-		months = 300
-	}
+	is_triggered_only = yes
 	
 	
 	option = {		# Great Army Reform
@@ -180,21 +167,8 @@ country_event = {
 	desc = "flavor_tur.EVTDESC3357"
 	picture = UNIVERSITY_eventPicture
 	
-	
-	fire_only_once = yes
 
-	trigger ={
-		OR ={
-				tag = TUR
-				tag = RUM
-			}
-		has_idea = timariot_system
-		has_country_modifier = the_devshirme_system
-	}
-	
-	mean_time_to_happen = {
-		months = 100
-	}
+	is_triggered_only = yes
 	
 	
 	option = {		# Found the Enderun
@@ -482,22 +456,8 @@ country_event = {
 	desc = "flavor_tur.EVTDESC3366"
 	picture = COURT_eventPicture
 
-
-	fire_only_once = yes
+	is_triggered_only = yes
 	
-	trigger ={
-		OR ={
-				tag = TUR
-				tag = RUM
-			}
-		is_at_war = no
-		is_year = 1520
-		NOT = { is_year = 1566 }
-	}
-	
-	mean_time_to_happen = {
-		months = 25
-	}
 	
 	option = {		# Expand the Royal Bureaucracy
 		name = "flavor_tur.EVTOPTA3366"
@@ -553,23 +513,7 @@ country_event = {
 	
 	fire_only_once = yes
 
-	trigger ={
-		OR ={
-				tag = TUR
-				tag = RUM
-			}
-		is_year = 1500
-		NOT = { is_year = 1520 }
-		is_at_war = no
-		any_owned_province = {
-			has_port = yes
-		}
-    }
-	
-	mean_time_to_happen = {
-		months = 25
-	}
-	
+	is_triggered_only = yes
 	
 	option = {		# Build the Imperial Halic Shipyard
 		name = "flavor_tur.EVTOPTA3367"
@@ -580,33 +524,11 @@ country_event = {
 				NOT = { years_of_income = 0.5 }
 			}
 		}
-		add_years_of_income = -1.0
+		add_years_of_income = -0.5
 		add_country_modifier = {
 			name = imperial_halic_shipyard
 			duration = -1
 		}
-	}
-	option = {		# Build a smaller shipyard
-		name = "flavor_tur.EVTOPTB3367"
-		ai_chance = {
-			factor = 20
-			modifier = {
-				factor = 4
-				NOT = { dip_power = 100 }
-			}
-		}
-		add_dip_power = 50
-	}
-	option = {		# Reform the army instead
-		name = "flavor_tur.EVTOPTC3367"
-		ai_chance = {
-			factor = 20
-			modifier = {
-				factor = 4
-				NOT = { mil_power = 100 }
-			}
-		}
-		add_mil_power = 50
 	}
 }
 
@@ -854,21 +776,7 @@ country_event = {
 	picture = UNIVERSITY_eventPicture
 	
 	
-	fire_only_once = yes
-	
-	trigger = {
-		OR ={
-				tag = TUR
-				tag = RUM
-			}
-		is_year = 1519
-		NOT = { is_year = 1560 }
-		owns = 151
-	}
-	
-	mean_time_to_happen = {
-		months = 100
-	}
+	is_triggered_only = yes
 	
 
 	option = {		# Appoint him royal architect

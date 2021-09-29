@@ -48,6 +48,7 @@ Minor = {
 To_the_last_man = {
 	potential = {
 			was_player = yes
+			tag = TUR
 		}
 	
 
