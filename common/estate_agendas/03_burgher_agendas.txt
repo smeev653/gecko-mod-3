@@ -1881,7 +1881,98 @@ estate_burghers_trade_post_in_malacca = {
 
 
 #Trade post in China
-#removed
+estate_burghers_trade_post_in_china = {
+	can_select = {
+		tag = ULM
+		capital_scope = {
+			continent = europe
+		}
+		num_of_ports = 6
+		NOT = { chinaware = 1 }
+		any_province = {
+			superregion = china_superregion
+			has_port = yes
+			range = ROOT
+			has_discovered = ROOT
+		}
+		NOT = {
+			any_owned_province = {
+				superregion = china_superregion
+			}
+		}
+		NOT = { has_country_modifier = growing_chinaware_trade }
+	}
+	selection_weight = {
+		factor = 2.5
+		modifier = {
+			factor = 1.5
+			num_of_colonists = 1
+		}
+		modifier = {
+			factor = 2
+			num_of_trade_companies = 2
+		}
+		modifier = {
+			factor = 2
+			num_of_strong_trade_companies = 2
+		}
+	}
+	provinces_to_highlight = {
+		superregion = china_superregion
+		trade_goods = chinaware
+		has_port = yes
+	}
+	task_requirements = {
+		any_owned_province = {
+			superregion = china_superregion
+			trade_goods = chinaware
+			has_port = yes
+		}
+	}
+	task_completed_effect = {
+		add_estate_loyalty = {
+			estate = estate_burghers
+			loyalty = 10
+		}
+		add_country_modifier = {
+			name = growing_chinaware_trade
+			duration = 3650
+		}
+		if = {
+			limit = {
+				NOT = {
+					any_owned_province = {
+						superregion = china_superregion
+						trade_goods = chinaware
+						has_port = yes
+					}
+				}
+			}
+			custom_tooltip = estate_burghers_trade_post_in_china_reward_tooltip
+		}
+		else = {
+			random_owned_province = {
+				limit = {
+					superregion = china_superregion
+					trade_goods = chinaware
+					has_port = yes
+				}
+				add_province_modifier = {
+					name = trade_post_in_china
+					duration = -1
+				}
+			}
+		}
+	}
+    failing_effect = {
+        add_estate_loyalty_modifier = {
+            estate = estate_burghers
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}
 
 
 #Get 3 silk provinces
@@ -1893,8 +1984,8 @@ estate_burghers_silk_trade = {
 		}
 		any_owned_province = {
 			OR = {
-				superregion = india_superregion
-				#superregion = china_superregion
+				#superregion = india_superregion
+				superregion = china_superregion
 			}
 		}
 		NOT = { silk = 2 }
@@ -2014,7 +2105,73 @@ estate_burghers_spice_trade = {
 }
 
 #Get 3 tea provinces
-#removed
+estate_burghers_tea_trade = {
+	can_select = {
+		tag = ULM
+		capital_scope = {
+			continent = europe
+		}
+		any_owned_province = {
+			superregion = china_superregion
+		}
+		NOT = { tea = 2 }
+	}
+	selection_weight = {
+		factor = 2.5
+		modifier = {
+			factor = 1.5
+			num_of_colonists = 1
+		}
+		modifier = {
+			factor = 2
+			num_of_trade_companies = 3
+		}
+		modifier = {
+			factor = 2
+			num_of_strong_trade_companies = 2
+		}
+		modifier = {
+			factor = 2.5
+			OR = {
+				tag = ENG
+				tag = GBR
+			}
+		}
+	}
+	provinces_to_highlight = {
+		trade_goods = tea
+		OR = {
+			has_port = yes
+			any_neighbor_province = {
+				owned_by = root
+			}
+		}
+		has_discovered = root
+		NOT = { owned_by = root }
+	}
+	task_requirements = {
+		tea = 3
+	}
+	task_completed_effect = {
+		add_estate_loyalty = {
+			estate = estate_burghers
+			loyalty = 10
+		}
+		add_country_modifier = {
+			name = growing_tea_trade
+			duration = 5475
+		}
+	}
+    failing_effect = {
+        add_estate_loyalty_modifier = {
+            estate = estate_burghers
+			desc = EST_VAL_AGENDA_DENIED
+			loyalty = -5
+			duration = 7300
+        }
+    }
+}
+
 
 #Reduce corruption
 estate_burghers_reduce_corruption = {
