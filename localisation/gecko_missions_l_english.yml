@@ -46,3 +46,22 @@
  gecko_mam_mission_13_desc:0 ""
  gecko_mam_mission_14_desc:0 ""
  gecko_mam_mission_15_desc:0 ""
+
+#ottoman event missions
+
+g_military_reforms_of_mehmet:0 "This event will grant§G 10% Infanty Combat Ability§! for 20 years."
+g_enderun_academy:0 "This event gives the choice of §G2.5% Discipline§! or §G10% Cavalry Combat Ability§! for 20 years."
+g_naval_reform:0 "This event gives §G-5% Ship Cost§! until the end of the game."
+g_constructions:0 "This event gives §G-10% Development Cost§! and §G-10% Construction Cost§! until the current ruler dies."
+g_expansion_of_the_royal_bureaucracy:0 "This event gives §G-10% Tech and Idea Cost§! and §G+10% Tax Modifier§! for the next 40 years."
+
+military_reforms_title:0 "Military Reforms"
+military_reforms_desc:0 "The reigns of Mehmed I and Murad II saw the Ottoman Empire reunified after the crushing defeat it had suffered at the hands of Tamerlane. The military was expanded and reformed to match any potential threat and ensure further expansion. It was also during this period that the Ottomans started to realize the vital importance of a strong navy."
+enderun_academy_title:0 "Enderun Academy"
+enderun_academy_desc:0 "In order to train administrators for his expanding empire, Mehmed II established an educational institution in the inner courtyard (Enderun) of the newly constructed Topkapi Palace. Students were chosen from among the most promising devshirme recruits (conscripted Christian youths mostly from the Balkans), and were trained in the Islamic faith, the sciences, and the military arts. They were expected to develop competency in the three languages of Turkish, Arabic, and Persian. This prepared them to serve in the Sultan's household, from which they could hope to graduate as government administrators with the rank of bey or pasha. The staffing of government posts with devshirme recruits trained in the palace school and loyal to the sultan formed the backbone of the Ottoman system of patrimonial rule throughout the fifteenth and sixteenth centuries."
+Great_Naval_Reform_title:0 "The Great Naval Reform"
+Great_Naval_Reform_desc:0 "Selim I, called the Grim, was an ascetic man with a sharp mind. Seeing the threat of the great Christian navies, especially the Venetian one, he realized that the Ottoman Empire had to greatly expand its navy. In emulation of the Arsenale in Venice, he thus ordered the construction of the 'Imperial Halic Shipyard' in Constantinople. The great shipyard stood complete in 1517."
+Mimar_Sinan's_Great_Constructions_title:0 "Mimar Sinan's Great Constructions"
+Mimar_Sinan's_Great_Constructions_desc:0 "Mimar Sinan planned and oversaw the construction of countless mosques, aqueducts, bathhouses, bridges, palaces, caravanserais and schools during his half-a-century long career. His masterpieces were the Selimiye and Suleymaniye Mosques in Adrianople and Constantinople respectively."
+Expansion_of_the_Royal_Bureaucracy_title:0 "Expansion of the Royal Bureaucracy"
+Expansion_of_the_Royal_Bureaucracy_desc:0 "Süleyman I was probably the greatest of the Ottoman Sultans. Called Kanuni (Lawgiver), he was an unsurpassed administrator who realized that the power of the provincial Beys had to be curbed by a strong central government. Thus he struggled to promote a powerful royal bureaucracy which was not popular in all camps..."

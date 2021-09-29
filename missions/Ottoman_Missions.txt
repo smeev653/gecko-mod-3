@@ -1297,13 +1297,14 @@ gecko_tur_events = {
 		effect = {
 			country_event = {
 					id = flavor_tur.3354
-				}		
-		}
+				}
+				custom_tooltip = g_military_reforms_of_mehmet
+		}		
 	}
 
 	enderun_academy = {
 		icon = mission_cossack_cavalry
-		required_missions = {military_reforms}
+		required_missions = {  }
 		position = 2
 		trigger = {
 			OR ={
@@ -1316,12 +1317,13 @@ gecko_tur_events = {
 		effect = {
 			country_event = {
 					id = flavor_tur.3357
-				}		
+				}	
+					custom_tooltip = g_enderun_academy	
 		}
 	}
 	Great_Naval_Reform = {
 		icon = mission_establish_high_seas_navy
-		required_missions = {enderun_academy}
+		required_missions = {  }
 		position = 3
 		trigger ={
 		OR ={
@@ -1329,37 +1331,45 @@ gecko_tur_events = {
 				tag = RUM
 			}
 		is_year = 1500
-		NOT = { is_year = 1520 }
 		is_at_war = no
 		any_owned_province = {
 			has_port = yes
 		}
-    }
+		OR = {
+				num_of_heavy_ship = 10 
+				num_of_galley = 30
+			}
+		}
 		effect = {
 			country_event = {
 					id = flavor_tur.3367
-				}		
+				}
+			add_country_modifier = {
+				name = "naval_enthusiasm_mission"
+				duration = 9125 #25 years
+			}				
+			custom_tooltip = g_naval_reform		
 		}
 	}
 	Mimar_Sinan's_Great_Constructions = {
 		icon = mission_golden_century
-		required_missions = {Great_Naval_Reform}
+		required_missions = {  }
 		position = 4
 		trigger = {
 		tag = TUR
 		is_year = 1519
-		NOT = { is_year = 1560 }
 		owns = 151
 	}
 		effect = {
 			country_event = {
 					id = flavor_tur.3374
-				}		
+				}
+			custom_tooltip = g_constructions			
 		}
 	}
 	Expansion_of_the_Royal_Bureaucracy = {
 		icon = mission_rb_monopolize_the_channel
-		required_missions = {Mimar_Sinan's_Great_Constructions}
+		required_missions = {  }
 		position = 5
 		trigger ={
 		OR ={
@@ -1368,12 +1378,12 @@ gecko_tur_events = {
 			}
 		is_at_war = no
 		is_year = 1520
-		NOT = { is_year = 1566 }
 	}
 		effect = {
 			country_event = {
 					id = flavor_tur.3366
-				}		
+				}
+			custom_tooltip = g_expansion_of_the_royal_bureaucracy
 		}
 	}
 }

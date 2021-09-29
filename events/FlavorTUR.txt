@@ -25,13 +25,7 @@ country_event = {
 		OR = {
 			VEN = {
 				any_active_trade_node = {
-					province_id = 1320
-					has_merchant = PREV
-				}
-			}
-			GEN = {
-				any_active_trade_node = {
-					province_id = 1320
+					province_id = 151
 					has_merchant = PREV
 				}
 			}
@@ -39,7 +33,7 @@ country_event = {
     }
 	
 	mean_time_to_happen = {
-		months = 100
+		months = 12
 	}
 	
 	
