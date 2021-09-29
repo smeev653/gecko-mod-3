@@ -101,13 +101,12 @@ conquest_of_paris = {
 	}
 
 	trigger = {
-		is_year = 1530
 		owner = {
 			OR = {
 				tag = BUR
 				tag = ENG
 				tag = GBR
-				tag = SPA
+				tag = LOT
 			}
 		}
 	}

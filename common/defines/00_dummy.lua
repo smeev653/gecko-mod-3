@@ -95,8 +95,9 @@ NDefines.NCountry.RAZE_TECH_POWER_DECREASE_MAX = 0.8
 NDefines.NCountry.RAZE_PROVINCE_COOLDOWN_YRS = 20
 NDefines.NCountry.RAZE_PROVINCE_CONQUERED_TIME_LIMIT_MONTHS = 6
 NDefines.NCountry.ADVISOR_COST_INCREASE_PER_YEAR = 0.005														
-NDefines.NCountry.MAXIMUM_ADVISOR_SKILL = 5						
+NDefines.NCountry.MAXIMUM_ADVISOR_SKILL = 7						
 NDefines.NCountry.PROMOTE_COST_MONTHS_ADVISOR_SALARY = 75.0		
+NDefines.NCountry.SCRIPTED_ADVISOR_DISCOUNT = 0.75				-- Multiplier on cost for advisors scripted with discount=yes
 
 NDefines.NEconomy.EDICTS_COST_INCREASE = 1.5
 NDefines.NEconomy.EDICTS_DURATION_MONTHS = 6
