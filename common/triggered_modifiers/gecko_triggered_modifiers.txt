@@ -45,6 +45,37 @@ Minor = {
 	interest = -0.5
 }
 
+To_the_last_man = {
+	potential = {
+			was_player = yes
+		}
+	
+
+	trigger = {
+		NOT = { is_year = 1500 }
+		tag = TUR
+		OR = {
+			is_in_war = {
+				defender_leader = TUR
+				attackers = MAM
+				attackers = HUN
+			}
+			AND = {
+				is_in_war = {
+					defender_leader = TUR
+					attackers = MAM
+				}
+				is_in_war = {
+					defender_leader = TUR
+					attackers = HUN
+				}	
+			}	
+		}
+	}	
+	defensiveness = 0.2
+	movement_speed = 0.2
+}
+
 empowered_subjects = {
 	potential = {
 			overlord = {
