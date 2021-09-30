@@ -219,6 +219,7 @@ categories =  {
 			137 4753 # Balkans
 			4764 # Salins
 			4788 4789
+			5787 # abaitaly
 
 		}
 	}
