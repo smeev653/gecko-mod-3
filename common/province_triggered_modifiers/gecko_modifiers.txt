@@ -291,4 +291,34 @@ conquest_of_kiev = {
 	on_deactivation = {
 	
 	}
-}		
+}
+
+conquest_of_cairo = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	trigger = {
+		owner = {
+			OR = {
+				NOT = { tag = MAM }
+				NOT = { tag = EGY }
+			}
+		}	
+	}
+
+	land_morale = 0.05
+	prestige = 0.5
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}
+
+
+		
