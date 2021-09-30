@@ -186,7 +186,7 @@ SWE_ideas = {
 		discipline = 0.05
 	}
 	produktplakatet = {
-		production_efficiency = 0.10
+		global_autonomy  = -0.05
 	}
 	indelningsverket = {
 		manpower_recovery_speed = 0.20
