@@ -1481,10 +1481,7 @@ gecko_rus_events = {
 	generic = no
 	ai = yes
 		potential = {
-		OR = {
-			tag = MOS
-			tag = RUS
-		}
+		tag = RUS
 		has_dlc = "Third Rome"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1494,6 +1491,7 @@ gecko_rus_events = {
 	enserfed_peasants = {
 		icon = mission_non-western_soldiers
 		required_missions = {  }
+		position = 6
 		trigger = {
 		tag = RUS
 		is_year = 1600
@@ -1508,11 +1506,13 @@ gecko_rus_events = {
 	full_serfdom = {
 		icon = mission_non-western_soldiers
 		required_missions = {enserfed_peasants}
+		position = 7
 		trigger = {
 		tag = RUS
 		is_year = 1650
 		NOT = { is_year = 1750 }
 		government = monarchy
+
 	}
 		effect = {
 			country_event = {
