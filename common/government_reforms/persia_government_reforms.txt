@@ -186,7 +186,7 @@ establish_auxiliary_support_system_reform = { #tier 4
 	icon = "ottoman_government"
 	potential = {
 		has_reform = ottoman_government
-		NOT = { has_country_modifier = force_janissaries_to_undergo_yoklama }
+		#NOT = { has_country_modifier = force_janissaries_to_undergo_yoklama }
 	}
 	modifiers = {
 		movement_speed = 0.10

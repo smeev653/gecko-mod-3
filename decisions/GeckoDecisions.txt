@@ -348,6 +348,23 @@ country_decisions = {
 		}
 		ai_importance = 400
 	}
+	disband_janissaries = {	
+		potential = {
+				ai = no
+				tag = TUR
+				NOT = { current_age = age_of_discovery }
+				NOT = { current_age = age_of_reformation }
+				NOT = { has_country_flag = janissary_decadence }
+			}
+			allow = {
+				NOT = { current_age = age_of_discovery }
+				NOT = { current_age = age_of_reformation }
+				janissary_percentage = 0.2
+			}
+			effect = {
+				set_country_flag = janissary_decadence
+			}
+	}	
 }			
 
 		
