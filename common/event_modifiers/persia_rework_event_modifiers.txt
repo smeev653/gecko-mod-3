@@ -39,14 +39,13 @@ estate_qizilbash_officers_modifier = {
 
 estate_janissary_phase_modifier = {
 	is_janissary_modifier = yes
-	shock_damage_received = -0.10
-	fire_damage_received = -0.10
+	drill_decay_modifier = -0.1
+	drill_gain_modifier = 0.25
 }
 	
 estate_janissary_weaponry_modifier = {
 	is_janissary_modifier = yes
 	infantry_fire = 0.15
-	land_maintenance_modifier = 0.10
 }
 	
 estate_janissary_discipline_modifier = {

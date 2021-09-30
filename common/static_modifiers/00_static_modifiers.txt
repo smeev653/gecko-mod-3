@@ -1670,8 +1670,6 @@ army_drill_modifier = { # Used by an entire army, is the average of all subunits
 }
 
 janissary_regiment = {
-	drill_decay_modifier = -0.25
-	drill_gain_modifier = 0.25
 	recover_army_morale_speed = 0.1
 	reinforce_speed = 0.1
 	reinforce_cost_modifier = 1.0
