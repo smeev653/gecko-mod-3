@@ -683,8 +683,8 @@ gc_spain_3 = {
 
 		trigger = {
 			army_size_percentage = 1
-			navy_size_percentage = 1
-			manpower_percentage = 0.6
+			#navy_size_percentage = 1
+			manpower_percentage = 0.4
 			num_of_generals = 1
 		}
 
@@ -1256,7 +1256,7 @@ gc_spain_4 = {
 				area = valencia_area
 				area = catalonia_area
 				area = aragon_area
-				area = corsica_sardinia_area
+				area = upper_andalucia_area
 			}
 			NOT = { owned_by = ROOT }
 		}
@@ -1274,7 +1274,7 @@ gc_spain_4 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			corsica_sardinia_area = {
+			upper_andalucia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -1343,6 +1343,27 @@ gc_spain_4 = {
 					}
 					add_permanent_claim = ROOT
 				}
+				corsica_sardinia_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				corsica_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				western_sicily_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
 			}
 			else = {
 				sicily_area = {
@@ -1369,6 +1390,27 @@ gc_spain_4 = {
 					}
 					add_permanent_claim = NAP
 				}
+				corsica_sardinia_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				corsica_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				western_sicily_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
 			}
 		}
 	}
@@ -1380,14 +1422,21 @@ gc_spain_4 = {
 		provinces_to_highlight = {
 			OR = {
 				area = sicily_area
+				area = western_sicily_area
 				area = calabria_area
 				area = apulia_area
 				area = naples_area
+				area = corsica_area
+				area = corsica_sardinia_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 
 		trigger = {
+			western_sicily_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 			sicily_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
@@ -1404,6 +1453,15 @@ gc_spain_4 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
+			corsica_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			corsica_sardinia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			
 		}
 
 		effect = {
