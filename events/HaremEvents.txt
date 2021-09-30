@@ -115,7 +115,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 3
+		months = 6
 	}
 
 	option = {
@@ -389,9 +389,9 @@ country_event = {
 				dynasty = original_dynasty
 				male = yes
 				age = 25
-				adm = 1
-				mil = 1
-				dip = 1
+				adm = 2
+				mil = 2
+				dip = 2
 			}
 		}
 	}

@@ -155,9 +155,9 @@ country_event = { #Ottoman Ruler Failsafe
 			dynasty = ROOT
 			culture = ROOT
 			religion = ROOT
-			adm = 4
+			adm = 5
 			dip = 4
-			mil = 4
+			mil = 5
 			age = 30
 			claim = 20
 		}
