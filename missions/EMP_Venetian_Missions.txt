@@ -481,7 +481,7 @@ emp_ven_slot_4 = {
 	emp_ven_the_francocracy = {
 		icon = la_latinocrazia
 		position = 3
-		required_missions = { emp_ven_reclaim_the_aegean }
+		required_missions = {  }
 		
 		provinces_to_highlight = {
 			province_id = 151

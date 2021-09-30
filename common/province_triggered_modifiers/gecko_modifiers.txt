@@ -233,7 +233,6 @@ conquest_of_baghdad = {
 conquest_of_delhi = {
 	potential = {
 		normal_or_historical_nations = yes
-		NOT = { tag = DLH }
 	}
 
 	trigger = {

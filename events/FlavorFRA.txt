@@ -529,7 +529,6 @@ country_event = {
 		tag = FRA
 		is_year = 1621
 		NOT = { is_year = 1642 }
-		NOT = { advisor_exists = 429 }
 	}
 	
 	mean_time_to_happen = {

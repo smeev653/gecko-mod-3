@@ -95,18 +95,13 @@ country_event = {
 		add_adm_power = 40
 		add_dip_power = 40
 		add_mil_power = 40
-		if = {
-			limit = {
-				NOT = { advisor_exists = 1026 }
-			}
-			define_advisor = {
+		define_advisor = {
 				type = spymaster
 				name = "Malyuta Skuratov"
 				discount = yes
 				location = 295
 				skill = 3
 			}
-		}
 	}
 }
 
@@ -633,10 +628,6 @@ country_event = {
 		name = "EXCELLENTMINISTER"
 		
 		add_adm_power = 50
-		if = {
-			limit = {
-				NOT = { advisor_exists = 1038 }
-			}
 			
 			define_advisor = {
 				type = treasurer
@@ -645,7 +636,7 @@ country_event = {
 				location = 295
 				skill = 2
 			}
-		}
+		
 	}
 }
 

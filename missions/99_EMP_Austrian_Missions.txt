@@ -241,49 +241,6 @@ emp_hab_netherlands_branch = {
 						}
 					}
 				}
-				AND = {
-					trade_company_region = trade_company_indonesia
-					if = {
-						limit = {
-							ROOT = {
-								OR = {
-									has_dlc = "Dharma"
-									has_dlc = "Wealth of Nations"
-								}
-							}
-						}
-						is_owned_by_trade_company = no
-					}
-					else = {
-						OR = {
-							NOT = { is_core = root }
-							unrest = 1
-						}
-					}
-					ROOT = {
-						NOT = {
-							num_of_owned_provinces_with = {
-								value = 5
-								trade_company_region = trade_company_indonesia
-								if = {
-									limit = {
-										ROOT = {
-											OR = {
-												has_dlc = "Dharma"
-												has_dlc = "Wealth of Nations"
-											}
-										}
-									}
-									is_owned_by_trade_company = yes
-								}
-								else = {
-									is_core = root
-									NOT = { unrest = 1 }
-								}
-							}
-						}
-					}
-				}
 			}
 			has_port = yes
 		}
@@ -310,11 +267,6 @@ emp_hab_netherlands_branch = {
 					trade_company_region = trade_company_east_india
 					is_owned_by_trade_company = yes
 				}
-				num_of_owned_provinces_with = {
-					value = 5
-					trade_company_region = trade_company_indonesia
-					is_owned_by_trade_company = yes
-				}
 			}
 			else = {
 				num_of_owned_provinces_with = {
@@ -335,51 +287,16 @@ emp_hab_netherlands_branch = {
 					is_core = root
 					NOT = { unrest = 1 }
 				}
-				num_of_owned_provinces_with = {
-					value = 5
-					trade_company_region = trade_company_indonesia
-					is_core = root
-					NOT = { unrest = 1 }
-				}
 			}
 		}
 		effect = {
-			guangzhou_area = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
-				}
-				add_permanent_claim = root
-			}
-			guangdong_area = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
-				}
-				add_permanent_claim = root
-			}
-			fujian_area = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
-				}
-				add_permanent_claim = root
-			}
-			zhejiang_area = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
-				}
-				add_permanent_claim = root
-			}
+
 			custom_tooltip = emp_hab_indian_trading_effect_tooltip
 			hidden_effect = {
 				every_province = {
 					limit = {
-						OR = {
 							superregion = india_superregion
-							superregion = east_indies_superregion
-						}
+						
 						NOT = { owned_by = root }
 						NOT = { is_core = root }
 						NOT = { is_claim = root }
@@ -389,90 +306,6 @@ emp_hab_netherlands_branch = {
 					}
 					add_permanent_claim = root
 				}
-			}
-		}
-	}
-	
-	emp_hab_foothold_in_china = {
-		icon = mission_trade_with_cathay
-		required_missions = { emp_hab_indian_trading }
-		provinces_to_highlight = {
-			OR = {
-				province_id = 667
-				province_id = 684
-			}
-			NOT = { 667 = { is_strongest_trade_power = ROOT } }
-			NOT = { 684 = { is_strongest_trade_power = ROOT } }
-		}
-		trigger = {
-			OR = {
-				667 = { is_strongest_trade_power = ROOT }
-				684 = { is_strongest_trade_power = ROOT }
-			}
-		}
-		effect = {
-			south_china_region = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
-				}
-				add_permanent_claim = root
-			}
-			australia_region = {
-				limit = {
-					is_city = yes
-					NOT = { is_core = root }
-					NOT = { is_claim = root }
-					NOT = {
-						owner = {
-							is_subject_of = root
-						}
-					}
-				}
-				add_permanent_claim = root
-			}
-			add_country_modifier = {
-				name = hab_chinese_riches
-				duration = 7300
-			}
-		}
-	}
-	
-	emp_hab_austrialasia = {
-		icon = settle_austrialasia
-		required_missions = { emp_hab_foothold_in_china }
-		provinces_to_highlight = {
-			region = australia_region
-			ROOT = {
-				NOT = {
-					any_subject_country = {
-						is_colonial_nation = yes
-						capital_scope = {
-							colonial_region = colonial_australia
-						}
-						any_owned_province = {
-							region = australia_region
-						}
-					}
-				}
-			}
-		}
-		trigger = {
-			any_subject_country = {
-				is_colonial_nation = yes
-				capital_scope = {
-					colonial_region = colonial_australia
-				}
-				any_owned_province = {
-					region = australia_region
-				}
-			}
-		}
-		effect = {
-			add_prestige = 20
-			add_country_modifier = {
-				name = hab_austrian_australia
-				duration = 10950
 			}
 		}
 	}
