@@ -30,14 +30,16 @@ free_colonist = {
 Minor = {
 	potential = {
 			was_player = yes
-			NOT = {total_development = 170}
+			NOT = {total_development = 199}
 		}
 	
 
 	trigger = {
 		
-		NOT = {total_development = 170}
+		NOT = {total_development = 199}
 		was_player = yes
+		NOT = { is_emperor = yes }
+		NOT = {tag = MOS }
 	}
 	advisor_cost = -0.15
 	advisor_pool = 1
