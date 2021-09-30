@@ -1,17 +1,17 @@
 government = republic
-add_government_reform = signoria_reform
+add_government_reform = oligarchy_reform
 mercantilism = 25
 primary_culture = venetian
 religion = catholic
 elector = yes
-add_accepted_culture = greek
+#add_accepted_culture = greek
 add_accepted_culture = dalmatian
 technology_group = western
 capital = 112 # Venezia
 fixed_capital = 112 # Cannot move capital away from this province & no power cost to move to it
 historical_friend = KNI
-national_focus = DIP
-add_army_professionalism = 0.05
+national_focus = MIL
+add_army_professionalism = 0.1
 
 1380.1.1 = { leader = {	name = "Carlo Zeno"	type = admiral	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1404.1.1 } }
 
