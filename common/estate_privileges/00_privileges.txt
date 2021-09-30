@@ -6427,7 +6427,7 @@ estate_burghers_control_over_monetary_policy = {
 	}
 	
 	modifier_by_land_ownership = {
-			production_efficiency = 0.30
+			production_efficiency = 0.2
 			}
 			
 	ai_will_do = {
@@ -6461,7 +6461,7 @@ estate_vaisyas_control_over_monetary_policy = {
 	}
 	
 	modifier_by_land_ownership = {
-			production_efficiency = 0.30
+			production_efficiency = 0.2
 			}
 			
 	ai_will_do = {
@@ -6495,7 +6495,7 @@ estate_jains_control_over_monetary_policy = {
 	}
 	
 	modifier_by_land_ownership = {
-			production_efficiency = 0.30
+			production_efficiency = 0.2
 			}
 			
 	ai_will_do = {
