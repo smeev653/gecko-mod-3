@@ -91,13 +91,13 @@ country_event = {
 			add_base_manpower = 1
 		}
 		2413 = { #Tyn
-			add_base_tax = 2
-			add_base_production = 2
+			add_base_tax = 1
+			add_base_production = 1
 			add_base_manpower = 2
 		}
 		2414 = { #Azaraba
-			add_base_tax = 2
-			add_base_production = 2
+			add_base_tax = 1
+			add_base_production = 1
 			add_base_manpower = 1
 		}
 		287 = { #Kuban
@@ -111,14 +111,14 @@ country_event = {
 			add_base_manpower = 1
 		}
 		2447 = { #Matrega
-			add_base_tax = 3
-			add_base_production = 3
+			add_base_tax = 1
+			add_base_production = 1
 			add_base_manpower = 3
 			change_religion = sunni
 		}
 		286 = { #Azov
-			add_base_tax = 3
-			add_base_production = 3
+			add_base_tax = 1
+			add_base_production = 1
 			add_base_manpower = 1
 		}
 		285 = { #Cafa
@@ -128,8 +128,8 @@ country_event = {
 			change_religion = sunni
 		}
 		6000 = {
-			add_base_tax = 2
-			add_base_production = 2
+			add_base_tax = 1
+			add_base_production = 1
 			add_base_manpower = 2
 			change_religion = sunni
 		}	
@@ -140,8 +140,8 @@ country_event = {
 		}
 		
 		2410 = { #Theodoro
-			add_base_tax = 2
-			add_base_production = 2
+			add_base_tax = 1
+			add_base_production = 1
 			add_base_manpower = 1
 			change_culture = crimean
 		}
