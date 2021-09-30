@@ -3018,7 +3018,7 @@ changzhi_area = {
 }
 
 chengde_area = {
-	703 5
+	703
 }
 
 dali_area = {
