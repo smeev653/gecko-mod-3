@@ -95,12 +95,12 @@ change_estate_land_share = {
 
 1412.5.16 = {
 	monarch = {
-		name = "Filippo Maria I"
-		dynasty = "Visconti"
+		name = "Francesco I"
+		dynasty = "Sforza"
 		birth_date = 1392.9.3
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 5
+		dip = 5
+		mil = 5
 	}
 }
 1412.7.24 = {
@@ -138,10 +138,10 @@ change_estate_land_share = {
 		name = "Ludovico Sforza"       	
 		type = general	
 		
-		fire = 2	
-		shock = 4	
-		manuever = 3	
-		siege = 2
+			shock = 5
+			fire = 3
+			manuever = 4
+			siege = 2
 	}
 }
 
