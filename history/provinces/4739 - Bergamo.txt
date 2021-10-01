@@ -12,7 +12,6 @@ base_manpower = 2
 capital = "Bergamo" 
 is_city = yes
 add_core = MLO
-fort_15th = yes
 
 
 discovered_by = western
@@ -22,9 +21,9 @@ discovered_by = ottoman
 
 
 1426.5.6 = {
-	owner = VEN
-	controller = VEN
-	add_core = VEN
+	owner = MAN
+	controller = MAN
+	add_core = MAN
 }
 1495.1.1 = { hre = no }
 1509.6.1 = { controller = FRA } # Venice collapses

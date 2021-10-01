@@ -475,7 +475,7 @@ lazio_area = { #4 Lazio-Umbria
 }
 
 apulia_area = { #4
-	122 1933 2985 4733
+	122 1933 2985 4733 5788
 }
 
 
@@ -484,12 +484,12 @@ apulia_area = { #4
 ########################################
 
 venetia_area = { #5
-	112 1774 4729 5778 5779
+	112 1774 4729 5779 108
 }
 
 po_valley_area = { #4
 	color = { 205 190 47 }
-	109 4739 107 108
+	 4739 107 
 }
 
 piedmont_area = { #4
@@ -497,7 +497,7 @@ piedmont_area = { #4
 }
 
 liguria_area = { #3
-	101 102 2992 
+	101 102 2992 5787 105
 }
 
 corsica_sardinia_area = { #4
@@ -513,7 +513,7 @@ western_sicily_area = { #3
 }
 
 central_italy_area = { #3
-	119 120 2977 114 5788
+	119 120 2977 114
 }
 
 krain_area = { #3
@@ -522,7 +522,7 @@ krain_area = { #3
 
 carinthia_area = { #4 # Carniola in-game
 	color = { 46 217 110 }
-	130 4738 5777 111
+	130 4738 5777 111 5778 
 }
 
 corsica_area = { #3
@@ -531,7 +531,7 @@ corsica_area = { #3
 
 emilia_romagna_area = { #5
 	color = { 24 222 66 }
-	105 106 113 5787 4730 
+	 106 113 4730 109
 }
 
 calabria_area = { #5 (+Lucania)
