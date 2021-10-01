@@ -1356,7 +1356,10 @@ gecko_tur_events = {
 		required_missions = {  }
 		position = 4
 		trigger = {
-		tag = TUR
+		OR ={
+				tag = TUR
+				tag = RUM
+			}
 		is_year = 1519
 		owns = 151
 	}
