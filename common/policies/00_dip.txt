@@ -52,8 +52,8 @@ hold_the_weather_gauge = {
 		full_idea_group = offensive_ideas
 	}
 	
-	leader_naval_manuever = 1
-	ship_durability = 0.05
+	discipline = 0.03
+	global_naval_barrage_cost = -0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -61,7 +61,7 @@ hold_the_weather_gauge = {
 }
 
 the_wooden_wall = {
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = maritime_ideas
@@ -640,7 +640,7 @@ encouragement_of_merchant_navy = {
 #}
 
 protected_shipping_lanes = {
-	monarch_power = DIP
+	monarch_power = MIL
 	potential = {
 		has_idea_group = maritime_ideas
 		has_idea_group = plutocracy_ideas
@@ -1213,7 +1213,7 @@ armed_neutrality_act = {
 #}
 
 trained_marines_act = {
-	monarch_power = DIP
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = quality_ideas
@@ -1225,7 +1225,7 @@ trained_marines_act = {
 		full_idea_group = maritime_ideas
 	}
 	
-	global_sailors_modifier = 0.25
+	infantry_power = 0.1
 	movement_speed = 0.1
 
 	ai_will_do = {

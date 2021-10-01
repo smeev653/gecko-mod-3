@@ -271,7 +271,7 @@ edict_of_resistance = {
 }
 
 public_welfare_act = {
-	monarch_power = ADM
+	monarch_power = MIL
 	
 	
 
@@ -285,8 +285,8 @@ public_welfare_act = {
 		full_idea_group = economic_ideas
 	}
 
-	global_trade_goods_size_modifier = 0.1
-	defensiveness = 0.10
+	land_morale = 0.05
+	build_cost = -0.05
 	
 	ai_will_do = {
 		factor = 1
@@ -375,7 +375,7 @@ enforce_religious_law = {
 }
 
 the_tolerance_act = {
-	monarch_power = MIL
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = religious_ideas

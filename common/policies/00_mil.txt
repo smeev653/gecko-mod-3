@@ -155,7 +155,7 @@ horse_artillery = {
 }
 
 public_road_act = {
-	monarch_power = MIL
+	monarch_power = DIP
 	
 	potential = {
 		has_idea_group = offensive_ideas
@@ -234,8 +234,7 @@ modern_siege_weapons = {
 		full_idea_group = offensive_ideas
 	}
 	
-	siege_ability = 0.10
-	leader_siege = 1
+	shock_damage_received = -0.15
 
 	ai_will_do = {
 		factor = 1
@@ -726,7 +725,7 @@ autonomous_estates = {
 #}
 
 local_militias = {
-	monarch_power = DIP
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = influence_ideas
@@ -758,7 +757,7 @@ foreign_conscription_centers = {
 		full_idea_group = offensive_ideas
 	}	
 	
-	land_forcelimit_modifier = 0.2
+	land_forcelimit_modifier = 0.25
 	
 	ai_will_do = {
 		factor = 1
@@ -886,7 +885,7 @@ noble_loyalty_act = {
 #}
 
 nobles_in_navy_act = {
-	monarch_power = MIL
+	monarch_power = DIP
 	potential = {
 		has_idea_group = aristocracy_ideas
 		has_idea_group = maritime_ideas
