@@ -192,7 +192,8 @@ vassal = {
 	can_be_annexed = yes
 	has_power_projection = no
 	gets_help_with_rebels = yes
-	forms_trade_companies = no					   
+	forms_trade_companies = no
+	military_focus = 1.5	
 
 	max_government_rank = 1
 
@@ -213,6 +214,7 @@ vassal = {
 	sacrifice_heir = yes
 	divert_trade = yes
 	seize_territory = yes
+	siphon_income = yes
 
 	# Modifiers:
 	modifier_subject = {
