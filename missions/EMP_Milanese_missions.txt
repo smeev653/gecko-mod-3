@@ -42,13 +42,13 @@ emp_mlo_conquest_branch = {
 				}
 			}
 
-			#emilia_romagna_area = {
-			#	limit = {
-			#		NOT = { is_core = root }
-			#		NOT = { is_permanent_claim = root }
-			#	}
-			#	add_permanent_claim = root
-			#}
+			tuscany_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
 			liguria_area = {
 				limit = {
 					NOT = { is_core = root }
@@ -58,36 +58,10 @@ emp_mlo_conquest_branch = {
 			}
 		}
 	}
-	emp_mlo_emilia_romagna = {
-		icon = expand_to_the_south
-		position = 3
-		required_missions = { emp_mlo_subdue_genoa }
-		provinces_to_highlight = {
-			area = emilia_romagna_area
-			NOT = { country_or_non_sovereign_subject_holds = root }
-		}
-		trigger = {
-			emilia_romagna_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = root
-			}
-			is_subject = no
-		}
-		effect = {
-			add_adm_power = 50
 
-			tuscany_area = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
-				}
-				add_permanent_claim = root
-			}
-		}
-	}
 	emp_mlo_tuscany = {
 		icon = conquer_tuscany
-		required_missions = { emp_mlo_emilia_romagna }
+		required_missions = { emp_mlo_subdue_genoa }
 		provinces_to_highlight = {
 			area = tuscany_area
 			NOT = { country_or_non_sovereign_subject_holds = root }
@@ -114,11 +88,26 @@ emp_mlo_conquest_branch = {
 					}
 				}
 			}
+			piedmont_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			torino_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
 		}
 	}
 	emp_mlo_union_with_naples = {
 		icon = union_with_naples
 		required_missions = { emp_mlo_kingdom_of_lombardy }
+		position = 5
 		provinces_to_highlight = {
 			OR = {
 				province_id = 121
@@ -394,7 +383,7 @@ emp_mlo_venice_branch = {
 	}
 	emp_mlo_kingdom_of_lombardy = {
 		icon = kingdom_of_lombardy 
-		required_missions = { emp_mlo_terra_firma emp_mlo_emilia_romagna }
+		required_missions = { emp_mlo_terra_firma }
 		provinces_to_highlight = {
 			OR = {
 				area = lombardy_area
