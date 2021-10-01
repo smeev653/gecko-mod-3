@@ -87,9 +87,9 @@ italy_region = {
 		lazio_area
 		po_valley_area
 		western_sicily_area
-		krain_area
 		corsica_area
 		torino_area
+		carinthia_area
 	}
 }
 
@@ -128,7 +128,6 @@ south_german_region = {
 		tirol_area
 		austria_proper_area
 		inner_austria_area
-		carinthia_area
 		switzerland_area
 		lower_bavaria_area
 		upper_bavaria_area
@@ -141,6 +140,7 @@ south_german_region = {
 		romandie_area
 		palatinate_area
 		alsace_area
+		krain_area
 	}
 }
 
