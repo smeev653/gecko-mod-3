@@ -2062,7 +2062,7 @@ country_event = {
 		NOT = { has_disaster = janissary_decadence }
 		has_country_modifier = the_devshirme_system
 		num_of_cities = 50
-		has_country_flag = had_muslim_janissaries
+		#has_country_flag = had_muslim_janissaries
 		NOT = { has_country_flag = lapse_of_devshirme }
 	}
 	
