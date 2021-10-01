@@ -369,7 +369,7 @@ personal_union = {
 	can_concentrate_development = no								   
 
 	liberty_desire_negative_prestige = 1.0
-	military_focus = 0.66
+	military_focus = 1.5
 
 	relative_power_class = 1
 	should_quit_wars_on_activation = yes									   
