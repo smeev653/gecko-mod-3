@@ -141,7 +141,7 @@ non_coastal = {
 }
 
 coastal_sea = {
-	local_naval_engagement_modifier = 0.10
+	local_naval_engagement_modifier = 0.2
 }
 
 tropical = {
@@ -265,7 +265,7 @@ development = {
 	local_missionary_strength = -0.001
 	land_forcelimit	= 0.1			# special case, affected by autonomy
 	naval_forcelimit = 0.1			# special case, affected by autonomy & set to 0 by code if not port
-	local_sailors = 30			# special case, affected by autonomy & set to 0 by code if not port
+	local_sailors = 60			# special case, affected by autonomy & set to 0 by code if not port
 	province_trade_power_value = 0.2
 	local_amount_of_banners = 0.066
 }
@@ -639,18 +639,18 @@ bank_loan = {
 
 inflation = {
 	build_cost = 0.02						#1% for each inflation step.
-	infantry_cost = 0.01					#1% for each inflation step
-	cavalry_cost = 0.01						#1% for each inflation step
-	artillery_cost = 0.01					#1% for each inflation step
+	infantry_cost = 0.02					#1% for each inflation step
+	cavalry_cost = 0.02					#1% for each inflation step
+	artillery_cost = 0.02					#1% for each inflation step
 	heavy_ship_cost = 0.01					#1% for each inflation step
 	light_ship_cost = 0.01					#1% for each inflation step
 	galley_cost = 0.01						#1% for each inflation step
 	transport_cost = 0.01					#1% for each inflation step
 	flagship_cost = 0.01					#1% for each inflation step
-	advisor_cost = 0.01						#1% for each inflation step
+	advisor_cost = 0.02						#1% for each inflation step
 	mercenary_cost = 0.02					#1% for each inflation step
 	fort_maintenance_modifier = 0.01		#1% for each inflation step
-	mercenary_manpower = -0.03
+	mercenary_manpower = -0.01
 }
 
 bankruptcy = {
@@ -665,7 +665,7 @@ bankruptcy = {
 	advisor_cost = 0.5
 	monthly_fervor_increase = -1
 	global_colonial_growth = -200
-	global_autonomy = 0.05
+	#global_autonomy = 0.05
 	global_institution_spread = -0.50
 	monthly_militarized_society = -0.5
 	yearly_absolutism = -2.0
@@ -804,7 +804,7 @@ negative_piety = { #As of 1.23 Mysticism
 defender_of_faith = {
 	land_morale = 0.05
 	naval_morale = 0.05
-	technology_cost = 0.05
+	#technology_cost = 0.05
 	war_exhaustion = -0.025					#quicker recovery
 	papal_influence = 1
 	prestige = 1							#1% extra prestige yearly
@@ -900,7 +900,7 @@ devotion = {
 	papal_influence = 2
 	church_power_modifier = 0.25
 	prestige = 2
-	global_tax_modifier = 0.50
+	global_tax_modifier = 0.25
 	church_loyalty_modifier = 0.05
 	brahmins_hindu_loyalty_modifier = 0.05
 }
@@ -1116,7 +1116,7 @@ production_leader = {
 
 
 trade_company_bonus = {
-	trade_goods_size_modifier = 1.0
+	trade_goods_size_modifier = 0.5
 }
 
 bonus_from_merchant_republics = {
@@ -1190,7 +1190,7 @@ high_army_professionalism = {
 }
 
 streltsy_modifier = {
-	stability_cost_modifier = 1.0
+	stability_cost_modifier = 0.5
 }
 
 power_projection = {
@@ -1213,8 +1213,7 @@ trade_company_strong = {
 	merchants = 1
 }
 
-trade_company_dominant = {
-}
+
 
 
 large_colonial_nation = {
@@ -1600,7 +1599,7 @@ hanafi_scholar_modifier = {
 	religion = yes
 	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
 	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	adm_tech_cost_modifier = -0.05
+	adm_tech_cost_modifier = -0.1
 }
 
 hanbali_scholar_modifier = {
@@ -1682,7 +1681,7 @@ revolutionary_guard_regiment = {
 }
 
 innovativeness = {
-	all_power_cost	= -0.1
+	all_power_cost	= -0.2
 	army_tradition_decay = -0.01
 	navy_tradition_decay = -0.01
 }
@@ -1744,7 +1743,7 @@ expanded_infrastructure = {
 }
 
 centralize_state = {
-	state_governing_cost_increase = 0
+	state_governing_cost_increase = -20
 	picture = "centralize_state"
 }
 
