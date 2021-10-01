@@ -2904,7 +2904,7 @@ janissaries_denied_reward = {
 
 strictly_enforced_janissary_discipline = {
 	is_janissary_modifier = yes
-	discipline = 0.015
+	discipline = 0.1
 }
 
 non_christian_janissaries = {
