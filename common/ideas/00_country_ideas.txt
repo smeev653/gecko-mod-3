@@ -1758,7 +1758,7 @@ HSA_ideas = {
 
 MLO_ideas = {
 	start = {
-		infantry_power = 0.10
+		infantry_power = 0.15
 		diplomatic_upkeep = 1
 	}
 	
