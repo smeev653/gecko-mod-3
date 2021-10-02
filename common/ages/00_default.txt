@@ -201,7 +201,7 @@ age_of_discovery = {
 		ab_denmark_reduced_lib_desire = {
 		
 			allow = {
-				tag = DAN
+				tag = HSA
 			}
 			modifier = {
 				galley_power = 0.2
