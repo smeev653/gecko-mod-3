@@ -2098,6 +2098,7 @@ ITA_ideas = {
 	}
 	tradition_of_the_legion = {
 		infantry_power = 0.15
+		discipline = 0.05
 	}
 	mare_nostrum = {
 		galley_cost = -0.15
