@@ -126,6 +126,7 @@ categories =  {
 			424 #mugan plain #smeev
 			4728 #pavia 
 			105
+			4729
 		}		
 	}
 	
@@ -174,7 +175,7 @@ categories =  {
 			508 509 511 515 525 527 530 545 550 554 557 1947 2036 
 			2037 2040 2043 2056 2058 2069 2070 2071 2080 2090 2092 2097
 			
-			106 107 111 1774 1844 1746 4739
+			106 107 1774 1844 1746 4739
 			
 			1827 63
 			
@@ -481,7 +482,7 @@ categories =  {
 
 		movement_cost = 1.0
 		defence = 1
-		local_development_cost = 0.15
+		local_development_cost = 0.1
 		nation_designer_cost_multiplier = 0.85
 		supply_limit = 5
 
@@ -505,6 +506,7 @@ categories =  {
 			88 #artois smeev
 			408 2311 4288 4290 #iraq marshes #smeev
 			87 #calais #smeev
+			111
 		}
 	}
 	

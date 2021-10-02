@@ -1196,11 +1196,11 @@ bosnia_area = { #5
 
 croatia_area = { #4
 	color = { 18 126 16 }
-	131 1826 4752
+	131 1826 4752 1828 
 }
 
 slavonia_area = { #4
-	152 4756 1767 4173 1828 
+	152 4756 1767 4173
 }
 
 east_adriatic_coast_area = { #4
