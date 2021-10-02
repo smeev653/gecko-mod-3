@@ -550,7 +550,7 @@ emp_mlo_security_branch = {
 			any_ally = {
 				army_strength = {
 					who = root
-					value = 1.65
+					value = 1.25
 				}
 			}
 			calc_true_if = {
@@ -581,7 +581,7 @@ emp_mlo_security_branch = {
 					tooltip = emp_mlo_ambrosian_republic_mission_trigger_tooltip
 					has_country_flag = ambrosian_republic_completely_resolved
 				}
-				is_year = 1550
+				is_year = 1460
 			}
 			legitimacy_equivalent = 75
 		}
@@ -997,7 +997,7 @@ emp_mlo_security_branch_2 = {
 						province_id = 110
 						province_id = 111
 					}
-					has_building = fort_18th
+					has_building = fort_15th
 				}
 				add_province_modifier = {
 					name = mlo_expanded_fortifications
