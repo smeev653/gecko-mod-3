@@ -268,18 +268,12 @@ tr_russia_conquest_1 = {
 					add_permanent_claim = ROOT
 				}
 			}
-			if = {
+			laponia_area = {
 				limit = {
-					1777 = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
-					}
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
 				}
-				1777 = {
-					add_permanent_claim = ROOT
-				}
+				add_permanent_claim = ROOT
 			}
 			if = {
 				limit = {
@@ -329,6 +323,7 @@ tr_russia_conquest_1 = {
 				area = pomor_area
 				area = north_karelia
 				area = arkhangelsk_area
+				area = laponia_area
 				province_id = 4148
 				province_id = 1777
 				province_id = 33
@@ -363,7 +358,8 @@ tr_russia_conquest_1 = {
 			4148 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			1777 = {
+			laponia_area = {
+				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			33 = {
