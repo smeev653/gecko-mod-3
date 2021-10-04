@@ -1491,15 +1491,15 @@ MAM_ideas = {
 		global_trade_power = 0.10
 		trade_range_modifier = 0.10
 	}
-	monuments_to_greatness = {
-		prestige = 1
-		development_cost = -0.05
+	mam_army_reform = {
+		discipline = 0.05
 	}
 	purchase_new_mamelukes = {
 		manpower_recovery_speed = 0.2
 	}
-	mam_army_reform = {
-		discipline = 0.05
+	monuments_to_greatness = {
+		prestige = 1
+		development_cost = -0.05
 	}
 	reform_fellah_system = {
 		production_efficiency = 0.15
