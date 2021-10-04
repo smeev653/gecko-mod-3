@@ -1295,7 +1295,7 @@ cukurova_area = { #3
 }
 
 aleppo_area = { #4
-	377 1849 2313 4298 2308
+	377 1849 2313 4298
 }
 
 syria_area = { #4
@@ -1312,7 +1312,7 @@ palestine_area = { #3
 
 dulkadir_area = { # 4
 	color = { 184 54 72 }
-	332 2303 4310
+	332 2303 4310 2308
 }
 
 iraq_arabi_area = { #5 Lower Mesopotamia
@@ -1343,7 +1343,7 @@ shahrizor_area = {	#4
 
 al_jazira_area = { #5
 	color = { 92 200 92 }
-	 411 2309 2314 
+	 411 2309 2314 407 4292
 }
 
 
@@ -1423,7 +1423,7 @@ mascat_area = { #3 (Batinah and Muscat coast
 
 syrian_desert_area = { #3
 	color = { 219 30 57 } 
-	405 4270 4271 407 4292
+	405 4270 4271
 }
 
 ########################################
