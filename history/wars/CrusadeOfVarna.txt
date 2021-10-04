@@ -15,6 +15,7 @@ war_goal = {
 	add_attacker = VEN
 	add_attacker = PAP
 #	add_attacker = KAR
+	add_attacker = MAM
 	add_defender = TUR
 }
 
@@ -53,5 +54,6 @@ war_goal = {
 	rem_attacker = WAL
 	rem_attacker = VEN
 	rem_attacker = PAP
+	rem_attacker = MAM
 	rem_defender = TUR
 }
