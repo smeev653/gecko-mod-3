@@ -844,6 +844,9 @@ gecko_mam_branch_4 = {
 			sennar_area = {
 				add_permanent_claim = ROOT
 			}
+			red_sea_coast_area = {
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 

@@ -36,8 +36,6 @@ country_decisions = {
 				area = lower_nubia_area
 				area = dongola_area
 				area = upper_nubia_area
-				area = sennar_area
-				area = kurdufan_area
 				area = darfur_central_sahara_area
 				area = red_sea_coast_area
 				area = medina_area
@@ -63,8 +61,6 @@ country_decisions = {
 			lower_nubia_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
 			dongola_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
 			upper_nubia_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
-			sennar_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
-			kurdufan_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
 			darfur_central_sahara_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
 			red_sea_coast_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
 			medina_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
