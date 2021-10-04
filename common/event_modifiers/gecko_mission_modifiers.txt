@@ -78,3 +78,17 @@ adler_von_lubeck_modifier = {
 	naval_morale = 0.1
 	naval_maintenance_modifier = -0.10
 }
+
+mam_african_market = {
+	merchants = 1
+	trade_steering = 0.33
+}
+
+mam_slave_soldiers = {
+	local_manpower_modifier = 0.33
+}
+
+ethiopian_integration = {
+	local_unrest = -2
+	local_autonomy = -0.1
+}

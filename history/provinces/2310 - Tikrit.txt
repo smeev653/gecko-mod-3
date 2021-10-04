@@ -21,12 +21,11 @@ discovered_by = indian
 discovered_by = nomad_group
 
 
-1405.1.1 = {
-	owner = IRQ
-	controller = IRQ
-	add_core = IRQ
-	remove_core = TIM
-} # The Qara Koyunlu
+1443.2.4 = {
+	owner = AKK
+	controller = AKK
+	add_core = AKK
+}
 1469.2.4 = {
 	owner = AKK
 	controller = AKK

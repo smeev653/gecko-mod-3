@@ -21,9 +21,10 @@ discovered_by = east_african
 
 add_province_triggered_modifier = religious_center
 
-1447.1.1 = {
-	owner = MSY
-	controller = MSY
+1443.2.4 = {
+	owner = AKK
+	controller = AKK
+	add_core = AKK
 }
 1508.1.1 = {
 	owner = PER

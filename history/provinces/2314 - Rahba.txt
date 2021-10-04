@@ -19,12 +19,11 @@ discovered_by = nomad_group
 discovered_by = east_african
 fort_15th = yes
 
-#1411.1.1 = {
-#	owner = QAR
-#	controller = QAR
-#	add_core = QAR
-#	add_claim = MAM
-#} # The Qara Koyunlu
+1443.2.4 = {
+	owner = AKK
+	controller = AKK
+	add_core = AKK
+}
 1469.2.4 = {
 	owner = AKK
 	controller = AKK

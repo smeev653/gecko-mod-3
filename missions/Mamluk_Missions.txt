@@ -200,43 +200,7 @@ mam_north_missions = {
 				name = "bedouins_pacified"
 				duration = 7300
 			}
-			aleppo_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			327 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-			2302 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-			karaman_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			dulkadir_area = {
+			anatolia_region = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
@@ -249,33 +213,10 @@ mam_north_missions = {
 		icon = mission_non-western_soldiers
 		required_missions = { mam_pacify_bedouins }
 		provinces_to_highlight = {
-			OR = {
-				area = aleppo_area
-				area = karaman_area
-				area = dulkadir_area
-				province_id = 327
-				province_id = 2302
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+				region = anatolia_region
 		}
 		trigger = {
-			aleppo_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			327 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			2302 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			karaman_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			dulkadir_area = {
+			anatolia_region = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -284,27 +225,6 @@ mam_north_missions = {
 			add_country_modifier = {
 				name = "beyliks_subjugated"
 				duration = 7300
-			}
-			erzurum_area = {
-				limit = {
-					NOT = { is_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_claim = ROOT
-			}
-			armenia_area = {
-				limit = {
-					NOT = { is_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_claim = ROOT
-			}
-			north_kurdistan_area = {
-				limit = {
-					NOT = { is_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_claim = ROOT
 			}
 		}
 	}
@@ -345,7 +265,10 @@ gecko_mam_branch_1 = {
 			}
 		}
 		effect = {
-			
+			add_country_modifier = {
+				name = "mam_african_market"
+				duration = -1
+			}
 		}
 	}
 }
@@ -476,7 +399,54 @@ gecko_mam_branch_2 = {
 			}
 		}
 		effect = {
-			#Maybe autonomie reward?
+				hadiya_area = {
+					add_province_modifier = {
+						name = ethiopian_integration
+						duration = 7300
+					}
+				}
+				shewa_area = {
+					add_province_modifier = {
+						name = ethiopian_integration
+						duration = 7300
+					}
+				}
+				southern_ethiopia_area = {
+					add_province_modifier = {
+						name = ethiopian_integration
+						duration = 7300
+					}
+				}
+				ifat_area = {
+					add_province_modifier = {
+						name = ethiopian_integration
+						duration = 7300
+					}
+				}
+				central_ethiopia_area = {
+					add_province_modifier = {
+						name = ethiopian_integration
+						duration = 7300
+					}
+				}
+				damot_area = {
+					add_province_modifier = {
+						name = ethiopian_integration
+						duration = 7300
+					}
+				}
+				aussa_area = {
+					add_province_modifier = {
+						name = ethiopian_integration
+						duration = 7300
+					}
+				}
+				tigray_area = {
+					add_province_modifier = {
+						name = ethiopian_integration
+						duration = 7300
+					}
+				}
 		}
 	}
 
@@ -491,6 +461,7 @@ gecko_mam_branch_2 = {
 		}
 		trigger = {
 			1210 = {
+				owned_by = MAM
 				OR = {
 					has_building = fort_15th
 					has_building = fort_16th
@@ -500,7 +471,38 @@ gecko_mam_branch_2 = {
 			}
 		}
 		effect = {
-			#Event to colonize ID 1207 & 2779
+			1798 = {
+				cede_province = MAM
+				add_core = MAM
+			}
+			1799 = {
+				cede_province = MAM
+				add_core = MAM
+			}
+			2779 = {
+				cede_province = MAM
+				add_core = MAM
+			}
+			1207 = {
+				cede_province = MAM
+				add_core = MAM
+			}
+			4053 = {
+				cede_province = MAM
+				add_core = MAM
+			}
+			4075 = {
+				cede_province = MAM
+				add_core = MAM
+			}
+			4052 = {
+				cede_province = MAM
+				add_core = MAM
+			}
+			4051 = {
+				cede_province = MAM
+				add_core = MAM
+			}
 		}
 	}
 }
@@ -651,7 +653,10 @@ gecko_mam_branch_3 = {
 			}
 		}
 		effect = {
-			
+		add_country_modifier = {
+				name = "ara_gen_goods_mod"
+				duration = 7300
+			}	
 		}
 	}
 
@@ -706,7 +711,54 @@ gecko_mam_branch_3 = {
 			}
 		}
 		effect = {
-			#Mil buff
+			774 = {
+				add_province_modifier = {
+						name = mam_slave_soldiers
+						duration = -1
+					}
+			}
+			1219 = {
+				add_province_modifier = {
+						name = mam_slave_soldiers
+						duration = -1
+					}
+			}
+			2801 = {
+				add_province_modifier = {
+						name = mam_slave_soldiers
+						duration = -1
+					}
+			}
+			1221 = {
+				add_province_modifier = {
+						name = mam_slave_soldiers
+						duration = -1
+					}
+			}
+			2800 = {
+				add_province_modifier = {
+						name = mam_slave_soldiers
+						duration = -1
+					}
+			}
+			1216 = {
+				add_province_modifier = {
+						name = mam_slave_soldiers
+						duration = -1
+					}
+			}		
+			2799 = {
+				add_province_modifier = {
+						name = mam_slave_soldiers
+						duration = -1
+					}
+			}
+			1217 = {
+				add_province_modifier = {
+						name = mam_slave_soldiers
+						duration = -1
+					}
+			}
 		}
 	}
 
@@ -772,7 +824,18 @@ gecko_mam_branch_3 = {
 			}
 		}
 		effect = {
-			
+			ogaden_area = {
+				add_permanent_claim = ROOT
+			}
+			mogadishu_area = {
+				add_permanent_claim = ROOT
+			}
+			ajuuran_area = {
+				add_permanent_claim = ROOT
+			}
+			majarteen_area = {
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 
@@ -783,6 +846,9 @@ gecko_mam_branch_3 = {
 		provinces_to_highlight = {
 			OR = {
 				area = mogadishu_area
+				area = ogaden_area
+				area = ajuuran_area
+				area = majarteen_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -791,9 +857,27 @@ gecko_mam_branch_3 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
+			ogaden_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			ajuuran_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			majarteen_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
-			
+			east_africa_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 }

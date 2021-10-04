@@ -20,10 +20,10 @@ discovered_by = east_african
 
 add_province_triggered_modifier = religious_center
 
-1469.2.4 = {	owner = AKK
+1443.2.4 = {
+	owner = AKK
 	controller = AKK
 	add_core = AKK
-	remove_core = QAR
 }
 1496.2.8 = { controller = REB revolt = { type = pretender_rebels size = 0 name = "Muhammad's Faction" leader = "Muhammad Ak Koyunlu" } } # Civil war in Ak Koyunlu
 1501.7.1 = { controller = AKK revolt = { } }
