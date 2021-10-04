@@ -561,39 +561,8 @@ emp_ven_slot_5 = {
 		effect = {
 			add_mercantilism = 2
 			add_dip_power = 100
-			137 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-			4752 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-			1826 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
+				
+			
 			321 = {
 				if = {
 					limit = {
@@ -769,9 +738,6 @@ emp_ven_slot_5 = {
 		provinces_to_highlight = {
 				superregion = india_superregion
 			}
-			is_sea = no
-			NOT = { owned_by = ROOT }
-			has_discovered = ROOT
 		
 		trigger = {
 			calc_true_if = {
