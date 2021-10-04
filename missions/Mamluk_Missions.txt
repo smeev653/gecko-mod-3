@@ -900,61 +900,9 @@ gecko_mam_branch_4 = {
 			}
 		}
 		effect = {
-			2346 = { add_permanent_claim = ROOT }
-			4279 = { add_permanent_claim = ROOT }
-			yemen_area = {
+			somaliland_area = {
 				add_permanent_claim = ROOT
 			}
-			hadramut_area = {
-				add_permanent_claim = ROOT
-			}
-			upper_yemen_area = {
-				add_permanent_claim = ROOT
-			}
-			asir_area = {
-				add_permanent_claim = ROOT
-			}
-		}
-	}
-
-	gecko_mam_mission_15 = {
-		icon = mission_egyptian_mamluk_soldier
-		position = 6
-		required_missions = { gecko_mam_mission_14 }
-		provinces_to_highlight = {
-			OR = {
-				area = yemen_area
-				area = hadramut_area
-				area = upper_yemen_area
-				area = asir_area
-				area = tihama_al_yemen_area
-			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-		trigger = {
-			yemen_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			hadramut_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			upper_yemen_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			asir_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			tihama_al_yemen_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			
 		}
 	}
 }
