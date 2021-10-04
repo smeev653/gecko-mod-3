@@ -414,6 +414,7 @@ iqta = {
 	allow_normal_conversion = yes
 	potential = {
 		religion_group = muslim
+		NOT = {tag = SON}
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 10
