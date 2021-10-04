@@ -1476,7 +1476,7 @@ anti_heresy_act = {
 	}
 	
 	global_tax_modifier = 0.2
-	infantry_cost = -0.15
+	regiment_cost = -0.10
 
 	ai_will_do = {
 		factor = 1
