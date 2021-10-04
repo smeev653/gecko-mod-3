@@ -2336,7 +2336,7 @@ NOV_ideas = {
 ETH_ideas = {
 	start = {
 		global_autonomy = -0.05
-		land_attrition = -0.20
+		infantry_power = 0.1
 	}
 	
 	bonus = {
@@ -2368,7 +2368,8 @@ ETH_ideas = {
 		core_creation = -0.10
 	}
 	eth_reformed_armies = {
-		infantry_power = 0.1
+		
+		land_attrition = -0.20
 	}
 }
 
