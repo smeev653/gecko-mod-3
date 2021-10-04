@@ -33,3 +33,11 @@
  desc_kaiser_of_europe:0 "Vienna is ours. Europe must recognise our supremacy."
  third_rome:0 "The Third Rome"
  desc_third_rome:0 "We have conquered the City of World's Desire. This achievement has provided our armies with unrelenting fervour for the Russian state."
+
+ #Mamluks
+ mam_slave_soldiers:0 "Gihadiya Conscription"
+ desc_mam_slave_soldiers:0 "We have conquered the Sudan and enlisted their warriors into our regiments in return for them keeping their domains."
+ ethiopian_integration:0 "Ethiopian Integration"
+ desc_ethiopian_integration:0 "We have begun to install a new administration in Ethiopia."
+ mam_african_market:0 "African Market"
+ desc_mam_african_market:0 "We have conquered the narrow passage to the Sahel. Let our traders follow the flow of trade."
