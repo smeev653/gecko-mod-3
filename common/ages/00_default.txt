@@ -97,7 +97,10 @@ age_of_discovery = {
 		obj_humiliate_rival = {
 			custom_trigger_tooltip = {
 				tooltip = obj_humiliate_rival_tooltip
-				has_country_flag = humiliated_rival
+				OR = {
+					has_country_flag = humiliated_rival
+					has_country_flag = gecko_show_strength
+				}
 			}
 		}
 	}		
@@ -107,7 +110,20 @@ age_of_discovery = {
 	
 	
 	abilities = {
-		
+		ab_allow_feudal_de_jure_law = {
+			effect = {
+				custom_tooltip = feudal_de_jure_law
+				set_country_flag = feudal_de_jure_law
+			}
+			modifier = {
+				war_exhaustion = -0.03
+				global_autonomy = -0.05
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
 		ab_attack_bonus_in_capital_terrain = {
 		rule = {
 			attack_bonus_in_capital_terrain = yes
@@ -236,7 +252,6 @@ age_of_discovery = {
 			}
 		}
 		songhai_timbuktu_university = {
-		
 			allow = {
 					tag = SON
 				}	
@@ -247,8 +262,8 @@ age_of_discovery = {
 					factor = 100
 				}
 		}
-		
-		ab_allow_feudal_de_jure_law = {
+
+		ab_hungary_fort_defense = {
 			allow = {
 				tag = HUN
 			}
