@@ -1546,7 +1546,7 @@ sicily={
 			1307 1310 1309
 			}
 			control={
-			3080.500000 1356.000000 3031.000000 1383.000000 
+			3031.000000 1383.000000 
 			}
 		}
 		outgoing={
@@ -2096,7 +2096,27 @@ valencia={
 	}
 }
 
-
+sevilla={
+	location=1293
+	color={
+		57 160 101 
+	}
+		outgoing={
+		name="bordeaux"
+		path={
+			1745
+		}
+		control={
+		2718.000000 1276.000000 2746.000000 1320.000000 2739.500000 1387.500000
+		}
+	}
+	members={
+		206 207 208 1746 215 216 231 232 1293 217 218 219 221 222 223 224 225 226 227 228 229 230 334 335 367 1745 1747 1748 1749 1751 1851 2754 2755 2751 4150 
+		4546 4547 4548 4551 4552 4553 4554 4555 4556 4558
+		4561 4563 368 366 4565 4787 4788 4789
+		209 210 2989 #basque_country #smeev
+	}
+}
 bordeaux={
 	location=1276
 	color={
@@ -2120,15 +2140,7 @@ bordeaux={
 			2850.000000 1387.000000 2903.300000 1390.000000 
 		}
 	}
-	outgoing={
-		name="sevilla"
-		path={
-			1745
-		}
-		control={
-			2739.500000 1387.500000 2746.000000 1320.000000 2718.000000 1276.000000 
-		}
-	}
+
 	members={
 		1276 #Water 
 		190 195 199 # massif_central_area
@@ -2142,6 +2154,39 @@ bordeaux={
 		173 #labourd
 	}
 }
+genua={
+	location=1298
+	color={
+		218 215 56 
+	}
+		outgoing={
+		name="venice"
+		path={
+			2980
+		}
+		control={
+			2965.000000 1397.000000 2998.000000 1414.300000 
+		}
+		}
+	members={
+		1298 #Sea
+		#124 125 126 2982 #sicily_area
+		115 116 117 2978 2980 #tuscany_area
+		#123 1934 2984 #calabria_area
+		101 102 2992 #liguria_area
+		103 1875 2981 #piedmont_area
+		1247
+		4727 # also new for 1.30, but this time it's in Italy
+		118 2976 4731 4732 # lazio-umbria
+		#121 2983 4734 # campania
+		104 1862 2979 4728 4740 # Lombardy
+		5781 5782 5783 5785 	#abaitaly
+		5787 105
+	}
+
+}
+
+
 
 champagne={
 	location=186
@@ -2176,61 +2221,8 @@ champagne={
 
 
 
-genua={
-	location=1298
-	color={
-		218 215 56 
-	}
-		outgoing={
-		name="venice"
-		path={
-			2980
-		}
-		control={
-			2965.000000 1397.000000 2998.000000 1414.300000 
-		}
-		}
-		outgoing={
-		name="sevilla"
-		path={
-			1302
-		}
-		control={
-			2950.000000 1308.000000 2857.500000 1284.000000 2777.500000 1247.500000
-		}
-		}
-	members={
-		1298 #Sea
-		#124 125 126 2982 #sicily_area
-		115 116 117 2978 2980 #tuscany_area
-		#123 1934 2984 #calabria_area
-		101 102 2992 #liguria_area
-		103 1875 2981 #piedmont_area
-		1247
-		4727 # also new for 1.30, but this time it's in Italy
-		118 2976 4731 4732 # lazio-umbria
-		#121 2983 4734 # campania
-		104 1862 2979 4728 4740 # Lombardy
-		5781 5782 5783 5785 	#abaitaly
-		5787 105
-	}
 
-}
 
-sevilla={
-	location=1293
-	color={
-		57 160 101 
-	}
-	end=yes
-	
-	members={
-		206 207 208 1746 215 216 231 232 1293 217 218 219 221 222 223 224 225 226 227 228 229 230 334 335 367 1745 1747 1748 1749 1751 1851 2754 2755 2751 4150 
-		4546 4547 4548 4551 4552 4553 4554 4555 4556 4558
-		4561 4563 368 366 4565 4787 4788 4789
-		209 210 2989 #basque_country #smeev
-	}
-}
 venice={
 	location=1308
 	color={
