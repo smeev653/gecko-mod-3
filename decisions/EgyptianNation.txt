@@ -36,7 +36,6 @@ country_decisions = {
 				area = lower_nubia_area
 				area = dongola_area
 				area = upper_nubia_area
-				area = darfur_central_sahara_area
 				area = red_sea_coast_area
 				area = medina_area
 				area = mecca_area
@@ -48,7 +47,7 @@ country_decisions = {
 		}
 		allow = {
 			capital = 361 # Cairo
-			#adm_tech = 10
+			adm_tech = 8
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
@@ -61,7 +60,6 @@ country_decisions = {
 			lower_nubia_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
 			dongola_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
 			upper_nubia_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
-			darfur_central_sahara_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
 			red_sea_coast_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
 			medina_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
 			mecca_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }	
