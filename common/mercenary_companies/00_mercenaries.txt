@@ -229,10 +229,6 @@ merc_hessian_jaegerkorps = {
 			tag = HES
 			tag = HSA
 		}
-		custom_trigger_tooltip = {
-			tooltip = new_mercs_tt
-			has_global_flag = new_european_mercs
-		}
 	}
 	modifier = {
 		fire_damage_received = -0.1
