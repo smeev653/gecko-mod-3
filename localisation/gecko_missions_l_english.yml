@@ -65,5 +65,8 @@ Mimar_Sinan's_Great_Constructions_title:0 "Mimar Sinan's Great Constructions"
 Mimar_Sinan's_Great_Constructions_desc:0 "Mimar Sinan planned and oversaw the construction of countless mosques, aqueducts, bathhouses, bridges, palaces, caravanserais and schools during his half-a-century long career. His masterpieces were the Selimiye and Suleymaniye Mosques in Adrianople and Constantinople respectively."
 Expansion_of_the_Royal_Bureaucracy_title:0 "Expansion of the Royal Bureaucracy"
 Expansion_of_the_Royal_Bureaucracy_desc:0 "Süleyman I was probably the greatest of the Ottoman Sultans. Called Kanuni (Lawgiver), he was an unsurpassed administrator who realized that the power of the provincial Beys had to be curbed by a strong central government. Thus he struggled to promote a powerful royal bureaucracy which was not popular in all camps..."
-por_discovers_horn_africa_title:0 "Discover the Kingdom of Prester John"
-por_discovers_horn_africa_desc:0 " "
+
+#Portuguese Missions
+
+gc_por_discovers_prestor_john_title:0 "Find Prester John"
+gc_por_discovers_prestor_john_desc:0 " "

@@ -1020,8 +1020,8 @@ gc_por_4 = {
 		}
 	}
 	
-	gc_por_discovers_horn_africa = {
-		icon = mission_establish_high_seas_navy
+	gc_por_discovers_prestor_john = {
+		icon = mission_into_africa
 		required_missions = { gc_por_discovers_cape_good_hope }
 		completed_by = 1535.1.1
 		position = 4
@@ -1050,14 +1050,14 @@ gc_por_4 = {
 				add_permanent_claim = ROOT
 			}
 			add_country_modifier = {
-			name = prester_john_discovered
-			duration = -1
-		}
+				name = prester_john_discovered
+				duration = -1
+			}
 		}
 	}
 	gc_portugal_discovers_india = {
 		icon = mission_trade_company_region_abroad
-		required_missions = { gc_por_discovers_horn_africa }
+		required_missions = { gc_por_discovers_prestor_john }
 		completed_by = 1536.1.1
 		
 		trigger = {
@@ -1215,7 +1215,7 @@ gc_por_5 = {
 	}
 	gc_por_conquers_hormuz = {
 		icon = mission_persian_soldiers
-		required_missions = { gc_por_discovers_horn_africa }
+		required_missions = { gc_por_discovers_prestor_john }
 		position = 5
 		completed_by = 1508.1.1
 		
