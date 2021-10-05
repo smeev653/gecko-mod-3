@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = iqta
+add_government_reform = plutocracy
 primary_culture = swahili
 religion = sunni
 technology_group = east_african
@@ -12,8 +12,8 @@ religious_school = shafii_school
 	monarch = {
 		name = "Ismâ'îl"
 		dynasty = "al-Mawahib"
-		adm = 3
-		dip = 1
+		adm = 4
+		dip = 4
 		mil = 4
 	}
 }
