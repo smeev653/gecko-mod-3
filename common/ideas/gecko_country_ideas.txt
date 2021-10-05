@@ -97,6 +97,7 @@ GZM_ideas = { #Great Zimbabwe Empire
 	
 	GZM_legacy_of_zimbabwe = {
 		build_cost = -0.10
+		inflation_reduction = 0.1
 	}
 	rzw_discipline_and_traning = {
 		discipline = 0.05
@@ -105,7 +106,7 @@ GZM_ideas = { #Great Zimbabwe Empire
 		fire_damage_received = -0.1
 	}
 	GZM_4 = {
-		infantry_shock = 1
+		infantry_shock = 0.5
 		infantry_power = 0.10
 	}
 	GZM_5 = { 

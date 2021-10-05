@@ -92,3 +92,13 @@ ethiopian_integration = {
 	local_unrest = -2
 	local_autonomy = -0.1
 }
+
+anatolia_eyalet = {
+	cavalry_cost = -0.1
+	manpower_recovery_speed = 0.2
+}
+
+beyliks_subjugated = {
+	land_morale = 0.1
+	cavalry_cost = -0.1
+}
