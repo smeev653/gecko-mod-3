@@ -373,8 +373,12 @@ gc_por_2 = {
 				tradition = 60
 			}
 			add_dip_power = 60
-			add_permanent_claim = {
-				area = coastal_kongo
+			coastal_kongo = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
 			}
 		}
 	}
@@ -737,6 +741,10 @@ gc_por_3_c = {
 				cede_province = POR
 				add_core = POR
 			}
+			add_country_modifier = {
+					name = "cape_trade_established"
+					duration = -1
+				}
 		}
 	}
 	gc_por_discovers_east_africa = {
@@ -1009,27 +1017,6 @@ gc_por_4 = {
 		}
 		effect = {
 			add_navy_tradition = 20
-			leon_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			extremadura_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			lower_andalucia_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
 		}
 	}
 	
