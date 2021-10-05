@@ -40,6 +40,7 @@ Minor = {
 		was_player = yes
 		NOT = { is_emperor = yes }
 		NOT = {tag = MOS }
+		NOT = { is_colonial_nation = yes }	
 	}
 	advisor_cost = -0.15
 	advisor_pool = 1
