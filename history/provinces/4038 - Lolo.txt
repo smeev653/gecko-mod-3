@@ -1,11 +1,11 @@
-#Lomwe
+#Lolo
 
 owner = ZAN
 controller = ZAN
 add_core = ZAN
-culture = makua
+culture = nyasa
 religion = shamanism #Fetishism
-capital = "Lomwe"
+capital = "Lolo"
 is_city = yes
 base_manpower = 1
 trade_goods = ivory
@@ -16,10 +16,15 @@ add_local_autonomy = 40
 discovered_by = central_african
 discovered_by = east_african
 
-
-1572.1.1 = { discovered_by = POR } #Start of Portuguese Interaction with the Maravis north of the Zambezi
-1735.1.1 = {
-	owner = MKU
-	controller = MKU
-	add_core = MKU
+1531.1.1 = { discovered_by = POR }
+1572.1.1 = {
+	owner = LDU
+	controller = LDU
+	add_core = LDU
+}
+1630.1.1 = {
+	owner = MRA
+	controller = MRA
+	add_core = MRA
+	remove_core = LDU
 }
