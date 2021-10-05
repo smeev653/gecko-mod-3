@@ -78,6 +78,8 @@ merc_morlachs = {
     home_province = 1826
 	sprites = { easterngfx_sprite_pack }
     trigger = {
+		NOT = { has_country_modifier = hun_black_army }
+		religion_group = christian
 		OR = {
 			any_owned_province = {
 				region = balkan_region
@@ -750,6 +752,7 @@ merc_novgorod_company = {
     home_province = 310 # Novogorod
 	sprites = { dlc020_nov_sprite_pack rus_base_sprite_pack easterngfx_sprite_pack }
 	trigger = {
+		NOT = { has_country_modifier = hun_black_army }
 		capital_scope = { superregion = eastern_europe_superregion }
 	}
     modifier = { shock_damage_received = -0.15 }
@@ -903,7 +906,7 @@ merc_miquelet_company = {
 merc_free_swiss_guard = {
     regiments_per_development = 0.025
     home_province = 165 # Bern
-	cost_modifier = 1.5
+	cost_modifier = 1
 	sprites = { westerngfx_sprite_pack }
     trigger = { 
 		OR = {
@@ -923,7 +926,6 @@ merc_free_swiss_guard = {
         discipline = 0.05
 	}
 }
-
 merc_independent_cossack_host = {
     regiments_per_development = 0.05
     home_province = 283 # Zaporozhia
@@ -932,6 +934,7 @@ merc_independent_cossack_host = {
 	#cavalry_cap = 6
 	sprites = { dlc047_zaz_sprite_pack easterngfx_sprite_pack }
 	trigger = {
+		NOT = { has_country_modifier = hun_black_army }
 		OR = {
 			has_estate = estate_cossacks
 			has_reform = cossacks_reform
