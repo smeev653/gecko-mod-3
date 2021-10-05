@@ -734,7 +734,6 @@ on_new_monarch = {
 	sheik_ul_islam_effect = yes
 	hab_remove_mission_mods_if_not_emperor_effect = yes
 	thu_remain_von_wettin_effect = yes
-	ladislaus_postumus_union_effect = yes
 	events = {
 		tribal_succession.1		# Harsh anti-tribals.
 		9492 					# Remove some event modifiers
@@ -747,7 +746,6 @@ on_new_monarch = {
 		flavor_ori.7			# Hamvira Victorious
 		flavor_kbo.1			# The two branches of the Sayfawa dynasty
 		flavor_kbo.8			# Sayfawa pretenders
-		flavor_zan.5			# Coup of Coup of Suleiman and Muhammad al-Mazlum.
 		purple_phoenix.1		# BYZ pretenders
 		flavor_pol.3480			# The Pacta Conventa
 		protestantism_events.15	# Catholic Leaning Monarch
@@ -827,7 +825,6 @@ on_monarch_death = {
 		clr_country_flag = sax_thuringen_split_to_happen
 	}
 	burgundian_inheritance_start_effect = yes
-	ladislaus_postumus_king_died_effect = yes
 	events = {
 		flavor_wal.1 # Vlad the Impaler. So that he doesn't try to usurp his father.
 		flavor_nav.4 # Navarra succession event
@@ -961,7 +958,6 @@ on_heir_death = {
 		limit = { has_ruler_flag = returned_from_sancaga_sikma_province }
 		clr_ruler_flag = returned_from_sancaga_sikma_province
 	}
-	ladislaus_postumus_heir_died_effect = yes
 }
 
 # country
