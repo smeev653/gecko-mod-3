@@ -940,21 +940,10 @@ merc_mesopotamian_mamluks = {
     #artillery_weight = 0.2
 	#cavalry_cap = 6
 	home_province = 410
-	cost_modifier = 1.1
+	cost_modifier = 1
 	sprites = { dlc080_alh_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
-		OR = {
-			capital_scope = {
-				region = mashriq_region
-			}
-			accepted_culture = al_iraqiya_arabic
-			AND = {
-				religion_group = muslim
-				any_owned_province = {
-					region = mashriq_region
-				}
-			}
-		}
+		TAG = MAM
 	}
     modifier = {
         cavalry_shock = 1.0
@@ -1026,7 +1015,7 @@ merc_zeybeks = {
 }
 
 merc_sekban = {
-    regiments_per_development = 0.03
+    regiments_per_development = 0.05
     home_province = 324
 	sprites = { dlc002_tur_sprite_pack dlc042_tur_sprite_pack tur_base_sprite_pack }
 	trigger = {
@@ -1035,7 +1024,7 @@ merc_sekban = {
 			capital_scope = { region = anatolia_region }
 		}
 	}
-    modifier = { }
+    modifier = { land_morale = 0.05}
 }
 
 merc_zanj_company = {
