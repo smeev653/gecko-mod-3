@@ -373,6 +373,10 @@ gc_por_2 = {
 				tradition = 60
 			}
 			add_dip_power = 60
+			1097 = {
+				cede_province = POR
+				add_core = POR
+			}	
 			coastal_kongo = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
