@@ -839,19 +839,20 @@ quality_ideas = {
 		infantry_power = 0.1
 	}
 	quality_education = {
-		army_tradition_from_battle = 1.0
-	}
-	finest_of_horses = {
-		cavalry_power = 0.1
-	}
-	escort_ships = {
-		ship_durability = 0.05
+		army_tradition_from_battle = 0.5
 	}
 	naval_drill = {
+		global_regiment_recruit_speed = -0.33
+	}
+	finest_of_horses = {
+		drill_gain_modifier = 0.33
 		drill_decay_modifier = -0.1
 	}
+	escort_ships = {
+		yearly_army_professionalism = 0.01
+	}
 	copper_bottoms = {
-		naval_attrition = -0.25
+		reserves_organisation = 0.2
 	}
 	massed_battery = {
 		artillery_power = 0.1
@@ -1081,7 +1082,7 @@ influence_ideas = {
 	}
 	additional_loyalist_recruitment = {
 		reduced_liberty_desire = 25
-		province_warscore_cost = -0.2
+		province_warscore_cost = -0.1
 	}
 	diplomatic_influence = {
 		diplomatic_reputation = 5
