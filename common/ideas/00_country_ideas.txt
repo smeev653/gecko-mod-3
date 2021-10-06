@@ -14925,6 +14925,7 @@ WES_ideas = {
 		land_forcelimit_modifier = 0.33
 	}
 	bonus = {
+		global_manpower_modifier = 0.25
 		discipline = 0.05
 	}
 	trigger = {
@@ -14935,16 +14936,12 @@ WES_ideas = {
 	wes_jewish_rights = {
 		idea_cost = -0.1
 	}
+	wes_increased_conscription = {
+		discipline = 0.05
+	}
 	wes_westphalian_decentralisation  = {
 		state_maintenance_modifier = -0.1
 		development_cost = -0.05
-	}
-	wes_increased_conscription = {
-		global_manpower_modifier = 0.25
-	}
-	wes_administrative_assimilation_of_rheinlanders = {
-		fire_damage = 0.15
-		same_culture_advisor_cost = -0.25
 	}
 	wes_taxation = {
 		global_tax_modifier = 0.2
@@ -14955,6 +14952,10 @@ WES_ideas = {
 	}
 	wes_cities_of_the_rhineland = {
 		global_prov_trade_power_modifier = 0.25
+	}
+	wes_administrative_assimilation_of_rheinlanders = {
+		fire_damage = 0.10
+		same_culture_advisor_cost = -0.25
 	}
 }
 
