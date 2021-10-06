@@ -92,7 +92,6 @@ add_accepted_culture = slovene
 }
 
 1457.11.24 = {
-	clr_country_flag = hab_ladislaus_postumus_heir
 	monarch = {
 		name = "Friedrich III"
 		dynasty = "von Habsburg"

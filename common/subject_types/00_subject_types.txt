@@ -528,11 +528,9 @@ copy_from = colony
 	
 	# Modifiers:	
 	modifier_overlord = {
-		modifier = private_enterprise_overlord
 	}
 	
 	modifier_subject = {
-		modifier = private_enterprise_subject
 	}
 }
 
@@ -552,11 +550,9 @@ copy_from = colony
 	
 	# Modifiers:	
 	modifier_overlord = {
-		modifier = self_governing_colony_overlord
 	}
 	
 	modifier_subject = {
-		modifier = self_governing_colony_subject
 	}
 }				
 tributary_state = {
