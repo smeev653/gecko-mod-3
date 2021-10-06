@@ -754,19 +754,15 @@ on_new_monarch = {
 		flavor_brapru.22		# Succession of Albrecht Achilles
 		flavor_brapru.25		# Dispositio Achillea (can also trigger from flavor_brapru.22)
 		flavor_nor.27			# Proclamation in Hamar
-		china_events.43			# Picking new Capital for China
-		celestial_empire_events.3 #Resistance to Sinicization
 		flavor_boh.2			#Heretic Kings
 		flavor_hun.17			#Maintaining the Black Army
-		flavor_tim.1			#Death of Shah Rukh
 		muslim_school_events.20 #No Religious School
-		flavor_daimyo.4			#Shiba Yoshikado
 		flavor_fra.9000			# François Villon
+		flavor_hsa.3		# Hansa: Tagfahrt
 	}
 	random_events = {
 		1000 = 0
 		100 = flavor_kol.1		# Bavarian Archbishop
-		100 = flavor_hsa.3		# Hansa: Tagfahrt
 		100 = inti_events.1		# Birth of a Panaca
 		50 = dynastic_events.4
 		50 = dynastic_events.5
@@ -838,24 +834,8 @@ on_monarch_death = {
 
 # country
 on_regent = {
-	if = {
-		limit = {
-			NOT = { has_global_flag = death_of_haji_giray } #Also set in history.
-			tag = CRI
-			OR = {
-				NOT = { exists = TUR }
-				is_subject = yes
-				TUR = { NOT = { num_of_cities = ROOT } }
-				TUR = { is_subject = yes }
-				TUR = { NOT = { num_of_ports = 1 } }
-			}
-		}
-		set_global_flag = death_of_haji_giray
-	}
 	events = {
 		tribal_succession.1	# harsh anti-tribals.
-		flavor_tim.1			#Death of Shah Rukh
-		flavor_daimyo.4			#Shiba Yoshikado
 	}
 }
 
@@ -1295,16 +1275,8 @@ on_integrate = {
 # Nation annexed.
 # FROM is the nation being annexed
 on_annexed = {
-	#events = {
-	#	celestial_empire_events.1 # Empire dismantled
-	#}
 	on_annexed_estate_privileges_effect = yes
 	FROM = {
-		if = {
-			limit = { is_emperor_of_china = yes }
-			dismantle_empire_of_china = yes
-			set_global_flag = empire_of_china_dismantled
-		}
 		if = {
 			limit = { has_country_modifier = legatus_natus }
 			remove_country_modifier = legatus_natus
@@ -1318,125 +1290,6 @@ on_annexed = {
 	}
 }
 
-# When the chinese empire gets dismantled (e.g. when the emperor is annexed)
-# FROM = Emperor, ROOT = Current Nation
-on_chinese_empire_dismantled = {
-	clear_global_event_target = EmperorOfChina
-	events = {
-	}
-}
-
-# When a nation gains the Mandate of Heaven (becomes the Emperor of China)
-# FROM = Old Emperor, ROOT = New Emperor
-on_mandate_of_heaven_gained = {
-	save_global_event_target_as = EmperorOfChina
-	if = {
-		limit = {
-			technology_group = nomad_group
-		}
-		change_technology_group = chinese
-		change_unit_type = chinese
-	}
-	if = {
-		limit = {
-			OR = {
-				NOT = { government = monarchy }
-				government = tribal
-			}
-		}
-		change_government_to_monarchy = yes
-	}
-	add_government_reform = celestial_empire
-	set_mandate = 60
-	set_meritocracy = 60
-	add_country_modifier = {
-		name = new_mandate_holder
-		duration = 9125
-	}
-	1816 = {
-		if = {
-			limit = {
-				NOT = { owned_by = root }
-				NOT = { is_core = root }
-			}
-			add_core = root
-		}
-	}
-	1821 = {
-		if = {
-			limit = {
-				NOT = { owned_by = root }
-				NOT = { is_core = root }
-			}
-			add_core = root
-		}
-	}
-	667 = {
-		if = {
-			limit = {
-				NOT = { owned_by = root }
-				NOT = { is_core = root }
-			}
-			add_core = root
-		}
-	}
-	china_superregion = {
-		limit = {
-			NOT = { is_core = ROOT }
-		}
-		add_permanent_claim = ROOT
-	}
-	if = {
-		limit = {
-			has_dlc = "Mandate of Heaven"
-		}
-		remove_faction = temples
-		remove_faction = enuchs
-		remove_faction = bureaucrats
-	}
-	if = {
-		limit = {
-			has_country_modifier = lost_mandate_of_heaven
-		}
-		remove_country_modifier = lost_mandate_of_heaven
-	}
-	country_event = { #Reforming the Bureaucracy
-		id = china_events.31
-		days = 365
-	}
-	country_event = {
-		id = china_events.32 #Records of the last Empire
-		days = 183
-	}
-	country_event = {
-		id = celestial_empire_events.2
-		days = 1825
-	}
-}
-
-# When a nation loses the Mandate of Heaven
-# FROM = New Emperor, ROOT = Old Emperor
-on_mandate_of_heaven_lost = {
-	remove_government_reform = celestial_empire
-	set_government_rank = 2
-	add_country_modifier = {
-		name = lost_mandate_of_heaven
-		duration = 7300	# 20 years
-	}
-	add_stability = -2
-	china_superregion = {
-		limit = {
-			is_permanent_claim = ROOT
-		}
-		remove_claim = ROOT
-	}
-	if = {
-		limit = {
-			has_country_modifier = new_mandate_holder
-		}
-		remove_country_modifier = new_mandate_holder
-	}
-}
 
 on_embrace_revolution = {
 	if = {	

@@ -14926,7 +14926,6 @@ WES_ideas = {
 	}
 	bonus = {
 		global_manpower_modifier = 0.25
-		discipline = 0.05
 	}
 	trigger = {
 		tag = WES
