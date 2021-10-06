@@ -106,7 +106,7 @@ GZM_ideas = { #Great Zimbabwe Empire
 		fire_damage_received = -0.1
 	}
 	GZM_4 = {
-		infantry_shock = 0.5
+		infantry_shock = 0.25
 		infantry_power = 0.10
 	}
 	GZM_5 = { 
