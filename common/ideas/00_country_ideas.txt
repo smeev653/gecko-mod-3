@@ -976,7 +976,7 @@ VEN_ideas = {
 PRU_ideas = {
 	start = {
 		army_tradition = 0.5
-		ae_impact = -0.10
+		monthly_militarized_society = 0.05
 	}
 	
 	bonus = {
@@ -1016,8 +1016,8 @@ PRU_ideas = {
 
 BRA_ideas = {
 	start = {
-		fabricate_claims_cost= -0.2
-		build_cost = -0.15
+		infantry_power = 0.10
+		monthly_militarized_society = 0.1
 	}
 	
 	bonus = {
@@ -1030,16 +1030,17 @@ BRA_ideas = {
 	free = yes		#will be added at load.
 	
 	northern_march = {
-		infantry_power = 0.10
-	}
-	kammergericht = {
-		global_tax_modifier = 0.1
-	}
-	divided_estates = {
-		development_cost = -0.05
+		build_cost = -0.15
 	}
 	bra_pomeranian_wars = {
 		land_morale = 0.10
+	}
+	
+	divided_estates = {
+		development_cost = -0.05
+	}
+	kammergericht = {
+		global_tax_modifier = 0.2
 	}
 	seat_of_the_old_emperors = {
 		diplomatic_reputation = 1
@@ -1715,7 +1716,7 @@ TIM_ideas = {
 
 HSA_ideas = {
 	start = {
-		land_morale = 0.10
+		development_cost = -0.05
 		trade_steering = 0.15
 	}
 	
@@ -1732,7 +1733,7 @@ HSA_ideas = {
 		global_trade_power = 0.15
 	}
 	strong_league_obligations = {
-		development_cost = -0.05
+		land_morale = 0.10
 	}
 	hsa_shipbuilding = {
 		light_ship_cost = -0.20
