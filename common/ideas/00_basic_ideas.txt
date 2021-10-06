@@ -1130,7 +1130,7 @@ naval_ideas = {
 
 	bonus = {
 		ship_durability = 0.1
-		allowed_marine_fraction = 0.05
+		allowed_marine_fraction = 0.15
 	}
 
 	boarding_parties = {
