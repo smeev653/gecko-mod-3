@@ -13819,7 +13819,7 @@ MYS_ideas = {
 	}
 	
 	bonus = {
-		discipline = 0.05
+		free_mil_policy = 1
 	}
 	
 	trigger = {
@@ -13827,26 +13827,27 @@ MYS_ideas = {
 	}
 	free = yes #will be added at load.
 	
-	mys_unification_of_mysore = {
-		core_creation = -0.1
-	}
-	mys_patronize_kannada_literature = {
-		legitimacy = 1
-	}
 	mys_religious_tolerance = {
-		tolerance_heathen = 2
-	}
-	mys_reform_silk_industry = {
-		global_trade_goods_size_modifier = 0.1
+		global_unrest = -2
 	}
 	mys_rockets = {
-		fire_damage = 0.1
+		fire_damage = 0.2
+	}
+	mys_reform_silk_industry = {
+		siege_ability = 0.1
+		artillery_bonus_vs_fort = 1
+	}
+	mys_unification_of_mysore = {
+		administrative_efficiency = 0.05
 	}
 	mys_reform_mysorean_army = {
-		free_mil_policy = 1
+		artillery_cost = -0.2
+	}
+	mys_patronize_kannada_literature = {
+		prestige = 1
 	}
 	mys_dynamic_diplomacy = {
-		diplomatic_reputation = 1
+		artillery_power = 0.1
 	}
 }
 
