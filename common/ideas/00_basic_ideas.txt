@@ -215,7 +215,7 @@ innovativeness_ideas = {
 		embracement_cost = -0.25
 	}
 	empiricism = {
-		innovativeness_gain = 1
+		innovativeness_gain = 0.5
 	}
 	patron_of_art  = {
 		autonomy_change_time = -0.25
@@ -988,31 +988,36 @@ administrative_ideas = {
 	category = ADM
 
 	bonus = {
-		advisor_cost = -0.15
+		advisor_cost = -0.20
 	}
 	
 	adm_adaptability = {
-		reform_progress_growth = 0.5	
-	}
-	organised_mercenary_payment = {
-		state_maintenance_modifier = -0.25
+		global_tax_income = 48
+		production_efficiency = 0.1
+		
 	}
 	civil_servants = {
 		monthly_splendor = 3
-		advisor_pool = 2
+		unjustified_demands = -0.75
 		
 	}
 	benefits_for_mercenaries = {
+		mercenary_cost = -0.25
 		merc_maintenance_modifier = -0.5
 	}
+	organised_mercenary_payment = {
+		state_maintenance_modifier = -0.25
+		state_governing_cost = -0.25
+	}
+
 	bookkeeping = {
 		interest = -0.25
 	}
 	organised_mercenary_recruitment = {
-		expand_administration_cost = -0.25
+		expand_administration_cost = -0.75
 	}
 	administrative_efficiency_idea = {
-		free_policy = 1
+		possible_policy = 1
 	}
 
 
