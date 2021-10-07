@@ -976,7 +976,7 @@ VEN_ideas = {
 PRU_ideas = {
 	start = {
 		army_tradition = 0.5
-		monthly_militarized_society = 0.21
+		monthly_militarized_society = 0.2
 	}
 	
 	bonus = {
@@ -1017,7 +1017,7 @@ PRU_ideas = {
 BRA_ideas = {
 	start = {
 		infantry_power = 0.10
-		monthly_militarized_society = 0.42
+		monthly_militarized_society = 0.2
 	}
 	
 	bonus = {

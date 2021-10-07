@@ -70,9 +70,9 @@ country_event = {
 	
 	option = {
 		name = "flavor_brapru.EVTOPTA3518"
-		add_army_tradition = 20
+		add_army_tradition = 25
 		add_mil_power = 150
-		add_army_professionalism = 0.02
+		add_army_professionalism = 0.1
 	}
 }
 
@@ -1347,7 +1347,7 @@ country_event = {
 			type = army_reformer
 			name = "Carl von Clausewitz"
 			culture = saxon
-			skill = 3
+			skill = 5
 			discount = yes
 		}
 		
@@ -1359,8 +1359,8 @@ country_event = {
 		}
 		define_general = {
 			name = "Carl von Clausewitz"
-			shock = 3
-			fire = 4
+			shock = 5
+			fire = 6
 			manuever = 4
 			siege = 1
 		}
