@@ -167,12 +167,6 @@ vassal = {
 }
 
 #Jaffna
-vassal = {
-	first = VIJ
-	second = JFN
-	start_date = 1432.1.1
-	end_date = 1450.1.1
-}
 
 vassal = {
 	first = CEY
