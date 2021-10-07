@@ -947,8 +947,7 @@ VEN_ideas = {
 	free = yes		#will be added at load.
 	
 	DAL_kingdom_of_dalmatia = {
-		reform_progress_growth = 0.15
-		global_unrest = -1
+		global_unrest = -2
 	}
 	DAL_principalities = {
 		global_foreign_trade_power = 0.15
@@ -2113,7 +2112,7 @@ ITA_ideas = {
 		global_tax_modifier = 0.2
 	}
 	heir_to_the_empire = {
-		reform_progress_growth = 0.5
+		trade_efficiency = 0.1
 		development_cost = -0.05
 	}
 	path_to_citizenship = {
@@ -3045,8 +3044,7 @@ DAL_ideas = {
 	free = yes		#will be added at load.
 	
 	DAL_kingdom_of_dalmatia = {
-		reform_progress_growth = 0.15
-		global_unrest = -1
+		global_unrest = -2
 	}
 	DAL_principalities = {
 		global_foreign_trade_power = 0.15
