@@ -24,7 +24,7 @@ change_estate_land_share = {
 	share = 2
 }
 change_estate_land_share = {
-	estate = estate_vaishya
+	estate = estate_vaisyas
 	share = 2
 }
 
