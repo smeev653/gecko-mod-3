@@ -114,3 +114,7 @@ cape_trade_established = {
 france_united = {
 	discipline = 0.05
 }
+
+caliphate_proclaimed = {
+	fire_damage = 0.15
+}	

@@ -1024,6 +1024,10 @@ tur_eastern_mediterrenean_missions = {
 				}
 				add_permanent_claim = ROOT
 			}
+			add_country_modifier = {
+				name = "caliphate_proclaimed"
+				duration = -1
+			}
 		}
 	}
 	defeat_the_knights = { #Conquer Rhodes

@@ -58,3 +58,8 @@ desc_hsa_north_sea:0 "We have restored our influence in the North Sea."
 
 france_united:0 "France United"
 desc_france_united:0 "We have united the French lands much to betterment of our armies"
+
+#Ottoman Missions
+
+caliphate_proclaimed:0 "Caliphate Proclaimed"
+desc_caliphate_proclaimed:0 "Our control over the holy sites and destruction of the Mamluke Sultanate mean that we can claim the title of Caliph for the first time since the great Muslim empires."
