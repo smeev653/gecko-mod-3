@@ -419,6 +419,7 @@ trade_company_white_sea = {
 		274 275 1960 4148 #pskov_area #smeev 
 		310 311 1959 2749 4260 #novgorod_area #smeev
 		312 4259 4261 #beloozero_area #smeev
+		5034 5035 5036 5037 5038 # xaime sweden
 	}
 	
 	# Specific
@@ -437,12 +438,10 @@ trade_company_lubeck = {
 	provinces = {
 		12 13 14 15 44 45 46 53 54 55 1775 1857 1874 1981 1983 1984  2996 4141 4142 4149
 		4749 4771 4772 4786
-		10 20 21 #northern_norway #smeev
-		23 24 2752 4145 #western_norway #smeev
-		4143 22 17 4144 #oslo #smeev
 		4153 4146 #smeev
 		47 4745 2994 1858 #vorpommern #smeev
 		48 4746 2995 #hinterpommern #smeev
+		5004 5003 5007 5005 5006
 	}
 	
 	# Specific
@@ -462,6 +461,10 @@ trade_company_baltic_sea = {
 		1926 1 2 3 4 5 1985 8 9 11 18 19 25 27 28 29 31 35 37 38 39 273 1930 1935 4113 4114 4123 4152 36 1834 1842 4241
 		26 1982 4165 6 #skaneland #smeev
 		16 4164 7 4163 #gotaland #smeev
+		5008 5009 5010 5011 5012 5013 5014 5015 5016 5017 5018 5020 5021 5022 5019 5023 5025 5024 5026 5027 5028 5029 5030 5033 5039 5032 5031
+		10 20 21 #northern_norway #smeev
+		23 24 2752 4145 #western_norway #smeev
+		4143 22 17 4144 #oslo #smeev
 	}
 	
 	# Specific
@@ -636,16 +639,15 @@ trade_company_genua = {
 	
 	provinces = {
 		1298 #Sea
-		124 125 126 2982 #sicily_area
 		115 116 117 2978 2980 #tuscany_area
-		123 1934 2984 #calabria_area
 		101 102 2992 #liguria_area
-		103 1875 2981 #piedmont_area
-		127 1247 2986 #corsica_sardinia_area	
-		4727 4735 4736 4737 # also new for 1.30, but this time it's in Italy
+		103 1875 2981 #piedmont_area	
+		4727 # also new for 1.30, but this time it's in Italy
 		118 2976 4731 4732 # lazio-umbria
-		121 2983 4734 # campania
 		104 1862 2979 4728 4740 # Lombardy	
+		5781 5782 1247
+		5787 105
+		5785 5783
 	}
 	
 	# Specific
@@ -747,10 +749,8 @@ trade_company_venice = {
 	color = { 54 167 156 }
 	
 	provinces = {
-		105 106 107 108 109 111 112 113 114 119 120 122 129 130 1308 1769 1774 1933 2977 2985 4729 4730 4733 4738 4739 4751
-		131 4752 1826 #croatia #smeev
-		4174 4750 143 4175 #albania #smeev
-		4754 4753 136 137 #dalmatia #smeev
+		106 107 108 109 111 112 113 114 119 120 129 130 1308 1769 1774 2977 4729 4730 4738 4739 4751
+		5777 5779 5778
 	}
 	
 	# Specific
@@ -762,6 +762,20 @@ trade_company_venice = {
 		name = "TRADE_COMPANY_VENICE_European_Trade_Company"
 	}
 }
+
+trade_company_sicily = {
+
+	color = { 232 36 39 }
+
+	provinces = {
+		4733 2985 1933 122 5788
+		4734 121 2983
+		1934 2984 123 5786
+		124 125 126 2982 #sicily_area
+		5775 4736 4737 5776 4735
+		127 2986 5780 #corsica_sardinia_area
+	}
+}	
 
 trade_company_krakow = {
 	color = { 108 111 86 }
@@ -794,9 +808,7 @@ trade_company_pest = {
 		157 158 1952 4127 # Northern Transylvania
 		156 1951 4128 # Southern Transylvania
 		152 1767 4173 4756 1828 # Slavonia
-		4239 141 4176 3000 4757 #serbia #smeev
-		1827 1766 138 #rascia #smeev
-		140 4755 3002 139 1831 #bosnia #smeev	
+		131 4752 1826 #croatia #smeev
 	}
 	
 	# Specific
@@ -822,6 +834,11 @@ trade_company_ragusa = {
 		1764 151 4779 4705 149 #thrace #smeev
 		4700 164 320 2348 3003 #aegean_archipelago_area
 		1319 #aegean sea #smeev
+		4174 4750 143 4175 #albania #smeev
+		4754 4753 136 137 #dalmatia #smeev
+		4239 141 4176 3000 4757 #serbia #smeev
+		1827 1766 138 #rascia #smeev
+		140 4755 3002 139 1831 #bosnia #smeev	
 	}
 	
 	# Specific
@@ -849,6 +866,7 @@ trade_company_constantinople = {
 		332 2303 4310 #dulkadir_area #smeev
 		331 2305 330 #erzurum #smeev
 		418 2306 2307 4295 4296 #north_kurdistan_area
+		2308 
 	}
 	
 	# Specific
@@ -1084,11 +1102,10 @@ trade_company_aleppo = {
 	color = { 202 150 172 }
 	
 	provinces = {
-		2308 377 1849 2313 4298 #aleppo_area
+		377 1849 2313 4298 #aleppo_area
 		#transjordan
 		379 1854 380 381 #palestine_area
 		378 382 1855 4297 #syria_area
-		407 4292 405 4270 4271 #syrian_desert_area
 	}
 	
 	
@@ -1144,6 +1161,7 @@ trade_company_basra = {
 		384 2329 2330 #medina_area #smeev
 		383 2328 4268 4269 2327 #tabuk_area #smeev
 		385 2331 2332 4277 4278 #mecca_area #smeev
+		407 4292 405 4270 4271 #syrian_desert_area
 		
 	}
 	
@@ -1272,46 +1290,7 @@ trade_company_samarkand = {
 	}
 }
 
-trade_company_girin = {
-	color = { 41 82 45 }
-	
-	provinces = {
-		1850 1049 2107 2108 2111 2106 2186 1058 2102 2104 1053 2103 1034 1035 1036 1037 1038 1039 1040 1041 1042 1043 1044 1046 1047 1052 1783 2438 2439 2440 2446 1055 1056 1057 730 2110 2188 4201 1033 1048 1050 4214 4216 729 731 2105 4215 4217 722 2109 2187 4202 4203 724 725 4218 727 728 2185 4200
-		4654 4655 4656 4657 4658 4659 4660 4661 4662 4653 4663
-		4664 4665 4674 4675 4672 2115
-	}
-	
-	# Specific
-	# Generic
-	names = {
-		name = "TRADE_COMPANY_GIRIN_Root_Culture_GetName"
-	}
-	names = {
-		name = "TRADE_COMPANY_GIRIN_Asia_Trade_Company"
-	}
-}
 
-trade_company_nippon = {
-	color = { 98 133 112 }
-	
-	provinces = {
-		1012 1014 1017 1018 1019 1020 1021 1023 1024 1025 1026 1027 1028 1029 1030 1031 1032 1818 1819 1820 1825 1830 1832 1835 1837 1839 1843 1847 1852 4131 4180 4181 4182 4183 4184 4185 4186 4187 4188 4189 4190 4191 4192 4193 1015 4359 4360 4651
-		1845 2744 4232 #pyongan_area
-		732 2742 2743 #hamgyeong_area
-		733 735 4230 4231 #western_korea_area
-		734 736 2694 2745 4227 #eastern_korea_area
-		737 1013 2741 4228 4229 #south_korea_area
-	}
-	
-	# Specific
-	# Generic
-	names = {
-		name = "TRADE_COMPANY_NIPPON_Root_Culture_GetName"
-	}
-	names = {
-		name = "TRADE_COMPANY_NIPPON_Asia_Trade_Company"
-	}
-}
 
 trade_company_yumen = {
 	color = { 115 93 58 }
@@ -1319,6 +1298,7 @@ trade_company_yumen = {
 	provinces = {
 		710 1786 707 708 711 714 719 1784 2118 2119 2123 2189 2190 2194 2182 2184 2122 4206 4207 717 721 2116 4219 4220 720 2193 4221 713 715 2120 4208 718 2117 4222 712 2121 2192 
 		4673 4666 4667 723 4669 4668 4681 4683 4682 4678 4677 4680 4684 4693
+		2191 4676
 	}
 	
 	# Specific
@@ -1331,41 +1311,6 @@ trade_company_yumen = {
 	}
 }
 
-trade_company_xian = {
-	color = { 159 112 119 }
-	
-	provinces = {
-		687 1836 2181 2180 698 699 688 692 2183 2175 2176 681 682 2171 2172 4197 689 700 2179 4198 701 709 2191 4223 
-		4676
-	}
-	
-	# Specific
-	# Generic
-	names = {
-		name = "TRADE_COMPANY_XIAN_Root_Culture_GetName"
-	}
-	names = {
-		name = "TRADE_COMPANY_XIAN_Asia_Trade_Company"
-	}
-}
-
-trade_company_chengdu = {
-	color = { 196 157 34 }
-	
-	provinces = {
-		2132 2167 678 2135 2131 2133 660 661 2165 2166 679 680 4212 2169 2170 4211 675 2168 2748 4213
-	}
-	
-	# Specific
-	# Generic
-	names = {
-		name = "TRADE_COMPANY_CHENGDU_Root_Culture_GetName"
-	}
-	names = {
-		name = "TRADE_COMPANY_CHENGDU_Asia_Trade_Company"
-	}
-}
-
 trade_company_lhasa = {
 	color = { 106 112 138 }
 	
@@ -1374,6 +1319,7 @@ trade_company_lhasa = {
 		565 4481 4482 #bhutan_area
 		557 2070 2071 4483 4485 #nepal_area
 		4514 4515 4516 4517 4518 4519 4520 #new tibetan provinces
+		2131 2132 2133 2135 678
 	}
 	
 	# Specific
@@ -1415,24 +1361,4 @@ trade_company_lahore = {
 	}
 }
 
-trade_company_polynesia = {
-	color = { 220 138 57 }
-	
-	provinces = {
-		1244 1989 1243
-		1990 1992 1240 1997
-		1235 1995 1996 1241 1991
-		1993 1994 1988
-		1987
-	}
-	
-	# Specific
-	# Generic
-	names = {
-		name = "TRADE_COMPANY_POLYNESIA_Root_Culture_GetName"
-	}
-	names = {
-		name = "TRADE_COMPANY_POLYNESIA_Oceania_Trade_Company"
-	}
-}
 
