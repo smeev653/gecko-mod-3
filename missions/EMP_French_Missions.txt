@@ -1215,13 +1215,6 @@ emp_france_missions_3 = {
 				name = "east_india_trade_rush"
 				duration = 7300
 			}
-			indo_china_region = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
 			golconda_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -1236,24 +1229,6 @@ emp_france_missions_3 = {
 				}
 				add_claim = ROOT
 			}
-		}
-	}
-	emp_fra_indochina = {
-		icon = french_indochina
-		required_missions = { emp_fra_india_expansion }
-		provinces_to_highlight = {
-			has_discovered = ROOT
-			region = indo_china_region
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-		trigger = {
-			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				region = indo_china_region
-				value = 20
-			}
-		}
-		effect = {
-			add_mercantilism = 10
 		}
 	}
 }

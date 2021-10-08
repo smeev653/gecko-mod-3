@@ -540,60 +540,6 @@ tatar_missions_slot_2 = {
 				add_base_manpower = 2
 				change_culture = ROOT
 			}
-			north_china_region = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-		}
-	}
-	mission_conquer_china = {
-		icon = mission_great_wall
-		required_missions = { mission_conquer_mongolia }
-		position = 2
-		provinces_to_highlight = {
-			region = north_china_region
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			north_china_region = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			if = {
-				limit = {
-					has_reform = steppe_horde
-					has_dlc = "The Cossacks"
-				}
-				add_horde_unity = 20
-			}
-			else = {
-				add_prestige = 25
-			}
-			add_country_modifier = {
-				name = "fall_of_china"
-				duration = 7300
-			}
-			xinan_region = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
-			south_china_region = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
-				add_permanent_claim = ROOT
-			}
 		}
 	}
 }

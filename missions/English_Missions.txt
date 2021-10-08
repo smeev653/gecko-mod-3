@@ -654,42 +654,6 @@ eng_indian_ocean_exploration = {
 			}
 		}
 	}
-	
-	england_discovers_australia = {
-		icon = mission_establish_high_seas_navy
-		required_missions = { england_discovers_india }
-		completed_by = 1788.1.1
-		
-		provinces_to_highlight = {
-			colonial_region = colonial_australia
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-			has_discovered = ROOT
-		}
-		
-		trigger = {
-			custom_trigger_tooltip = {
-				tooltip = miss_discover_australia
-				colonial_australia = { has_discovered = ROOT }
-			}
-			custom_trigger_tooltip = {
-				tooltip = england_discovers_australia.tooltip
-				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-					value = 5
-					colonial_region = colonial_australia
-					is_city = yes
-				}
-			}
-		}
-		
-		effect = {
-			add_country_modifier = {
-				name = "eng_australian_colony"
-				duration = 5475
-			}
-		}
-	
-	}
-
 }
 
 eng_indian_cot_dominance = {

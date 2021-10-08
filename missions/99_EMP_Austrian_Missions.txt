@@ -1,52 +1,5 @@
 #This file is necessary due to load order, so I can make use of column 3 rows 1-5 for DLC missions without overwriting the Vanilla mission at 3:6
 
-
-emp_hab_netherlands_branch = {
-	slot = 3
-	generic = no
-	ai = yes
-	
-	potential_on_load = {
-		has_dlc = "Emperor"
-	}
-	potential = {
-		has_dlc = "Emperor"
-		tag = HAB
-		NOT = { map_setup = map_setup_random }
-	}
-	
-	has_country_shield = yes
-	
-	emp_hab_austrian_netherlands = {
-		icon = mission_the_austrian_succession
-		required_missions = {  }
-		provinces_to_highlight = {
-			region = low_countries_region
-			ROOT = {
-				NOT = {
-					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-						value = 12 #out of 21 (but at least 7 are not ruled by Burgundy at start)
-						region = low_countries_region
-					}
-				}
-			}
-			NOT = { country_or_non_sovereign_subject_holds = root }
-		}
-		trigger = {
-			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				value = 12 #out of 21 (but at least 7 are not ruled by Burgundy at start)
-				region = low_countries_region
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = hab_austrian_netherlands
-				duration = 7300
-			}
-		}
-	}
-}
-
 emp_hab_develop_hungary_bohemia_branch = {
 	slot = 3
 	generic = no
