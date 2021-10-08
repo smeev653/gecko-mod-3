@@ -6,6 +6,9 @@ religion = hinduism
 technology_group = indian
 capital = 533	# Mysore
 fixed_capital = 533 # Cannot move capital away from this province & no power cost to move to it
+historical_rival = BAH
+historical_rival = VIJ
+historical_rival = YOR
 
 #Ummatur Cheifs:
 #Very independent feudatories of Vijayanagara, often ignoring the empire or in rebelion against it
