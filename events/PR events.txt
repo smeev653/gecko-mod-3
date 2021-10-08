@@ -33,20 +33,51 @@ country_event = {
     immediate = {
 		hidden_effect = {
 			set_country_flag = PR_discover_africa_flag
-			africa_superregion = {
+			niger_region = {
 				ROOT = {
-					discover_province = PREV
-				}
-			}			
-			southern_africa_superregion = {
-				ROOT = {
-					discover_province = PREV
-				}
+								discover_province = PREV
+							}
 			}
-			near_east_superregion = {
+			guinea_region= {
 				ROOT = {
-					discover_province = PREV
-				}
+								discover_province = PREV
+							}
+			}	
+			sahel_region = {
+				ROOT = {
+								discover_province = PREV
+							}
+			}	
+			horn_of_africa_region = {
+				ROOT = {
+								discover_province = PREV
+							}
+			}	
+			maghreb_region = {
+				ROOT = {
+								discover_province = PREV
+							}
+			}		
+
+			east_africa_region = {
+				ROOT = {
+								discover_province = PREV
+							}
+			}
+			kongo_region = {
+				ROOT = {
+								discover_province = PREV
+							}
+			}
+			south_africa_regionn = {
+				ROOT = {
+								discover_province = PREV
+							}
+			}
+			central_africa_region = {
+				ROOT = {
+								discover_province = PREV
+							}
 			}
 		}
 	}

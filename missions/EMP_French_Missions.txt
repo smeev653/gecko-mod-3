@@ -285,7 +285,7 @@ emp_france_missions_1_b = {
 			}
 			custom_trigger_tooltip = {
 				tooltip = fra_louis_discovery.tooltip
-				colonial_louisiana = {
+				colonial_eastern_america = {
 					has_discovered = ROOT
 				}
 			}
@@ -306,7 +306,7 @@ emp_france_missions_1_b = {
 			has_discovered = ROOT
 			OR = {
 				colonial_region = colonial_canada
-				colonial_region = colonial_louisiana
+				colonial_region = colonial_eastern_america
 				colonial_region = colonial_the_carribean
 			}
 			NOT = {
@@ -333,7 +333,7 @@ emp_france_missions_1_b = {
 					tooltip = fra_louisiana_colony.tooltip
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 5
-						colonial_region = colonial_louisiana
+						colonial_region = colonial_eastern_america
 					}
 				}
 			}
@@ -352,7 +352,7 @@ emp_france_missions_1_b = {
 			has_discovered = ROOT
 			OR = {
 				AND = {
-					colonial_region = colonial_louisiana
+					colonial_region = colonial_eastern_america
 					NOT = {
 						country_or_non_sovereign_subject_holds = ROOT
 					}
@@ -368,7 +368,7 @@ emp_france_missions_1_b = {
 				tooltip = fra_louisiana_colony.tooltip2
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 					value = 20
-					colonial_region = colonial_louisiana
+					colonial_region = colonial_eastern_america
 				}
 			}
 			1507 = {
@@ -908,64 +908,6 @@ emp_france_missions_2_b = {
 			add_country_modifier = {
 				name = "fra_native_relations_mission"
 				duration = 7300
-			}
-		}
-	}
-}
-emp_france_missions_2_c = {
-	slot = 2
-	generic = no
-	ai = yes
-	potential_on_load = {
-		has_dlc = "Emperor"
-	}
-	potential = {
-		has_dlc = "Emperor"
-		tag = FRA
-		NOT = { map_setup = map_setup_random }
-	}
-	has_country_shield = yes
-	emp_fra_indian_dominance = {
-		icon = indian_dominance
-		required_missions = { emp_fra_india_expansion }
-		provinces_to_highlight = {
-			has_discovered = ROOT
-			superregion = india_superregion
-			owner = {
-				technology_group = western
-			}
-			NOT = { owned_by = ROOT }
-		}
-		position = 10
-		trigger = {
-			current_age = age_of_revolutions
-			india_superregion = {
-				type = all
-				OR = {
-					owned_by = FRA
-					owner = {
-						NOT = {
-							technology_group = western
-						}
-					}
-				}
-			}
-		}
-		effect = {
-			if = {
-				limit = {
-					has_dlc = "Dharma"
-				}
-				add_country_modifier = {
-					name = "fra_master_of_india"
-					duration = -1
-				}
-			}
-			else = {
-				add_country_modifier = {
-					name = "fra_master_of_india_2"
-					duration = -1
-				}
 			}
 		}
 	}

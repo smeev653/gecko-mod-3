@@ -30,7 +30,6 @@ center_of_trade = 2
 	owner = AKK
 	controller = AKK
 	add_core = AKK
-	remove_core = QAR
 }
 1474.1.1 = { unrest = 4 } # Rebellion
 1475.1.1 = { unrest = 0 }

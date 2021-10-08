@@ -1279,7 +1279,7 @@ emp_mlo_economy_branch = {
 					}
 				}
 				AND = {
-					superregion = europe_superregion
+					superregion = italy_region
 					NOT = { province_id = 104 }
 					higher_development_than = 104
 				}
@@ -1292,7 +1292,7 @@ emp_mlo_economy_branch = {
 				custom_trigger_tooltip = {
 					tooltip = emp_mlo_all_roads_lead_to_milan_trigger_tooltip
 					NOT = {
-						europe_superregion = {
+						 italy_region = {
 							NOT = { province_id = 104 }
 							higher_development_than = 104
 						}

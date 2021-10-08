@@ -431,8 +431,6 @@ colonial_eastern_america = {
 		name = "COLONIAL_EASTERN_AMERICA_Virginia"
 	}
 }
-
-# California
 colonial_california = {
 	color = { 200 117 43 }
 

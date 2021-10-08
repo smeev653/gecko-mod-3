@@ -247,43 +247,6 @@ gc_spain_1_b = {
 			add_treasury = 500
 		}
 	}
-	gc_cas_spa_california = {
-		icon = mission_colonize_california
-		required_missions = { gc_cas_spa_new_spain }
-		position = 9
-		#completed_by = 1521.1.1
-
-		provinces_to_highlight = {
-			colonial_region = colonial_california
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-			has_discovered = ROOT
-		}
-
-		trigger = {
-			2021 = {
-				country_or_non_sovereign_subject_holds = ROOT
-				has_holy_order_trigger = yes
-			}
-			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				value = 5
-				colonial_region = colonial_california
-				is_city = yes
-			}
-		}
-		effect = {
-			add_dip_power = 100
-			2021 = {
-				add_base_tax = 3
-			}
-			colonial_california = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-		}
-	}
 }
 
 gc_spain_2 = {

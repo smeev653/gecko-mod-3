@@ -970,7 +970,7 @@ gc_por_3_c = {
 				}
 				calc_true_if = {
 					desc = por_indian_investment_tooltip
-					india_superregion = {
+					coromandel_region = {
 						type = all
 						has_trade_company_investment_in_area = {
 							investor = ROOT
