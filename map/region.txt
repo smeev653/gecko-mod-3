@@ -1275,7 +1275,6 @@ mississippi_region = {
 great_plains_region = {
 	areas = {
 		central_plains_area
-		lower_plains_area
 		high_plains_area
 	
 		dakota_area
@@ -1364,6 +1363,7 @@ rio_grande_region = {
 		llano_estacado_area
 		chihuahua_area
 		texas_plains_area
+		lower_plains_area
 	}
 	monsoon = {
 		00.06.01

@@ -5,7 +5,6 @@ controller = COR
 culture = sardinian
 religion = catholic
 capital = "Bastia"
-hre = yes
 base_tax = 3 
 base_production = 3
 trade_goods = naval_supplies
