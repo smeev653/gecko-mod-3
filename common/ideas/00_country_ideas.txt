@@ -460,7 +460,7 @@ FRA_ideas = {
 	}
 	
 	bonus = {
-		discipline = 0.05
+		fire_damage = 0.1
 	}	
 
 	trigger = {

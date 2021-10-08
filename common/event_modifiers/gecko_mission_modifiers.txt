@@ -110,3 +110,7 @@ prester_john_discovered = {
 cape_trade_established = {
 	trade_efficiency = 0.05
 }
+
+france_united = {
+	discipline = 0.05
+}
