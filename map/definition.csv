@@ -2001,7 +2001,7 @@ province;red;green;blue;x;x
 2000;60;221;221;Qinghai Lake;x
 2001;95;200;200;Siling Lake;x
 2002;200;135;255;Galápagos Islands;x
-2003;120;2;232;Ktunaxa;X
+2003;120;2;232;Ktunaxa;x
 2004;125;4;236;Niitsitapi;x
 2005;130;8;240;Asinaan;x
 2006;135;16;244;Apsáalooke;x
@@ -4164,7 +4164,6 @@ province;red;green;blue;x;x
 4163;220;144;23;Elfsborg;x
 4164;150;213;76;Dalsland;x
 4165;220;78;202;Göinge;x
-#4166;54;157;76;Tiohärad/Värend;x
 4167;195;207;97;High Atlas;x
 4168;135;142;79;High Atlas2;x
 4169;222;203;239;Aures;x
@@ -5077,8 +5076,8 @@ province;red;green;blue;x;x
 6015;133;60;14;Saqsin;x
 6016;205;88;151;Volgograd;x
 6017;4;61;108;Amarar;x
-6018;0;152;240;Bayuda
-6019;214;252;127;Shendi
+6018;0;152;240;Bayuda;x
+6019;214;252;127;Shendi;x
 6020;152;102;14;Selima-Matata;x
 6021;141;232;55;Hadendoa;x
 6022;192;92;7;Karima;x
@@ -5102,3 +5101,5 @@ province;red;green;blue;x;x
 6040;25;89;23;siberia-wasteland;x
 6041;102;27;224;korea-wasteland;x
 6042;187;5;21;pacific-islands-wasteland;x
+6043;211;98;30;NA-Wasteland;x
+6044;85;1;3;SA-wasteland;x
