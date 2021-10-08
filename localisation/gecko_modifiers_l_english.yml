@@ -45,21 +45,15 @@
  #Ethiopia
  gecko_ethiopia_highlands_and_mountains_modifier:0 "Temper the Roof of Africa"
 
- #Salt Road
- alte_salzstrase:0 "Alte Salzstraße"
- desc_alte_salzstrase:0 "The Alte Salzstraße, also known as the Old Salt Road, was a very rich salt transporting network. Often called "White Gold", the salt mines were very lucrative for the northern parts of Germany, especially Lübeck, until the 17th century."
-
-#Hansa Missions
-
-hsa_north_sea:0 "Hanseatic Power Restored"
-desc_hsa_north_sea:0 "We have restored our influence in the North Sea."
-
-#France Missions
-
-france_united:0 "France United"
-desc_france_united:0 "We have united the French lands much to betterment of our armies"
-
-#Ottoman Missions
-
-caliphate_proclaimed:0 "Caliphate Proclaimed"
-desc_caliphate_proclaimed:0 "Our control over the holy sites and destruction of the Mamluke Sultanate mean that we can claim the title of Caliph for the first time since the great Muslim empires."
+ #Mysore
+ gecko_cannon_foundries:0 "Cannon Foundries"
+ gecko_mysorean_rockets:0 "Mysorean Rockets"
+ gecko_cannon_institute:0 "Artillery Research Institute"
+ gecko_handheld_rockets:0 "Handheld Rocketry"
+ gecko_mysore_encourage_production:0 "Encourage Craftsmanship"
+ gecko_mysore_expand_ports:0 "Mercantile Urbanization"
+ gecko_mysore_navy:0 "Merchant Fleet"
+ gecko_mysore_industrial_expansion:0 "Industral Expansion"
+ gecko_south_indian_empire:0 "South Indian Empire"
+ gecko_entrepreneural_spirit:0 "Entrepreneurial Spirit"
+ gecko_marathas_subdued:0 "Marathas Subdued"
