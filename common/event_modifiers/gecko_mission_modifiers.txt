@@ -149,7 +149,7 @@ gecko_mysore_expand_ports = {
 
 gecko_mysore_navy = {
 	naval_morale = 0.1
-	naval_maintenance_modifier = -0.2
+	global_ship_trade_power = 0.2
 	navy_tradition = 1
 }
 
