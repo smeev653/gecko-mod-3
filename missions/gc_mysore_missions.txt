@@ -9,7 +9,7 @@ gc_mysore_branch_1 = {
     }
 
     gc_mysore_mission_1 = {
-        icon = default
+        icon = mission_cannons_firing
         required_missions = {  }
         position = 1
 
@@ -33,7 +33,7 @@ gc_mysore_branch_1 = {
         }
     }
     gc_mysore_mission_2 = {
-        icon = default
+        icon = mission_asian_cannon
         required_missions = { gc_mysore_mission_1 }
         position = 2
 
@@ -58,7 +58,7 @@ gc_mysore_branch_1 = {
         }
     }
     gc_mysore_mission_3 = {
-        icon = default
+        icon = mission_found_the_city_of_agra
         required_missions = { gc_mysore_mission_2 }
         position = 3
 
@@ -86,7 +86,7 @@ gc_mysore_branch_1 = {
         }
     }
     gc_mysore_mission_4 = {
-        icon = default
+        icon = mission_new_army
         required_missions = { gc_mysore_mission_3 }
         position = 5
 
@@ -121,7 +121,7 @@ gc_mysore_branch_2 = {
     }
 
     gc_mysore_mission_5 = {
-        icon = default
+        icon = mission_marathi_fiefs
         required_missions = { gc_mysore_mission_8 }
         position = 2
 
@@ -151,7 +151,7 @@ gc_mysore_branch_2 = {
         }
     }
     gc_mysore_mission_6 = {
-        icon = default
+        icon = mission_advance_to_kalyana
         required_missions = { 
             gc_mysore_mission_5
             gc_mysore_mission_9
@@ -216,7 +216,7 @@ gc_mysore_branch_2 = {
         }
     }
     gc_mysore_mission_7 = {
-        icon = default
+        icon = mission_invade_maharashtra
         required_missions = { gc_mysore_mission_6 }
         position = 4
 
@@ -268,7 +268,7 @@ gc_mysore_branch_3 = {
     }
 
     gc_mysore_mission_8 = {
-        icon = default
+        icon = mission_city_of_victory_bah
         required_missions = {  }
         position = 1
 
@@ -377,7 +377,7 @@ gc_mysore_branch_3 = {
         }
     }
     gc_mysore_mission_9 = {
-        icon = default
+        icon = mission_southern_frontier
         required_missions = { gc_mysore_mission_8 }
         position = 2
 
@@ -423,7 +423,7 @@ gc_mysore_branch_3 = {
         }
     }
     gc_mysore_mission_10 = {
-        icon = default
+        icon = mission_recover_konkan_ports
         required_missions = { gc_mysore_mission_13 }
         position = 3
 
@@ -458,7 +458,7 @@ gc_mysore_branch_3 = {
         }
     }
     gc_mysore_mission_11 = {
-        icon = default
+        icon = mission_conquer_andhra_vij
         required_missions = { gc_mysore_mission_10 }
         position = 4
 
@@ -485,7 +485,7 @@ gc_mysore_branch_3 = {
         }
     }
     gc_mysore_mission_12 = {
-        icon = default
+        icon = mission_indian_empire
         required_missions = {
             gc_mysore_mission_11 
             gc_mysore_mission_7
@@ -523,7 +523,7 @@ gc_mysore_branch_4 = {
     }
 
     gc_mysore_mission_13 = {
-        icon = default
+        icon = mission_secure_the_malabar_coast
         required_missions = { gc_mysore_mission_8 }
         position = 2
 
@@ -573,7 +573,7 @@ gc_mysore_branch_4 = {
         }
     }
     gc_mysore_mission_14 = {
-        icon = default
+        icon = mission_conquer_lanka
         required_missions = {
              gc_mysore_mission_13
             }
@@ -606,7 +606,7 @@ gc_mysore_branch_4 = {
         }
     }
     gc_mysore_mission_15 = {
-        icon = default
+        icon = mission_coromandel_expansion
         required_missions = { 
             gc_mysore_mission_14 
             gc_mysore_mission_18
@@ -650,7 +650,7 @@ gc_mysore_branch_5 = {
     }
 
     gc_mysore_mission_16 = {
-        icon = default
+        icon = mission_dominate_persian_gulf
         required_missions = {  }
         position = 1
 
@@ -675,7 +675,7 @@ gc_mysore_branch_5 = {
         }
     }
     gc_mysore_mission_17 = {
-        icon = default
+        icon = mission_coromandel_trade
         required_missions = { gc_mysore_mission_16 }
         position = 2
 
@@ -704,7 +704,7 @@ gc_mysore_branch_5 = {
         }
     }
     gc_mysore_mission_18 = {
-        icon = default
+        icon = mission_naval_dominance
         required_missions = { gc_mysore_mission_17 }
         position = 3
 
@@ -727,7 +727,7 @@ gc_mysore_branch_5 = {
         }
     }
     gc_mysore_mission_19 = {
-        icon = default
+        icon = mission_have_manufactories
         required_missions = { 
             gc_mysore_mission_18 
             gc_mysore_mission_15
