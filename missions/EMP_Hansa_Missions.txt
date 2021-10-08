@@ -418,64 +418,18 @@ hanseatic_sound_toll_tree = {
 		has_dlc = "Emperor"
 	}
 	has_country_shield = yes
-
-	hsa_baltic_trade_mission = {
-		icon = mission_develop_nevas_port
-		required_missions = { end_sound_toll }
-		position = 2
 	
-		provinces_to_highlight = {
-			province_id = 1926 # Baltic Sea
-		}
-	
-		trigger = {
-			1926 = {
-				trade_share = {
-					country = ROOT
-					share = 30
-				}
-			}
-		}
-	
-		effect = {
-			holstein_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			jutland_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			south_jutland_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			add_country_modifier = {
-				name = "hsa_baltic_trade_modifier"
-				duration = 7300
-			}
-		}
-	}
-
 	hsa_seize_jutland_mission = {
 		icon = mission_scandinavian_port_authority
-		required_missions = { hsa_baltic_trade_mission }
-		position = 4
+		required_missions = { end_sound_toll }
+		position = 2
 
 		provinces_to_highlight = {
 			OR = {
 				area = holstein_area
 				area = jutland_area
-			}
+				area = south_jutland_area
+				}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 
@@ -485,6 +439,7 @@ hanseatic_sound_toll_tree = {
 				OR = {
 					area = jutland_area
 					area = holstein_area
+					area = south_jutland_area
 				}
 			}
 		}
@@ -500,10 +455,37 @@ hanseatic_sound_toll_tree = {
 			}
 		}
 	}
+	hsa_baltic_trade_mission = {
+		icon = mission_develop_nevas_port
+		required_missions = { hsa_seize_jutland_mission }
+		position = 4
+	
+		provinces_to_highlight = {
+			province_id = 1926 # Baltic Sea
+		}
+	
+		trigger = {
+			1926 = {
+				trade_share = {
+					country = ROOT
+					share = 30
+				}
+			}
+		}
+	
+		effect = {
+			add_country_modifier = {
+				name = "hsa_baltic_trade_modifier"
+				duration = 7300
+			}
+		}
+	}
+
+	
 
 	hsa_subjugate_norway_mission = {
 		icon = mission_seize_north_sea_trade
-		required_missions = { hsa_seize_jutland_mission }
+		required_missions = { hsa_baltic_trade_mission }
 		position = 6
 
 		provinces_to_highlight = {
@@ -829,7 +811,7 @@ hanseatic_colonisation_tree = {
 
 	hsa_newfoundland_trading_ports_mission = {
 		icon = mission_rb_scottish_the_darien_scheme
-		required_missions = { hsa_north_sea_trade_mission }
+		required_missions = {  }
 		position = 8
 			
 		provinces_to_highlight = {
