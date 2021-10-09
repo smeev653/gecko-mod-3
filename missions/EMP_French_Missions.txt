@@ -1346,7 +1346,7 @@ emp_france_missions_4 = {
 	}
 	emp_fra_subjugate_lorraine = {
 		icon = mission_build_up_to_force_limit
-		required_missions = { emp_fra_conquer_burgundy_area }
+		required_missions = { emp_fra_conquer_burgundy_area emp_fra_conquer_picardy_fra }
 		provinces_to_highlight = {
 			area = lorraine_area
 			NOT = {
