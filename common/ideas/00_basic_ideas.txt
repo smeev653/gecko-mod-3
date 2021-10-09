@@ -17,7 +17,7 @@ aristocracy_ideas = {
 	
 	noble_knights = {
 		cavalry_power = 0.10
-		cavalry_cost = -0.15
+		cavalry_cost = -0.10
 	}
 	local_nobility = {
 		leader_land_shock = 1
@@ -849,7 +849,7 @@ quality_ideas = {
 		drill_decay_modifier = -0.1
 	}
 	escort_ships = {
-		yearly_army_professionalism = 0.01
+		yearly_army_professionalism = 0.005
 	}
 	copper_bottoms = {
 		reserves_organisation = 0.2

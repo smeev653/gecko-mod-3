@@ -470,7 +470,7 @@ FRA_ideas = {
 	
 	french_language_in_all_courts = {
 		cavalry_power = 0.1
-		cavalry_cost = -0.2
+		cavalry_cost = -0.1
 	}
 	elan = {
 		land_morale = 0.20
