@@ -460,7 +460,7 @@ FRA_ideas = {
 	}
 	
 	bonus = {
-		fire_damage = 0.1
+		diplomatic_upkeep = 1
 	}	
 
 	trigger = {
@@ -469,7 +469,8 @@ FRA_ideas = {
 	free = yes		#will be added at load.
 	
 	french_language_in_all_courts = {
-		diplomatic_upkeep = 1
+		cavalry_power = 0.1
+		cavalry_cost = -0.1
 	}
 	elan = {
 		land_morale = 0.20
@@ -478,8 +479,7 @@ FRA_ideas = {
 		global_tax_modifier = 0.2
 	}
 	native_trading_principles = {
-		native_uprising_chance = -0.5
-		native_assimilation = 0.5
+		heavy_ship_power = 0.1
 	}
 	vauban_fortifications = {
 		fort_maintenance_modifier = -0.2
