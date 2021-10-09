@@ -4,9 +4,6 @@ transcaucasian_wine_valleys = {
 	}
 
 	trigger = {
-		owner = {
-			religion=shiite
-		}
 	}
 
 	trade_goods_size= 1
@@ -52,9 +49,6 @@ the_upper_nile = {
 	}
 
 	trigger = {
-		owner = {
-			religion = sunni
-		}
 	}
 
 	trade_goods_size= 1
