@@ -68,12 +68,9 @@ emp_mlo_conquest_branch = {
 		}
 		trigger = {
 			2980 = {
-				type = all
 				country_or_non_sovereign_subject_holds = root
 			}
-			is_subject = no
 			115 = {
-				type = all
 				country_or_non_sovereign_subject_holds = root
 			}
 		}

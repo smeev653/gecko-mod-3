@@ -207,10 +207,6 @@ gc_mysore_branch_2 = {
 				add_permanent_claim = ROOT
 			}
             529 = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
 				add_permanent_claim = ROOT
 			}
         }
@@ -340,38 +336,18 @@ gc_mysore_branch_3 = {
 				add_permanent_claim = ROOT
 			}
             2030 = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
 				add_permanent_claim = ROOT
 			}
             4429 = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
 				add_permanent_claim = ROOT
 			}
             530 = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
 				add_permanent_claim = ROOT
 			}
             2089 = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
 				add_permanent_claim = ROOT
 			}
             2085 = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
-				}
 				add_permanent_claim = ROOT
 			}
         }
