@@ -515,7 +515,7 @@ TUR_ideas = {
 	}
 
 	timariot_system = {
-		cavalry_power = 0.25
+		cavalry_power = 0.20
 	}
 	ghazi = {
 		manpower_recovery_speed = 0.15
