@@ -431,23 +431,6 @@ emp_bra_pru_2 = {
 			}
 		}
 	}
-	emp_brapru_chinese_trade = {
-		icon = mission_open_up_china
-		required_missions = { emp_brapru_emden_company }
-		provinces_to_highlight = {
-		}
-		trigger = {
-			667 = {
-				is_strongest_trade_power = ROOT
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = "pru_chinese_trade"
-				duration = 7300
-			}
-		}
-	}
 	emp_brapru_empower_the_junkers = {
 		icon = empower_the_junkers
 		required_missions = { emp_brapru_army_reforms_1 }
@@ -561,14 +544,14 @@ emp_bra_pru_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			lower_saxony_area = {
+			thuringia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
-			weser_area = {
+			south_saxony_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
@@ -594,8 +577,8 @@ emp_bra_pru_3 = {
 		provinces_to_highlight = {
 			OR = {
 				area = northern_saxony_area
-				area = lower_saxony_area
-				area = weser_area
+				area = thuringia_area
+				area = south_saxony_area
 				province_id = 1931
 				province_id = 53
 				province_id = 52
@@ -607,8 +590,8 @@ emp_bra_pru_3 = {
 				value = 10
 				OR = {
 					area = northern_saxony_area
-					area = lower_saxony_area
-					area = weser_area
+					area = thuringia_area
+					area = south_saxony_area
 				}
 			}			
 			1931 = {
@@ -642,138 +625,6 @@ emp_bra_pru_3 = {
 					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
-			}
-		}
-	}
-	emp_brapru_emden_company = {
-		icon = the_emden_company
-		required_missions = { emp_brapru_lower_saxony }
-		provinces_to_highlight = {
-			OR = {
-				AND = {
-					province_id = 1931
-					OR = {
-						has_shipyard_building_trigger = no
-						NOT = { owned_by = ROOT }
-					}
-				}
-				AND = {
-					province_id = 667
-					NOT = {
-						has_merchant = ROOT
-					}
-					has_discovered = ROOT
-				}
-			}
-		}
-		position = 4
-		trigger = {
-			1931 = {
-				has_shipyard_building_trigger = yes
-				owned_by = ROOT
-			}
-			667 = {
-				has_merchant = ROOT
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = "pru_emden_company_modifier"
-				duration = 7300
-			}
-			add_mercantilism = 5
-			1775 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-			4141 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-			668 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-		}
-	}
-	emp_brapru_kiel_canal = {
-		icon = construct_the_kiel_canal
-		required_missions = { emp_brapru_emden_company }
-		provinces_to_highlight = {
-			OR = {
-				AND = {
-					province_id = 1775
-					NOT = {
-						owned_by = ROOT
-						if = {
-							limit = {
-								has_dlc = "Leviathan"
-							}
-							has_great_project = {
-								type = kiel_canal
-								tier = 1
-							} 
-						}
-						else = {
-							has_construction = kiel_canal
-						}
-					}
-				}
-				AND = {
-					province_id = 4141
-					NOT = { owned_by = ROOT }
-				}
-			}
-		}
-		trigger = {	
-			1775 = {
-				if = {
-					limit = {
-						has_dlc = "Leviathan"
-					}
-					owned_by = ROOT
-					has_great_project = {
-						type = kiel_canal
-						tier = 1
-					} 
-				}
-				else = {
-					owned_by = ROOT
-					has_construction = kiel_canal
-				}
-			}
-			4141 = {
-				owned_by = ROOT
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = "pru_construction_modifier"
-				duration = 7300
-			}
-			1775 = {
-				add_construction_progress = 0.25
 			}
 		}
 	}
