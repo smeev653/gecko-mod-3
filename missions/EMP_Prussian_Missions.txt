@@ -434,6 +434,7 @@ emp_bra_pru_2 = {
 	emp_brapru_empower_the_junkers = {
 		icon = empower_the_junkers
 		required_missions = { emp_brapru_army_reforms_1 }
+		slot = 6
 		provinces_to_highlight = {
 		}
 		trigger = {
@@ -594,12 +595,6 @@ emp_bra_pru_3 = {
 					area = south_saxony_area
 				}
 			}			
-			1931 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			53 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
 			52 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}

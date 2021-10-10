@@ -230,7 +230,6 @@ gc_mysore_branch_2 = {
 
         trigger = {
             529 = {
-				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
             telingana_area = {
