@@ -48,22 +48,20 @@ tur_conquerors_of_the_near_east = {
 		position = 3
 		provinces_to_highlight = {
 			OR = {
-				province_id = 145
-				province_id = 146
-				province_id = 1773
-				province_id = 4701
-				province_id = 4699
-				province_id = 4698
+				area = morea_area
+				area = northern_greece_area
 			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			owns = 145
-			owns = 146
-			owns = 1773
-			owns = 4701
-			owns = 4699
-			owns = 4698
+			morea_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			northern_greece_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+
 		}
 		completed_by = 1460.1.1
 		effect = {
@@ -135,7 +133,7 @@ tur_conquerors_of_the_near_east = {
 		}
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				value = 8
+				value = 7
 				OR = {
 					area = rascia_area
 					area = serbia_area
@@ -595,27 +593,14 @@ tur_conquest_of_middle_east = {
 		}
 		completed_by = 1514.8.23
 		provinces_to_highlight = {
-			OR = {
-				area = north_kurdistan_area
 				area = dulkadir_area
-				province_id = 2305
-				province_id = 331
-			}
+			
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			north_kurdistan_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+
 			dulkadir_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			2305 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			331 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}

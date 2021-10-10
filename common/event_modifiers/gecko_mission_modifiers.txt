@@ -98,6 +98,11 @@ anatolia_eyalet = {
 	manpower_recovery_speed = 0.2
 }
 
+at_the_gates_of_europe = {
+	prestige = 1
+	manpower_recovery_speed = 0.2
+}
+
 beyliks_subjugated = {
 	land_morale = 0.1
 	cavalry_cost = -0.1
