@@ -1183,3 +1183,6 @@ colonial_placeholder_18 = {
 colonial_placeholder_19 = {
 	color = { 140 60 30 }
 }
+
+#removed colonial region
+

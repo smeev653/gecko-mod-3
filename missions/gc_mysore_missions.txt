@@ -98,7 +98,7 @@ gc_mysore_branch_1 = {
 
         trigger = {
             mil_tech = 22
-            add_army_professionalism = 0.30
+            army_professionalism = 0.30
         }
 
         effect = {
