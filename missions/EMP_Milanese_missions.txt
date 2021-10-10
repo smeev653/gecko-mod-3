@@ -67,12 +67,17 @@ emp_mlo_conquest_branch = {
 			NOT = { country_or_non_sovereign_subject_holds = root }
 		}
 		trigger = {
-			tuscany_area = {
+			2980 = {
 				type = all
 				country_or_non_sovereign_subject_holds = root
 			}
 			is_subject = no
+			115 = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
 		}
+		
 		effect = {
 			if = {
 				limit = {
@@ -96,6 +101,20 @@ emp_mlo_conquest_branch = {
 				add_permanent_claim = root
 			}
 			torino_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			corsica_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			corsica_sardinia_area = {
 				limit = {
 					NOT = { is_core = root }
 					NOT = { is_permanent_claim = root }
