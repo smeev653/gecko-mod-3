@@ -44,7 +44,7 @@ Minor = {
 	}
 	advisor_cost = -0.15
 	advisor_pool = 1
-	ae_impact = -0.1
+	ae_impact = -0.15
 	interest = -0.5
 }
 
