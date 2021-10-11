@@ -111,3 +111,9 @@ gc_mysore_mission_16_desc:0 ""
 gc_mysore_mission_17_desc:0 ""
 gc_mysore_mission_18_desc:0 ""
 gc_mysore_mission_19_desc:0 ""
+
+#Ethiopian missions
+
+prestor_john_title:0 "Prestor John"
+prestor_john_desc:0 " "
+g_help_from_the_west:0 "This event will grant§G 10% Land Morale§! §G5% Discpline§! and §G 20% Manpower§! for 20 years."
