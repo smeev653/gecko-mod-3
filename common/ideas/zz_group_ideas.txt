@@ -207,7 +207,7 @@ cossack_ideas = {
 berber_ideas = {
 	start = {
 		naval_attrition = -0.25
-		may_perform_slave_raid = yes
+		global_sailors_modifier = 0.2
 	}
 	
 	bonus = {

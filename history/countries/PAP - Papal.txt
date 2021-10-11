@@ -11,7 +11,7 @@ add_army_professionalism = 0.05
 
 change_estate_land_share = {
 	estate = estate_church
-	share = -30
+	share = -10
 }
 change_estate_land_share = {
 	estate = estate_burghers
