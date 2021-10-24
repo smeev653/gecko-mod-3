@@ -19,6 +19,7 @@ estate_burghers =
 		OR = {
 			is_nomad = no
 			tag = CRI
+			tag = HET
 		}
 		is_colonial_nation = no
 		NOT = { has_reform = revolutionary_empire_reform }
