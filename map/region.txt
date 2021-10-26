@@ -674,36 +674,16 @@ mongolia_region = {
 		turpan_kumul_area
 		tannu_uriankhai_area
 		xilin_gol_area
-		cicigar_area
-		west_gansu_area
-		ulanqab_area
-		chifeng_area
 	}
 }
 
 manchuria_region = {
 	areas = {
-		heilongjiang_area
-		east_heilongjiang_area
-		jilin_area
-		central_jilin_area
-		ilan_hala_area
-		ningguta_area
-		central_heilongjiang_area
-		sakhalin_area
-		furdan_area
-		dalian_area
-		shenyang_area
 	}
 }
 
 korea_region = {
 	areas = {
-		pyongan_area
-		hamgyeong_area
-		western_korea_area
-		eastern_korea_area
-		south_korea_area
 	}
 	monsoon = {
 		00.06.01
@@ -896,21 +876,6 @@ australia_region = {
 
 south_china_region = {
 	areas = {
-		guangxi_area
-		fujian_area
-		huguang_area
-		zhejiang_area
-		anhui_area
-		jiangsu_area
-		guilin_area
-		xianning_area
-		guangzhou_area
-		ganzhou_area
-		hangzhou_area
-		huai-an_area
-		taiwan_area
-		hainan_area
-		wuchang_area
 	}
 	monsoon = {
 		00.05.01
@@ -919,13 +884,6 @@ south_china_region = {
 }
 xinan_region = {
 	areas = {
-		sichuan_area
-		yun_gui_area
-		dali_area
-		kunming_area
-		chengdu_area
-		kaiyang_area
-		yunnan_area
 	}
 }
 
@@ -933,18 +891,6 @@ xinan_region = {
 north_china_region = {
 	
 	areas = {
-		hebei_area
-		shandong_area
-		henan_area
-		shanxi_area
-		gansu_area
-		shaanxi_area
-		chengde_area
-		jinan_area
-		tai-an_area
-		changzhi_area
-		datong_area
-		lanzhou_area
 	}
 }
 

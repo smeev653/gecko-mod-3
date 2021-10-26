@@ -2785,47 +2785,36 @@ aqmola_area = { #5
 ########################################
 
 heilongjiang_area = { #3 (West Heilongjiang)
-	724 1053 2102 4664
 } 
 
 east_heilongjiang_area = { #4
-	1049 2104 4662 4659 2103
 }
 
 central_heilongjiang_area = {#4
-	727 728 2185 4200 4660
 }
 
 cicigar_area = {
-	4218 725 4665
 }
 
 ilan_hala_area = { #5 (North Jilin Area)
-	1048 1050 4214 4216 4215
 }
 
 sakhalin_area = { #2
-	1033 4658
 }
 
 central_jilin_area = { #5
-	729 731 2105 4217 4663
 }
 
 ningguta_area = { #5
-	2107 2108 4654 4661 4653
 }
 
 furdan_area = {
-	1850 2106 2186 4655 4656
 }
 
 jilin_area = { #4 (South Jilin Area)
-	730 2110 2188 4201 2111
 }
  
 liaoning_area = { #5
-	
 }
 
 ordos_area = { #4 (Western Inner Mongolia)
@@ -2919,92 +2908,70 @@ ngari_area = { #3
 } #new!!
 
 hebei_area = { #4 (North Hebei)
-	692 695 696 1816 
 }
 south_hebei_area = { #4
-#	695 696 2137 4195
 }
 
 shandong_area = { #5
-	690 
 }
 
 jiangsu_area = { #3
-	1821 1822 
 }
 
 anhui_area = { #3 (North Anhui)
-	686 1838
 }
 
 zhejiang_area = { #5
-	1824 
 }
 
 jiangxi_area = { #4
-	
 }
 
 fujian_area = { #4
-	 1829
 }
 
 taiwan_area = { #3
-	738 2154 2155
 }
 
 guangdong_area = { #5
-	
 }
 
 west_guangdong_area = { #5
-	665 2159 2160 2161 
 }
 
 guangxi_area = { #5
-	664 
 }
 
 yun_gui_area = { #5 (Yun-Gui Hinterland)
-	663 674 675 
 }
 yun_gui_borderland_area = { #5
 }
 
 sichuan_area = { #3
-	2170 
 }
 
 huguang_area = { #5 (Hubei)
-	680 
 }
 
 hunan_area = { #4
-	671 672 2173 2174
 }
 
 henan_area = { #3 (South Henan)
-	1836
 }
 
 shanxi_area = { #5
-	693 
 }
 
 shaanxi_area = { #4
-	700 
 }
 
 gansu_area = { #5 (East Gansu)
-	698 
 }
 
 west_gansu_area = { #4 
-	707 708
 }
 
 ankang_area = {
-	color = { 174 143 143 }
 	
 }
 
@@ -3013,94 +2980,65 @@ changsha_area = {
 }
 
 changzhi_area = {
-	color = { 232 60 60 }
-	694 
 }
 
 chengde_area = {
-	703
 }
 
 dali_area = {
-	color = { 239 205 141 }
-	661 2167
 }
 
 dalian_area = {
-	726 
 }
 
 datong_area = {
-	697
 }
 
 alxa_area = {
-	color = { 109 87 78 }
-
 }
 
 ganzhou_area = {
-	683 
 }
 
 guangzhou_area = {
-	665 667 668 
 }
 
 guilin_area = {
-	1840 
 }
 hangzhou_area = { 
-	684 
 }
 
 hanzhong_area = {
-	color = { 206 187 162 }
-
 }
 
 huai-an_area = {
-	685
 }
 
 jinan_area = {
-	691
 }
 
 jinzhong_area = {
-	
 }
 
 kunming_area = {
-	660 662 
 }
 
 lanzhou_area = {
-	699 2183 
 }
 
 luzhou_area = { 
-	color = { 227 153 153 }
-
 }
 
 shenyang_area = {
-	color = { 112 155 228 }
-	704
 }
 
 tai-an_area = {
-	688
 }
 
 ejin_area = {
-	color = { 142 91 91 }
-	
 }
 
 ulanqab_area = {
-	color = { 126 50 50 }
-	702 
 }
 
 weichang_area = {
@@ -3108,46 +3046,33 @@ weichang_area = {
 
 
 xianning_area = {
-	color = { 53 162 58 }
- 1833
 }
 
 
 chifeng_area = {
-	2115 4203 4672 4675 722
 }
 
 chengdu_area = {
-	4212 
 }
 
 hainan_area = {
-	 666 
 }
 
 xuzhou_area = {
-	color = { 102 25 150 }
-	
 }
 
 biyang_area = {
-	color = { 0 50 150 }
-	
 }
 
 yanshan_area = {
 }	
 
 wuchang_area = {
-	 682 
 }
 kaiyang_area = {
-	color = { 255 204 0 }
-	 673
 }
 
 yunnan_area = {
-	2748 
 }
 ########################################
 # South America    	                   #
