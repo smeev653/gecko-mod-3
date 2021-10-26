@@ -775,6 +775,15 @@ trade_company_sicily = {
 		5775 4736 4737 5776 4735
 		127 2986 5780 #corsica_sardinia_area
 	}
+
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_SICILY_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_SICILY_European_Trade_Company"
+	}
 }	
 
 trade_company_krakow = {

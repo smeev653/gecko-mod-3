@@ -600,8 +600,6 @@ gc_mysore_branch_4 = {
                     country = MYS
                     share = 50
                 }
-                has_merchant = yes
-                has_most_province_trade_power = yes
 			}
         }
 

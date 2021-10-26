@@ -525,13 +525,6 @@ copy_from = colony
 	replace_governor = no
 	block_settlement_growth = no
 	allow_settlement_growth = no
-	
-	# Modifiers:	
-	modifier_overlord = {
-	}
-	
-	modifier_subject = {
-	}
 }
 
 self_governing_colony = {
@@ -547,13 +540,6 @@ copy_from = colony
 	block_settlement_growth = no
 	allow_settlement_growth = no
 	press_sailors = no
-	
-	# Modifiers:	
-	modifier_overlord = {
-	}
-	
-	modifier_subject = {
-	}
 }				
 tributary_state = {
 	#If similar subject added check if it needs to be added to these scripted triggers:

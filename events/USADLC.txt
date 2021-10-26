@@ -703,36 +703,6 @@ country_event = {
 	}
 }
 
-# Benjamin Franklin
-country_event = {
-	id = usa_dlc.25
-	title = "usa_dlc.EVTNAME25"
-	desc = "usa_dlc.EVTDESC25"
-	picture = ECONOMY_eventPicture
-	
-	fire_only_once = yes
-	
-	trigger = {
-		has_dlc = "American Dream"
-		OR = {
-			tag = USA
-			has_country_flag = usa_declaration_independence_flag
-		}
-		is_year = 1770
-		NOT = { is_year = 1790 }
-		is_advisor_employed = 71
-	}
-	
-	mean_time_to_happen = {
-		months = 200
-	}
-	
-	option = {
-		name = "usa_dlc.EVTOPTA25"
-		add_dip_power = 200
-	}
-}
-
 # Fur Trade
 country_event = {
 	id = usa_dlc.26

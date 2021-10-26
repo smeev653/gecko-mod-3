@@ -1016,18 +1016,6 @@ country_event = {
 				}
 			}
 		}
-		if = {
-			limit = {
-				has_dlc = "Leviathan"
-			}
-			add_treasury = -500
-			227 = {
-				add_great_project_tier = {
-					type = belem_tower
-					tier = 1
-				}
-			}
-		}
 		else = {
 			add_treasury = -50
 			227 = {

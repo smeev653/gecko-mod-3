@@ -95,16 +95,6 @@ country_event = {
 			modifier = {
 				factor = 1.5
 				NOT = { is_year = 1650 }
-				capital_scope = {
-					OR = {
-						superregion = india_superregion
-						superregion = persia_superregion
-					}
-				}
-			}
-			modifier = {
-				factor = 1.5
-				NOT = { is_year = 1650 }
 				primary_culture = turkish
 			}
 			modifier = {
@@ -206,16 +196,6 @@ country_event = {
 			modifier = {
 				factor = 1.5
 				NOT = { is_year = 1650 }
-				capital_scope = {
-					OR = {
-						superregion = india_superregion
-						superregion = persia_superregion
-					}
-				}
-			}
-			modifier = {
-				factor = 1.5
-				NOT = { is_year = 1650 }
 				primary_culture = turkish
 			}
 			modifier = {
@@ -298,16 +278,6 @@ country_event = {
 			modifier = {
 				factor = 0.75
 				is_year = 1650
-			}
-			modifier = {
-				factor = 1.5
-				NOT = { is_year = 1650 }
-				capital_scope = {
-					OR = {
-						superregion = india_superregion
-						superregion = persia_superregion
-					}
-				}
 			}
 			modifier = {
 				factor = 1.5
@@ -420,16 +390,6 @@ country_event = {
 			modifier = {
 				factor = 1.5
 				NOT = { is_year = 1650 }
-				capital_scope = {
-					OR = {
-						superregion = india_superregion
-						superregion = persia_superregion
-					}
-				}
-			}
-			modifier = {
-				factor = 1.5
-				NOT = { is_year = 1650 }
 				primary_culture = turkish
 			}
 			modifier = {
@@ -511,16 +471,6 @@ country_event = {
 			modifier = {
 				factor = 0.75
 				is_year = 1650
-			}
-			modifier = {
-				factor = 1.5
-				NOT = { is_year = 1650 }
-				capital_scope = {
-					OR = {
-						superregion = india_superregion
-						superregion = persia_superregion
-					}
-				}
 			}
 			modifier = {
 				factor = 1.5
@@ -612,16 +562,6 @@ country_event = {
 			modifier = {
 				factor = 1.5
 				NOT = { is_year = 1650 }
-				capital_scope = {
-					OR = {
-						superregion = india_superregion
-						superregion = persia_superregion
-					}
-				}
-			}
-			modifier = {
-				factor = 1.5
-				NOT = { is_year = 1650 }
 				primary_culture = turkish
 			}
 			modifier = {
@@ -702,16 +642,6 @@ country_event = {
 			modifier = {
 				factor = 0.75
 				is_year = 1650
-			}
-			modifier = {
-				factor = 1.5
-				NOT = { is_year = 1650 }
-				capital_scope = {
-					OR = {
-						superregion = india_superregion
-						superregion = persia_superregion
-					}
-				}
 			}
 			modifier = {
 				factor = 1.5
@@ -798,16 +728,6 @@ country_event = {
 			modifier = {
 				factor = 1.5
 				NOT = { is_year = 1650 }
-				capital_scope = {
-					OR = {
-						superregion = india_superregion
-						superregion = persia_superregion
-					}
-				}
-			}
-			modifier = {
-				factor = 1.5
-				NOT = { is_year = 1650 }
 				primary_culture = turkish
 			}
 			modifier = {
@@ -884,16 +804,6 @@ country_event = {
 			modifier = {
 				factor = 0.75
 				is_year = 1650
-			}
-			modifier = {
-				factor = 1.5
-				NOT = { is_year = 1650 }
-				capital_scope = {
-					OR = {
-						superregion = india_superregion
-						superregion = persia_superregion
-					}
-				}
 			}
 			modifier = {
 				factor = 1.5
@@ -986,16 +896,6 @@ country_event = {
 			modifier = {
 				factor = 0.75
 				is_year = 1650
-			}
-			modifier = {
-				factor = 1.5
-				NOT = { is_year = 1650 }
-				capital_scope = {
-					OR = {
-						superregion = india_superregion
-						superregion = persia_superregion
-					}
-				}
 			}
 			modifier = {
 				factor = 1.5
@@ -1121,16 +1021,6 @@ country_event = {
 			modifier = {
 				factor = 0.75
 				is_year = 1650
-			}
-			modifier = {
-				factor = 1.5
-				NOT = { is_year = 1650 }
-				capital_scope = {
-					OR = {
-						superregion = india_superregion
-						superregion = persia_superregion
-					}
-				}
 			}
 			modifier = {
 				factor = 1.5
@@ -1279,16 +1169,6 @@ country_event = {
 			modifier = {
 				factor = 1.5
 				NOT = { is_year = 1650 }
-				capital_scope = {
-					OR = {
-						superregion = india_superregion
-						superregion = persia_superregion
-					}
-				}
-			}
-			modifier = {
-				factor = 1.5
-				NOT = { is_year = 1650 }
 				primary_culture = turkish
 			}
 			modifier = {
@@ -1410,16 +1290,6 @@ country_event = {
 			modifier = {
 				factor = 1.5
 				NOT = { is_year = 1650 }
-				capital_scope = {
-					OR = {
-						superregion = india_superregion
-						superregion = persia_superregion
-					}
-				}
-			}
-			modifier = {
-				factor = 1.5
-				NOT = { is_year = 1650 }
 				primary_culture = turkish
 			}
 			modifier = {
@@ -1523,16 +1393,6 @@ country_event = {
 			modifier = {
 				factor = 0.75
 				is_year = 1650
-			}
-			modifier = {
-				factor = 1.5
-				NOT = { is_year = 1650 }
-				capital_scope = {
-					OR = {
-						superregion = india_superregion
-						superregion = persia_superregion
-					}
-				}
 			}
 			modifier = {
 				factor = 1.5
