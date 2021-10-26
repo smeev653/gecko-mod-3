@@ -7795,7 +7795,6 @@ kiev_pechersk_lavra = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			1
 		}
 
 		#what effects happen when this tier is achieved
