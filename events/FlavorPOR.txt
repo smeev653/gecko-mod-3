@@ -982,57 +982,6 @@ country_event = {
 	}
 }
 
-# The Tower of Belém
-country_event = {
-	id = flavor_por.9
-	title = "flavor_por.EVTNAME9"
-	desc = "flavor_por.EVTDESC9"
-	picture = FORT_eventPicture
-	
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = POR
-		owns = 227 # Lisboa
-		is_year = 1490
-		NOT = { is_year = 1520 }
-	}
-
-	mean_time_to_happen = {
-		months = 100
-	}
-	
-
-	option = {		# It must be built
-		name = "flavor_por.EVTOPTA9"
-		ai_chance = { 
-			factor = 90 
-			modifier = {
-				factor = 0
-				AND = {
-					NOT = { treasury = 500 }
-					has_dlc = "Leviathan"
-				}
-			}
-		}
-		else = {
-			add_treasury = -50
-			227 = {
-				add_permanent_province_modifier = {
-					name = the_tower_or_belem
-					duration = -1
-				}
-			}
-		}
-	}
-	option = {		# We have other priorities
-		name = "flavor_por.EVTOPTB9"
-		ai_chance = { factor = 10 }
-		add_prestige = -1
-	}
-}
-
 # Jerónimos Monastery
 country_event = {
 	id = flavor_por.10
