@@ -216,5 +216,6 @@
  TRADE_COMPANY_NORTH_INDIA_Root_Culture_GetName:0 "[Root.Culture.GetName] North India Company"
  TRADE_COMPANY_caucasus_Root_Culture_GetName:0 "[Root.Culture.GetName] Caucasus Company"
  TRADE_COMPANY_caucasus_Near_East_Trade_Company:0 "[Root.Culture.GetName] Caucasus Company"
- TRADE_COMPANY_sicily_Root_Culture_GetName:0 "[Root.Culture.GetName] Southern Italy Company"
- TRADE_COMPANY_sicily_Trade_Company:0 "[Root.Culture.GetName] Southern Italy Company"
+ TRADE_COMPANY_SICILY_Root_Culture_GetName:0 "[Root.Culture.GetName] Southern Italy Company"
+ TRADE_COMPANY_SICILY_Trade_Company:0 "[Root.Culture.GetName] Southern Italy Company"
+ trade_company_sicily:0 "Southern Italy Charter"

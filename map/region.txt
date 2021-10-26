@@ -678,13 +678,9 @@ mongolia_region = {
 }
 
 manchuria_region = {
-	areas = {
-	}
 }
 
 korea_region = {
-	areas = {
-	}
 	monsoon = {
 		00.06.01
 		00.07.30
@@ -828,70 +824,19 @@ burma_region = {
 }
 
 japan_region = {
-	areas = {
-		hokkaido_area
-		hokuriku_area
-		kanto_area
-		eastern_kanto_area
-		kyushu_area
-		chubu_area
-		eastern_chubu_area
-		kinai_area
-		thohoku_area
-		saigoku_area
-		sanindo_area
-		shikoku_area
-		northern_kyushu
-	}
-	monsoon = {
-		00.06.01
-		00.07.30
-	}
 }
 
 australia_region = {
-	areas = {
-		western_australia_area
-		northern_australia_area
-		eastern_australia_area
-		southern_australia_area
-		top_end_area
-		murray_river_area
-		illawara_area
-		north_queensland_area
-		south_queensland_area
-		pilbara_area
-		tasmania_area
-	}
-	monsoon = {
-		00.10.01
-		00.12.30
-	}
-	monsoon = {
-		00.01.01
-		00.03.30
-	}
 }
 
 
 south_china_region = {
-	areas = {
-	}
-	monsoon = {
-		00.05.01
-		00.06.30
-	}
 }
 xinan_region = {
-	areas = {
-	}
 }
 
 
 north_china_region = {
-	
-	areas = {
-	}
 }
 
 brazil_region = {
@@ -970,21 +915,6 @@ colombia_region = {
 }
 
 peru_region = {
-	areas = {
-		kuntisuyu_area
-		chimor_area
-		ucayali_area
-		cajamarca_area
-		huanuco_area
-		antisuyu_area
-		quito_area
-		iquitos_area
-		peruan_coast
-	}
-	monsoon = {
-		00.05.01
-		00.11.30
-	}
 }
 
 upper_peru_region = {
@@ -1002,128 +932,20 @@ upper_peru_region = {
 }
 
 malaya_region = {	#Western Indonesia Malaya.
-	areas = {
-		north_sumatra_area
-		central_sumatra_area
-		south_sumatra_area
-		jambi_area
-		tenasserim_area
-		malaya_area
-		johor_area
-		north_malaya_area
-		north_tenasserim_area
-		malacca_area
-		batak_area
-		minangkabau_area
-		indian_ocean_islands_area
-	}
-	monsoon = {
-		00.10.01
-		00.12.30
-	}
-	monsoon = {
-		00.01.01
-		00.03.30
-	}
 }
 
 
 moluccas_region = {
-	areas = {
-		molluca_area
-		sulawesi_area
-		luzon_area
-		southern_luzon_area
-		mindanao_area
-		west_mindanao_area
-		visayas_area
-		palawan_area
-		papua_area
-		vogelkop_area
-		timor_area
-		south_sulawesi_area
-		makassar_area
-		spice_islands_area
-	}
-	monsoon = {
-		00.10.01
-		00.12.30
-	}
-	monsoon = {
-		00.01.01
-		00.03.30
-	}
 }
 
 
 
 indonesia_region = { #Eastern Indonesian/Malayan Islands.
-	areas = {
-		kutai_area
-		brunei_area
-		kalimantan_area
-		banjar_area
-		sabah_area
-		east_java_area
-		central_java_area
-		west_java_area
-		lesser_sunda_islands_area
-		#indonesian_islands_area
-		surabaya_area
-		banten_area
-	}
-	monsoon = {
-		00.11.01
-		00.12.30
-	}
-	monsoon = {
-		00.01.01
-		00.03.30
-	}
 }
-
-
 oceanea_region = {
-	areas = {
-		polynesia_area
-		micronesia_area
-		west_micronesia_area
-		melanesia_area
-		fiji_area
-		te_ika_a_maui_hauauru_area
-		te_ika_a_maui_waho_area
-		te_waipounamu_area
-		northern_polynesia_area
-		eastern_polynesia_area
-	}
-	monsoon = {
-		00.07.01
-		00.10.30
-	}
 }
 
 indo_china_region = {
-	areas = {
-		vietnam_area
-	
-		north_laos_area
-		central_thai_area
-		northern_thai_area
-		cambodia_area
-		mekong_area
-		angkor_area
-		champa_area
-		khorat_area
-		tay_nguyen_area
-		red_river_delta_area
-		sukhothai_area
-		champasak_area
-		vientiane_area
-	}
-	monsoon = {
-		00.05.01
-		00.08.30
-	}
 }
 
 canada_region = {
@@ -1438,51 +1260,21 @@ south_indian_ocean_region = {
 }
 
 south_china_sea_region = {
-	areas = {
-		java_sea_area
-		south_china_sea_area
-		celebes_sea_area
-		banda_arafura_seas_area
-	}
 }
 
 east_china_sea_region = {
-	areas = {
-		east_china_sea_area
-		philipine_sea_area
-		sea_of_japan_area
-		sea_of_okhotsk_area
-	}
 }
 
 north_west_pacific_region = {
-	areas = {
-		east_pacific_ocean_area
-	}
 }
 
 south_west_pacific_region = {
-	areas = {
-		coral_sea_area
-		tasman_sea_area
-		great_australian_bight_area
-	}
 }
 
 south_east_pacific_region = {
-	areas = {
-		south_pacific_area
-		polynesian_triangle_area
-	}
 }
 
 north_east_pacific_region = {
-	areas = {
-		north_pacific_area
-		north_pacific_coast_area
-		berring_sea_area
-		gulf_of_alaska_area
-	}
 }
 
 pacific_south_america_region = {
