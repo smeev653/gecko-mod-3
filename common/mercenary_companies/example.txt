@@ -104,6 +104,18 @@ twenty_good_men = {
 
 #gecko merc companies
 
+gecko_independent_army_1 = {
+    regiments_per_development = 0.1
+    cavalry_weight = 0
+    artillery_weight = 0.0
+    cavalry_cap = 2
+    cost_modifier = 0.75
+    trigger = {
+		 total_development = 100
+    }
+    # No home province means local mercenary company
+}
+
 gecko__local_independent_army_1 = {
     regiments_per_development = 0.1
     cavalry_weight = 0
