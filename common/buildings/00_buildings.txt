@@ -553,28 +553,28 @@ fort_15th = {
 		fort_level = 2
 	}
 
-	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
-	on_built = {
-		FROM = {
-			add_army_professionalism = 0.005
-		}
-	}
-
-	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
-	on_destroyed = {
-		FROM = {
-			#add_army_professionalism = -0.01
-		}
-	}
-
-	# THIS = Province, FROM = Destroyer, Will not be called on buildings destroyed!
-	on_obsolete = {
-		hidden_effect = {
-			FROM = {
-				#add_army_professionalism = -0.005
-			}
-		}
-	}
+	#	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
+#	on_built = {
+#		FROM = {
+#			add_army_professionalism = 0.005
+#		}
+#	}
+#
+#	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
+#	on_destroyed = {
+#		FROM = {
+#			add_army_professionalism = -0.01
+#		}
+#	}
+#
+#	# THIS = Province, FROM = Destroyer, Will not be called on buildings destroyed!
+#	on_obsolete = {
+#		hidden_effect = {
+#			FROM = {
+#				add_army_professionalism = -0.005
+#			}
+#		}
+#	}
 
 	onmap = yes
 	influencing_fort = yes
@@ -1108,28 +1108,28 @@ fort_16th = {
 		fort_level = 4
 	}
 
-	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
-	on_built = {
-		FROM = {
-			add_army_professionalism = 0.01
-		}
-	}
-
-	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
-	on_destroyed = {
-		FROM = {
-			#add_army_professionalism = -0.02
-		}
-	}
-
-	# THIS = Province, FROM = Destroyer, Will not be called on buildings destroyed!
-	on_obsolete = {
-		hidden_effect = {
-		FROM = {
-				#add_army_professionalism = -0.01
-			}
-		}
-	}
+#	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
+#	on_built = {
+#		FROM = {
+#			add_army_professionalism = 0.005
+#		}
+#	}
+#
+#	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
+#	on_destroyed = {
+#		FROM = {
+#			add_army_professionalism = -0.01
+#		}
+#	}
+#
+#	# THIS = Province, FROM = Destroyer, Will not be called on buildings destroyed!
+#	on_obsolete = {
+#		hidden_effect = {
+#			FROM = {
+#				add_army_professionalism = -0.005
+#			}
+#		}
+#	}
 
 	onmap = yes
 
@@ -1730,28 +1730,28 @@ fort_17th = {
 		fort_level = 6
 	}
 
-	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
-	on_built = {
-		FROM = {
-			add_army_professionalism = 0.02
-		}
-	}
-
-	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
-	on_destroyed = {
-		FROM = {
-			#add_army_professionalism = -0.04
-		}
-	}
-
-	# THIS = Province, FROM = Destroyer, Will not be called on buildings destroyed!
-	on_obsolete = {
-		hidden_effect = {
-			FROM = {
-				#add_army_professionalism = -0.02
-			}
-		}
-	}
+#	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
+#	on_built = {
+#		FROM = {
+#			add_army_professionalism = 0.005
+#		}
+#	}
+#
+#	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
+#	on_destroyed = {
+#		FROM = {
+#			add_army_professionalism = -0.01
+#		}
+#	}
+#
+#	# THIS = Province, FROM = Destroyer, Will not be called on buildings destroyed!
+#	on_obsolete = {
+#		hidden_effect = {
+#			FROM = {
+#				add_army_professionalism = -0.005
+#			}
+#		}
+#	}
 
 	onmap = yes
 
@@ -2317,28 +2317,28 @@ fort_18th = {
 		fort_level = 8
 	}
 
-	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
-	on_built = {
-		FROM = {
-			add_army_professionalism = 0.04
-		}
-	}
-
-	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
-	on_destroyed = {
-		FROM = {
-			#add_army_professionalism = -0.08
-		}
-	}
-
-	# THIS = Province, FROM = Destroyer, Will not be called on buildings destroyed!
-	on_obsolete = {
-		hidden_effect = {
-			FROM = {
-				#add_army_professionalism = -0.04
-			}
-		}
-	}
+#	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
+#	on_built = {
+#		FROM = {
+#			add_army_professionalism = 0.005
+#		}
+#	}
+#
+#	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
+#	on_destroyed = {
+#		FROM = {
+#			add_army_professionalism = -0.01
+#		}
+#	}
+#
+#	# THIS = Province, FROM = Destroyer, Will not be called on buildings destroyed!
+#	on_obsolete = {
+#		hidden_effect = {
+#			FROM = {
+#				add_army_professionalism = -0.005
+#			}
+#		}
+#	}
 
 	onmap = yes
 
