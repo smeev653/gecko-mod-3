@@ -246,10 +246,7 @@ merc_bascoli = {
     home_province = 173
 	sprites = { dlc001_amg_sprite_pack dlc049_FRA_sprite_pack dlc028_fra_sprite_pack dlc054_fra_sprite_pack fra_base_sprite_pack }
     trigger = {
-		OR = {
-			culture_group = french
-			culture_group = iberian
-		}	
+			tag = FRA
 		current_age = age_of_discovery
 	}
 	modifier = { 
@@ -437,16 +434,7 @@ merc_purbiyas = {
     home_province = 555
 	sprites = { dlc092_jnp_sprite_pack dlh_base_sprite_pack }
     trigger = {
-		any_owned_province = {
-			OR = {
-				region = hindusthan_region
-				region = bengal_region
-				region = west_india_region
-				region = burma_region
-				region = coromandel_region
-				region = deccan_region
-			}	
-		}
+		capital_scope = { superregion = india_superregion }
 	}
 	modifier = { fire_damage = 0.15 }
 }
@@ -459,16 +447,13 @@ merc_gorkhalis = {
     #cost_modifier = 1.5
 	sprites = { dlc091_npl_sprite_pack indiangfx_sprite_pack }
     trigger = {
-		any_owned_province = {
-			OR = {
-				region = hindusthan_region
-				region = bengal_region
-				region = west_india_region
-				region = burma_region
-				region = coromandel_region
-				region = deccan_region
-				}
+		OR = {
+			any_owned_province = {
+				superregion = india_superregion
 			}
+			has_country_modifier = mercenaries_to_the_standard
+			has_country_modifier = glut_of_mercs
+		}
 	}
 	modifier = {
         infantry_power = 0.05
@@ -487,7 +472,9 @@ merc_gosains = {
 	sprites = { dlc092_jnp_sprite_pack indiangfx_sprite_pack }
     trigger = {
 		religion = hinduism
-
+		any_owned_province = {
+			superregion = india_superregion
+		}
 	}
 	modifier = {
         land_morale = 0.05
@@ -502,17 +489,8 @@ merc_banjara_company = {
 	cavalry_cap = 6
 	home_province = 514
 	sprites = { dlc091_mer_sprite_pack indiangfx_sprite_pack }
-	trigger = {
-		any_owned_province = {
-			OR = {
-				region = hindusthan_region
-				region = bengal_region
-				region = west_india_region
-				region = burma_region
-				region = coromandel_region
-				region = deccan_region
-			}	
-		}
+    trigger = {
+		capital_scope = { superregion = india_superregion }
 	}
 	modifier = { }
 }
@@ -592,6 +570,9 @@ merc_delhi_mamluks = {
 	sprites = { dlh_base_sprite_pack }
 	trigger = { 
 		religion_group = muslim
+		capital_scope = {
+			superregion = india_superregion
+		}
 	}
     modifier = {
 		  cavalry_power = 0.1
@@ -712,6 +693,7 @@ merc_nubian_company = {
 		OR = {
 			capital_scope = {
 				OR = {
+					superregion = near_east_superregion
 					region = horn_of_africa_region
 					region = sahel_region
 					region = maghreb_region
@@ -733,8 +715,19 @@ merc_royal_circassian_guards = {
     regiments_per_development = 0.05
     home_province = 463 # Circassia proper
 	sprites = { dlc047_cir_sprite_pack easterngfx_sprite_pack }
-	trigger = {  
-		religion_group = muslim
+	trigger = { 
+		capital_scope = { 
+			OR = {
+				superregion = near_east_superregion 
+				region = crimea_region
+				region = egypt_region
+				region = central_asia_region
+				AND = {
+					region = balkan_region
+					religion_group = muslim
+				}
+			}
+		}
 		government = monarchy
 	}
     modifier = {
@@ -748,9 +741,9 @@ merc_tabarestan_company = {
     home_province = 417 # Lahijan
 	sprites = { dlc079_tab_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
-		any_owned_province = { region = persia_region }
+		capital_scope = { superregion = persia_superregion }
 	}
-    modifier = { infantry_power = 0.1 }
+    modifier = { }
 }
 
 merc_novgorod_company = {
@@ -759,14 +752,7 @@ merc_novgorod_company = {
 	sprites = { dlc020_nov_sprite_pack rus_base_sprite_pack easterngfx_sprite_pack }
 	trigger = {
 		NOT = { has_country_modifier = hun_black_army }
-		any_owned_province = {
-			OR = {
-				region = poland_region
-				region = baltic_region
-				region = ruthenia_region
-				region = russia_region
-			}
-		}	
+		capital_scope = { superregion = eastern_europe_superregion }
 	}
     modifier = { shock_damage_received = -0.15 }
 }
@@ -923,6 +909,7 @@ merc_free_swiss_guard = {
 	sprites = { westerngfx_sprite_pack }
     trigger = { 
 		OR = {
+			capital_scope = { superregion = europe_superregion }
 			any_owned_province = {
 				OR = {
 					area = switzerland_area
@@ -1022,6 +1009,7 @@ merc_gascon_musket_company = {
     #cost_modifier = 1.2
 	sprites = { dlc001_amg_sprite_pack dlc049_FRA_sprite_pack dlc028_fra_sprite_pack dlc054_fra_sprite_pack fra_base_sprite_pack }
     trigger = {
+		capital_scope = { superregion = europe_superregion }
 		NOT = { current_age = age_of_discovery }
 	}
 	modifier = {

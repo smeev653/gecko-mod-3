@@ -674,7 +674,6 @@ mongolia_region = {
 		turpan_kumul_area
 		tannu_uriankhai_area
 		xilin_gol_area
-		west_gansu_area
 	}
 }
 
