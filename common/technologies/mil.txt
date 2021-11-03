@@ -322,7 +322,7 @@ technology = {
 	infantry_fire		=	0.3
 	
 	enable = african_hussar
-	#enable = ottoman_hussar
+	enable = ottoman_hussar
 	enable = french_caracolle 
 	enable = huron_arquebusier	 
 	enable = creek_arquebusier	
@@ -337,7 +337,7 @@ technology = {
 	enable = muscovite_caracolle	
 	enable = zaporoghian_cossack	
 	enable = topchis_artillery
-	#enable = ge_topchis_cavalry	
+	enable = ge_topchis_cavalry	
 	enable = asian_charge_cavalry
 	enable = reformed_mughal_mansabdar	
 	enable = steppe_lancers
